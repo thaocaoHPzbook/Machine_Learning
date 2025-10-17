@@ -17,11 +17,11 @@ qiime demux summarize \
   --i-data short_reads_demux.qza \
   --o-visualization short_reads_demux.qzv
 ```
-This [short_reads_demux.qzv] is a visualized format of short_reads_demux.qza. which you can view it on [qiime2 viewer](https://view.qiime2.org/). Once you are there you can either drag-and-drop the artifact into the designated area or simpley copy the link to the artifact from this repository and paste it in the box file from the web. Once there, you must come across the following picture:
-![image]
-**Figure 1. Demultiplexed pairedEnd read**    
+This [short_reads_demux.qzv] is a visualized format of short_reads_demux.qza. which you can view it on [qiime2 viewer](https://view.qiime2.org/). Once you are there you can either drag-and-drop the artifact into the designated area or simpley copy the link to the artifact from this repository and paste it in the box file from the web. Once there, you must come across the following picture:    
+![image]    
+**Figure 1. Demultiplexed pairedEnd read**       
 On this overview page you can see counts of demultiplexed sequences for the entire samples for both forward and reverse reads, with min, median, mean and max and total counts.
-![image]
+![image]    
 **Figure 2. Interacvive plot for demultiplexed pairedEnd reads**    
 Understanding this plot is crucial for the denoising step, as it allows you to determine the appropriate truncation length for both forward and reverse reads, ensuring that at least 50% of the reads maintain a quality score (Q) of ≥ 30. You can observe these changes by hovering over the interactive box plots. In this case, the quality of both forward and reverse reads remained consistently high, indicating that minimal (at 251nt) or no truncation may be necessary.
 
