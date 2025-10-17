@@ -274,59 +274,29 @@ Jaccard index is a measure of similarity between two sets. In microbiome studies
         0 means the samples have no species in common (completely different).
         1 means the samples have identical species (completely the same).
 Jaccard index focuses on the presence/absence of species, rather than their abundance, making it useful for studies where the presence of specific species is more important than their relative abundance.
-```bash
-qiime diversity beta-group-significance \
-  --i-distance-matrix core-metrics-results-20000/jaccard_distance_matrix.qza \
-  --m-metadata-file metadata.tsv \
-  --m-metadata-column Treatment \
-  --o-visualization core-metrics-results-20000/jaccard_pairwise_significance.qzv \
-  --p-method permanova \
-  --p-pairwise
-```
-[jaccard_pairwise_significance.qzv](https://github.com/thaocaoHPzbook/Goldfish-16S-rRNA-amplicon-data-analysis/blob/main/Qiime_steps/jaccard_pairwise_significance.qzv) is generated
-![image](https://github.com/user-attachments/assets/4bd9a800-afb9-49c5-860f-2a578d62bc24)
-![image](https://github.com/user-attachments/assets/0c172bff-caa1-4707-93c7-fdb4fdfa44c0)
-    p-value = 0.13: Since the p-value is greater than 0.05, this indicates that there is no significant difference in the microbial community structure between the Treatment groups.
-    Test Statistic (pseudo-F) = 1.006371: This is the statistical value used to assess the difference between groups. However, the result is not strong enough to indicate a clear distinction, as reflected by the large p-value.    
-**Conclusion:There is no significant differentiation between the Treatment groups in this dataset based on the Jaccard index and PERMANOVA analysis.**
-
+`
 ## Weighted UniFrac 
 Weighted UniFrac is better at detecting differences in community structure by considering the relative abundance of each species, not just whether or not they are present in a sample.
-```bash
-qiime diversity beta-group-significance \
-  --i-distance-matrix core-metrics-results-20000/weighted_unifrac_distance_matrix.qza \
-  --m-metadata-file metadata.tsv \
-  --m-metadata-column Treatment \
-  --o-visualization core-metrics-results-20000/weighted_unifrac_significance.qzv \
-  --p-method permanova \
-  --p-pairwise
-```
-[weighted_unifrac_significance.qzv](https://github.com/thaocaoHPzbook/Goldfish-16S-rRNA-amplicon-data-analysis/blob/main/Qiime_steps/weighted_unifrac_significance.qzv) file is generated
-![image](https://github.com/user-attachments/assets/9e807173-6742-4ae7-a5d9-2af1bd28e229)
-![image](https://github.com/user-attachments/assets/445616c1-eb2b-45fe-801d-f59fa51f64ea)
-
-p-value = 0.113: The p-value is greater than 0.05, indicating that there is no significant difference in the microbial community structure between the treatment groups.    
-Test Statistic (pseudo-F) = 1.842749: suggests some variation among groups, but it is not strong enough to reach statistical significance. This could be due to small sample size or high within-group variability.
-**Conclusion: There is no significant difference in the microbial community structure between the treatment groups based on the Weighted UniFrac distance matrix and the PERMANOVA test.**
 
 ## Unweighted UniFrac
 Unweighted UniFrac measures the differences between microbial communities based on the presence or absence of species, without considering their abundance or frequency. It is useful for comparing the community structure and detecting shifts in species diversity between samples, especially when the focus is not on the abundance of each species.
 ```bash
-qiime diversity beta-group-significance \
-  --i-distance-matrix core-metrics-results-20000/unweighted_unifrac_distance_matrix.qza \
-  --m-metadata-file metadata.tsv \
-  --m-metadata-column Treatment \
-  --o-visualization core-metrics-results-20000/unweighted_unifrac_significance.qzv \
-  --p-method permanova \
-  --p-pairwise
+`for metric in bray_curtis unweighted_unifrac weighted_unifrac jaccard; do
+    for col in timepoint timepoint_character tissue_type days_stay_ICU tracheostomy pneumonia \
+               timepoint_pneumonia timepoint_pneumonia_sample date_tracheostomy \
+               intubation_date extubation_date intubation_days \
+               hospital_mortality mortality_28d mortality_90d; do
+        qiime diversity beta-group-significance \
+            --i-distance-matrix core-metrics-results/${metric}_distance_matrix.qza \
+            --m-metadata-file metadata_final.tsv \
+            --m-metadata-column "$col" \
+            --o-visualization core-metrics-results/${metric}_${col}_pairwise_significance.qzv \
+            --p-method permanova \
+            --p-pairwise
+        echo "Finished PERMANOVA pairwise for $metric - $col"
+    done
+done
 ```
-[unweighted_unifrac_significance.qzv](https://github.com/thaocaoHPzbook/Goldfish-16S-rRNA-amplicon-data-analysis/blob/main/Qiime_steps/unweighted_unifrac_significance.qzv) file is generated.
-![image](https://github.com/user-attachments/assets/1d9d6602-5d73-4701-9836-b8f34525addf)
-![image](https://github.com/user-attachments/assets/3ae0a9ca-d229-4ba5-98c2-3b594eede721)
-
-
-The results from unweighted_unifrac_significance.qzv (test statistic = 0.91104, p-value = 0.901) indicate that there is no significant difference in microbial community composition between the treatment groups based on unweighted UniFrac distance. The high p-value suggests that any observed variations are likely due to random chance rather than a meaningful biological difference.
-**Conclusion: There is no significant difference in microbial community structure across the treatment groups based on the unweighted UniFrac distance, suggesting that the presence/absence of species is not strongly influenced by the treatments in this dataset.**
 
 # 8. Export file from Qimme2 for R steps
 ```bash
@@ -334,29 +304,10 @@ qiime tools export \
   --input-path filtered-table.qza \
   --output-path exported_feature_table
 ```
-The above command will export the table.qza file as a temporary file (like a .biom file) in the exported_feature_table directory.
 
-Then, to convert the .biom file into a data table format that R can handle (CSV/TSV) - [feature-table.tsv](https://github.com/thaocaoHPzbook/Goldfish-16S-rRNA-amplicon-data-analysis/blob/main/Qiime_steps/feature-table.tsv), you can use the following command:
-```bash
-biom convert \
-  -i exported_feature_table/feature-table.biom \
-  -o exported_feature_table/feature_table.tsv \
-  --to-tsv
-```
-**Convert into csv file and change format**
-```bash
-sed 's/\t/,/g' exported_feature_table/feature_table.tsv > exported_feature_table/feature_table.csv
-```
-
-```bash
-sed -i '1d' exported_feature_table/feature_table.csv
-```
-```bash
-sed -i 's/^#//' exported_feature_table/feature_table.csv
-```
 ```bash
 qiime tools export \
   --i-classification taxonomy.qza \
   --output-dir taxonomy_exported
 ```
-The above command will export the [taxanomy.tsv](https://github.com/thaocaoHPzbook/Goldfish-16S-rRNA-amplicon-data-analysis/blob/main/Qiime_steps/taxonomy.tsv) file in the taxonomy_exported directory.
+The above command will export the [taxanomy.tsv] file in the taxonomy_exported directory.
