@@ -1,4 +1,10 @@
-# Exploring input data from metadata
+# 0. Exploring metadata
+<img width="2304" height="750" alt="1" src="https://github.com/user-attachments/assets/479e3da5-294b-418b-96dd-d060ceb499ee" />
+<img width="1166" height="722" alt="5" src="https://github.com/user-attachments/assets/a04d0a00-ca4b-43b0-a46b-c6af42133849" />
+<img width="2290" height="764" alt="4" src="https://github.com/user-attachments/assets/97016a10-9d32-4896-a9ca-89ec545ef393" />
+<img width="2302" height="856" alt="3" src="https://github.com/user-attachments/assets/d00eac95-f48a-4731-9c45-c7f39023d5aa" />
+<img width="2294" height="734" alt="2" src="https://github.com/user-attachments/assets/6cd60629-1a74-4031-aa38-1dccac58cf46" />
+
 
 # 1. Importing raw data into Qiime2
 ## Generate manifest.csv
