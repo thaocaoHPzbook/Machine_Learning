@@ -190,8 +190,8 @@ qiime metadata tabulate \
   --m-input-file core-metrics-results/chao1_vector.qza \
   --o-visualization core-metrics-results/chao1_vector.qzv
 ```
-[chao1_vector.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated.
-![image]
+[chao1_vector.qzv](https://drive.google.com/drive/folders/1xephbSJoypGCBlFfj6zb9JhW9uVWtJUq) is generated.
+
 A statistical test is needed to determine whether this difference is statistically significant among groups.
 
 **Analysis Chao1 between groups**
@@ -201,7 +201,7 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/chao1_group_significance.qzv
 ```
-[chao1-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated. Significant differences in Chao1 alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
+[chao1-group-significance.qzv](https://drive.google.com/drive/folders/1xephbSJoypGCBlFfj6zb9JhW9uVWtJUq) is generated. Significant differences in Chao1 alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
 <img width="2516" height="1019" alt="image" src="https://github.com/user-attachments/assets/582db7b3-169e-4e2d-bc3c-dc22d8578bc9" />
 <img width="2523" height="1013" alt="image" src="https://github.com/user-attachments/assets/c38ab536-6ac9-46b8-9e2f-46d555616169" />
 
@@ -218,7 +218,7 @@ qiime diversity alpha-group-significance \
   --o-visualization core-metrics-results/shannon_pneumonia_significance.qzv
 ```
 
-[shannon-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file is generated.
+[shannon-group-significance.qzv](https://drive.google.com/drive/folders/1xephbSJoypGCBlFfj6zb9JhW9uVWtJUq) file is generated.
 <img width="2529" height="1062" alt="image" src="https://github.com/user-attachments/assets/f04133fd-2889-4c53-96ec-43975a536c5e" />
 <img width="2536" height="1026" alt="image" src="https://github.com/user-attachments/assets/7d4231e8-b814-42e8-bccf-c3159ac8f49d" />
 Shannon alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
@@ -232,7 +232,7 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/evenness_pneumonia_significance.qzv
 ```
-[evenness_group_significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file is generated
+[evenness_group_significance.qzv](https://drive.google.com/drive/folders/1xephbSJoypGCBlFfj6zb9JhW9uVWtJUq) file is generated
 <img width="2463" height="1101" alt="image" src="https://github.com/user-attachments/assets/375892cc-6bc7-4df5-94cc-6c3cceb11c41" />
 <img width="2497" height="1070" alt="image" src="https://github.com/user-attachments/assets/42edf34e-62d8-4812-a96d-bd30dd7601a8" />
 Pielou's Evenness alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
@@ -247,7 +247,7 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/faith_pd_group_significance.qzv
 ```
-[faith-pd-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated
+[faith-pd-group-significance.qzv](https://drive.google.com/drive/folders/1xephbSJoypGCBlFfj6zb9JhW9uVWtJUq) is generated
 <img width="2531" height="989" alt="image" src="https://github.com/user-attachments/assets/8869e24e-8754-4da8-9ad5-aee1958fe5a1" />
 <img width="2501" height="1070" alt="image" src="https://github.com/user-attachments/assets/d5c7fea4-4fd9-4cdf-b716-ac16c0048974" />
 Faith's PD alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
@@ -272,7 +272,7 @@ qiime emperor plot \
 ```
 
 
-The PCoA plot [bray_curtis_emperor.qzv] does not show clear clustering between the treatments,further PERMANOVA analysis for a more detailed examination and reveals significant differences in microbial communities across the groups.
+The PCoA plot [bray_curtis_emperor.qzv](https://drive.google.com/drive/folders/1pBOmWZYvnB9-Gicwh2yAsnkmBDSC71wo) does not show clear clustering between the treatments,further PERMANOVA analysis for a more detailed examination and reveals significant differences in microbial communities across the groups.
 **PERMANOVA analysis**
 ```bash
 qiime diversity beta-group-significance \
@@ -282,7 +282,7 @@ qiime diversity beta-group-significance \
   --o-visualization core-metrics-results/bray_curtis_pneumonia_significance.qzv \
   --p-method permanova
 ```
-[bray_curtis_group_significance.qzv][(https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG)](https://drive.google.com/drive/folders/1pBOmWZYvnB9-Gicwh2yAsnkmBDSC71wo) file is generated.
+[bray_curtis_group_significance.qzv](https://drive.google.com/drive/folders/1pBOmWZYvnB9-Gicwh2yAsnkmBDSC71wo) file is generated.
 <img width="2524" height="977" alt="image" src="https://github.com/user-attachments/assets/cfd0258b-350a-450e-b2e3-a07957d2dc4b" />
 <img width="2519" height="962" alt="image" src="https://github.com/user-attachments/assets/c4386442-420b-448b-bff4-cc2546da4396" />
 
