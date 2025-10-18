@@ -1,0 +1,876 @@
+SampleId	specimen	Copies_ul_DNA	patient_ID	timepoint	timepoint_character	tissue_type	days_stay_ICU	tracheostomy	pneumonia	timepoint_pneumonia	timepoint_pneumonia_sample	date_tracheostomy	intubation_date	extubation_date	intubation_days	length_stay	hospital_mortality	mortality_28d	mortality_90d	map_col	Run	BioSample
+SRR32035978	R231_006_1_BAL	3459,2	p_6	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		1/28/20 0:00	1/29/20 0:00	i_1	l_9	no	no	no	006_1_BAL	SRR32035978	SAMN46291224
+SRR32035977	R231_006_1_NASAL		p_6	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		1/28/20 0:00	1/29/20 0:00	i_1	l_9	no	no	no	006_1_NASAL	SRR32035977	SAMN46291225
+SRR32036450	R231_006_1_TS	14486,1	p_6	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		1/28/20 0:00	1/29/20 0:00	i_1	l_9	no	no	no	006_1_TS	SRR32036450	SAMN46291226
+SRR32036403	R231_011_1_BAL	804,8	p_11	t_1	baseline	bal	d_12	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_1_BAL	SRR32036403	SAMN46291227
+SRR32035900	R231_011_1_NASAL		p_11	t_1	baseline	nasal	d_12	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_1_NASAL	SRR32035900	SAMN46291228
+SRR32035853	R231_011_1_TS	2976,7	p_11	t_1	baseline	ts	d_12	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_1_TS	SRR32035853	SAMN46291229
+SRR32036296	R231_011_2_BAL	5200,5	p_11	t_2	follow	bal	d_12	no	no_vap	follow_no_vap	follow_no_vap_bal		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_2_BAL	SRR32036296	SAMN46291230
+SRR32035993	R231_011_2_NASAL		p_11	t_2	follow	nasal	d_12	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_2_NASAL	SRR32035993	SAMN46291231
+SRR32035776	R231_011_2_TS	443,5	p_11	t_2	follow	ts	d_12	no	no_vap	follow_no_vap	follow_no_vap_ts		2/6/20 0:00	2/11/20 0:00	i_5	l_16	no	no	no	011_2_TS	SRR32035776	SAMN46291232
+SRR32036212	R231_012_1_BAL	16349,6	p_12	t_1	baseline	bal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_1_BAL	SRR32036212	SAMN46291233
+SRR32035976	R231_012_1_NASAL		p_12	t_1	baseline	nasal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_1_NASAL	SRR32035976	SAMN46291234
+SRR32035965	R231_012_1_TS	3184,7	p_12	t_1	baseline	ts	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_1_TS	SRR32035965	SAMN46291235
+SRR32035954	R231_012_2_BAL	4472194,3	p_12	t_2	follow	bal	d_9	no	no_vap	follow_no_vap	follow_no_vap_bal		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_2_BAL	SRR32035954	SAMN46291236
+SRR32035943	R231_012_2_NASAL		p_12	t_2	follow	nasal	d_9	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_2_NASAL	SRR32035943	SAMN46291237
+SRR32035740	R231_012_2_TS	1059434,1	p_12	t_2	follow	ts	d_9	no	no_vap	follow_no_vap	follow_no_vap_ts		2/8/20 0:00	2/12/20 0:00	i_4	l_13	no	no	no	012_2_TS	SRR32035740	SAMN46291238
+SRR32035729	R231_017_1_BAL	554840,2	p_17	t_1	baseline	bal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_1_BAL	SRR32035729	SAMN46291239
+SRR32036208	R231_017_1_NASAL		p_17	t_1	baseline	nasal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_1_NASAL	SRR32036208	SAMN46291240
+SRR32036197	R231_017_1_TS	3856,4	p_17	t_1	baseline	ts	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_1_TS	SRR32036197	SAMN46291241
+SRR32036186	R231_017_2_BAL	825879,0	p_17	t_2	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_2_BAL	SRR32036186	SAMN46291242
+SRR32036461	R231_017_2_NASAL		p_17	t_2	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_2_NASAL	SRR32036461	SAMN46291243
+SRR32036449	R231_017_2_TS	4946250,5	p_17	t_2	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_2_TS	SRR32036449	SAMN46291244
+SRR32036438	R231_017_3_BAL	508715,5	p_17	t_3	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_3_BAL	SRR32036438	SAMN46291245
+SRR32035715	R231_017_3_NASAL		p_17	t_3	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_3_NASAL	SRR32035715	SAMN46291246
+SRR32035704	R231_017_3_TS		p_17	t_3	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		2/20/20 0:00	3/4/20 0:00	i_13	l_13	yes	yes	yes	017_3_TS	SRR32035704	SAMN46291247
+SRR32035693	R231_018_1_BAL	3942897,1	p_18	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/20/20 0:00	2/21/20 0:00	i_1	l_4	no	no	no	018_1_BAL	SRR32035693	SAMN46291248
+SRR32036172	R231_018_1_NASAL		p_18	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/20/20 0:00	2/21/20 0:00	i_1	l_4	no	no	no	018_1_NASAL	SRR32036172	SAMN46291249
+SRR32036161	R231_018_1_TS	1190338,7	p_18	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/20/20 0:00	2/21/20 0:00	i_1	l_4	no	no	no	018_1_TS	SRR32036161	SAMN46291250
+SRR32036150	R231_020_1_BAL	6027,8	p_20	t_1	baseline	bal	d_8	yes	vap	baseline_vap	baseline_vap_bal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_1_BAL	SRR32036150	SAMN46291251
+SRR32036425	R231_020_1_NASAL		p_20	t_1	baseline	nasal	d_8	yes	vap	baseline_vap	baseline_vap_nasal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_1_NASAL	SRR32036425	SAMN46291252
+SRR32036414	R231_020_1_TS	170867,4	p_20	t_1	baseline	ts	d_8	yes	vap	baseline_vap	baseline_vap_ts	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_1_TS	SRR32036414	SAMN46291253
+SRR32036402	R231_020_2_BAL	9562,5	p_20	t_2	follow	bal	d_8	yes	vap	follow_vap	follow_vap_bal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_2_BAL	SRR32036402	SAMN46291254
+SRR32035935	R231_020_2_NASAL		p_20	t_2	follow	nasal	d_8	yes	vap	follow_vap	follow_vap_nasal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_2_NASAL	SRR32035935	SAMN46291255
+SRR32035924	R231_020_2_TS	28416,1	p_20	t_2	follow	ts	d_8	yes	vap	follow_vap	follow_vap_ts	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_2_TS	SRR32035924	SAMN46291256
+SRR32035913	R231_020_3_BAL		p_20	t_3	follow	bal	d_8	yes	vap	follow_vap	follow_vap_bal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_3_BAL	SRR32035913	SAMN46291257
+SRR32035678	R231_020_3_NASAL		p_20	t_3	follow	nasal	d_8	yes	vap	follow_vap	follow_vap_nasal	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_3_NASAL	SRR32035678	SAMN46291258
+SRR32035667	R231_020_3_TS		p_20	t_3	follow	ts	d_8	yes	vap	follow_vap	follow_vap_ts	3/3/20 0:00	2/26/20 0:00	3/5/20 0:00	i_8	l_8	yes	yes	yes	020_3_TS	SRR32035667	SAMN46291259
+SRR32035656	R231_025_1_BAL	4549,0	p_25	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_1_BAL	SRR32035656	SAMN46291260
+SRR32036389	R231_025_1_NASAL		p_25	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_1_NASAL	SRR32036389	SAMN46291261
+SRR32036378	R231_025_1_TS	4549,0	p_25	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_1_TS	SRR32036378	SAMN46291262
+SRR32036367	R231_025_2_TS	3318784,4	p_25	t_2	follow	ts	d_6	no	no_vap	follow_no_vap	follow_no_vap_ts		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_2_TS	SRR32036367	SAMN46291263
+SRR32035899	R231_025_3_BAL	981074,9	p_25	t_3	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_3_BAL	SRR32035899	SAMN46291264
+SRR32035888	R231_025_3_NASAL		p_25	t_3	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_3_NASAL	SRR32035888	SAMN46291265
+SRR32036143	R231_025_3_TS	3031890,9	p_25	t_3	follow	ts	d_6	no	no_vap	follow_no_vap	follow_no_vap_ts		3/29/20 0:00	4/3/20 0:00	i_5	l_8	no	no	no	025_3_TS	SRR32036143	SAMN46291266
+SRR32036132	R231_026_1_BAL	4536854,7	p_26	t_1	baseline	bal	d_5	no	vap	baseline_vap	baseline_vap_bal		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_1_BAL	SRR32036132	SAMN46291267
+SRR32036121	R231_026_1_NASAL		p_26	t_1	baseline	nasal	d_5	no	vap	baseline_vap	baseline_vap_nasal		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_1_NASAL	SRR32036121	SAMN46291268
+SRR32036364	R231_026_1_TS	372531,2	p_26	t_1	baseline	ts	d_5	no	vap	baseline_vap	baseline_vap_ts		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_1_TS	SRR32036364	SAMN46291269
+SRR32036353	R231_026_2_BAL	1962916,1	p_26	t_2	follow	bal	d_5	no	vap	follow_vap	follow_vap_bal		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_2_BAL	SRR32036353	SAMN46291270
+SRR32036342	R231_026_2_NASAL		p_26	t_2	follow	nasal	d_5	no	vap	follow_vap	follow_vap_nasal		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_2_NASAL	SRR32036342	SAMN46291271
+SRR32035875	R231_026_2_TS	79679192,7	p_26	t_2	follow	ts	d_5	no	vap	follow_vap	follow_vap_ts		4/1/20 0:00	4/6/20 0:00	i_5	l_7	yes	yes	yes	026_2_TS	SRR32035875	SAMN46291272
+SRR32035864	R231_027_1_BAL	15007,7	p_27	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_1_BAL	SRR32035864	SAMN46291273
+SRR32035852	R231_027_1_NASAL		p_27	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_1_NASAL	SRR32035852	SAMN46291274
+SRR32036107	R231_027_1_TS	567616,9	p_27	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_1_TS	SRR32036107	SAMN46291275
+SRR32036096	R231_027_2_BAL	2987,4	p_27	t_2	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_2_BAL	SRR32036096	SAMN46291276
+SRR32036085	R231_027_2_NASAL		p_27	t_2	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_2_NASAL	SRR32036085	SAMN46291277
+SRR32035840	R231_027_2_TS		p_27	t_2	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_2_TS	SRR32035840	SAMN46291278
+SRR32035829	R231_027_3_BAL	1274,1	p_27	t_3	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_3_BAL	SRR32035829	SAMN46291279
+SRR32035818	R231_027_3_NASAL		p_27	t_3	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_3_NASAL	SRR32035818	SAMN46291280
+SRR32036073	R231_027_3_TS	125123,8	p_27	t_3	follow	ts	d_6	no	no_vap	follow_no_vap	follow_no_vap_ts		4/2/20 0:00	4/8/20 0:00	i_6	l_6	no	no	no	027_3_TS	SRR32036073	SAMN46291281
+SRR32036062	R231_036_1_NASAL		p_36	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/23/20 0:00	4/28/20 0:00	i_5	l_13	no	no	no	036_1_NASAL	SRR32036062	SAMN46291282
+SRR32036051	R231_036_1_TS	69616,8	p_36	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/23/20 0:00	4/28/20 0:00	i_5	l_13	no	no	no	036_1_TS	SRR32036051	SAMN46291283
+SRR32036295	R231_036_2_NASAL		p_36	t_2	follow	nasal	d_7	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/23/20 0:00	4/28/20 0:00	i_5	l_13	no	no	no	036_2_NASAL	SRR32036295	SAMN46291284
+SRR32036284	R231_036_2_TS	1163,9	p_36	t_2	follow	bal	d_7	no	no_vap	follow_no_vap	follow_no_vap_bal		4/23/20 0:00	4/28/20 0:00	i_5	l_13	no	no	no	036_2_TS	SRR32036284	SAMN46291285
+SRR32036273	R231_037_1_NASAL		p_37	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/28/20 0:00	5/2/20 0:00	i_4	l_10	no	no	no	037_1_NASAL	SRR32036273	SAMN46291286
+SRR32036038	R231_037_1_TS	4675,5	p_37	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/28/20 0:00	5/2/20 0:00	i_4	l_10	no	no	no	037_1_TS	SRR32036038	SAMN46291287
+SRR32036027	R231_037_2_BAL	397662,8	p_37	t_2	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		4/28/20 0:00	5/2/20 0:00	i_4	l_10	no	no	no	037_2_BAL	SRR32036027	SAMN46291288
+SRR32035814	R231_037_2_NASAL		p_37	t_2	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/28/20 0:00	5/2/20 0:00	i_4	l_10	no	no	no	037_2_NASAL	SRR32035814	SAMN46291289
+SRR32035803	R231_037_2_TS	274777,8	p_37	t_2	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		4/28/20 0:00	5/2/20 0:00	i_4	l_10	no	no	no	037_2_TS	SRR32035803	SAMN46291290
+SRR32035792	R231_039_1_BAL	1150935,2	p_39	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/10/20 0:00	5/15/20 0:00	i_5	l_5	yes	yes	yes	039_1_BAL	SRR32035792	SAMN46291291
+SRR32036015	R231_039_1_TS	599792,6	p_39	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/10/20 0:00	5/15/20 0:00	i_5	l_5	yes	yes	yes	039_1_TS	SRR32036015	SAMN46291292
+SRR32036004	R231_039_2_BAL	37634,4	p_39	t_2	follow	bal	d_5	no	no_vap	follow_no_vap	follow_no_vap_bal		5/10/20 0:00	5/15/20 0:00	i_5	l_5	yes	yes	yes	039_2_BAL	SRR32036004	SAMN46291293
+SRR32035992	R231_040_1_BAL	89398,3	p_40	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/11/20 0:00	5/13/20 0:00	i_2	l_7	no	no	no	040_1_BAL	SRR32035992	SAMN46291294
+SRR32036331	R231_040_1_NASAL		p_40	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/11/20 0:00	5/13/20 0:00	i_2	l_7	no	no	no	040_1_NASAL	SRR32036331	SAMN46291295
+SRR32036320	R231_040_1_TS	91368,3	p_40	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/11/20 0:00	5/13/20 0:00	i_2	l_7	no	no	no	040_1_TS	SRR32036320	SAMN46291296
+SRR32036309	R231_041_1_BAL	535,9	p_41	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/13/20 0:00	5/14/20 0:00	i_1	l_7	no	no	no	041_1_BAL	SRR32036309	SAMN46291297
+SRR32036268	R231_041_1_NASAL		p_41	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/13/20 0:00	5/14/20 0:00	i_1	l_7	no	no	no	041_1_NASAL	SRR32036268	SAMN46291298
+SRR32036257	R231_041_1_TS	2038,1	p_41	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/13/20 0:00	5/14/20 0:00	i_1	l_7	no	no	no	041_1_TS	SRR32036257	SAMN46291299
+SRR32036246	R231_042_1_BAL	16861,2	p_42	t_1	baseline	bal	d_5	no	vap	baseline_vap	baseline_vap_bal		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_1_BAL	SRR32036246	SAMN46291300
+SRR32036303	R231_042_1_NASAL		p_42	t_1	baseline	nasal	d_5	no	vap	baseline_vap	baseline_vap_nasal		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_1_NASAL	SRR32036303	SAMN46291301
+SRR32036517	R231_042_1_TS	120022,4	p_42	t_1	baseline	ts	d_5	no	vap	baseline_vap	baseline_vap_ts		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_1_TS	SRR32036517	SAMN46291302
+SRR32036506	R231_042_2_BAL	22815,4	p_42	t_2	follow	bal	d_5	no	vap	follow_vap	follow_vap_bal		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_2_BAL	SRR32036506	SAMN46291303
+SRR32035775	R231_042_2_NASAL		p_42	t_2	follow	nasal	d_5	no	vap	follow_vap	follow_vap_nasal		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_2_NASAL	SRR32035775	SAMN46291304
+SRR32035764	R231_042_2_TS	44542,1	p_42	t_2	follow	ts	d_5	no	vap	follow_vap	follow_vap_ts		5/18/20 0:00	5/21/20 0:00	i_3	l_12	no	no	no	042_2_TS	SRR32035764	SAMN46291305
+SRR32035753	R231_043_1_BAL	114358,5	p_43	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_1_BAL	SRR32035753	SAMN46291306
+SRR32036493	R231_043_1_NASAL		p_43	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_1_NASAL	SRR32036493	SAMN46291307
+SRR32036482	R231_043_1_TS	5222798,8	p_43	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_1_TS	SRR32036482	SAMN46291308
+SRR32036471	R231_043_2_BAL	81046,9	p_43	t_2	follow	bal	d_5	no	no_vap	follow_no_vap	follow_no_vap_bal		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_2_BAL	SRR32036471	SAMN46291309
+SRR32036231	R231_043_2_NASAL		p_43	t_2	follow	nasal	d_5	no	no_vap	follow_no_vap	follow_no_vap_nasal		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_2_NASAL	SRR32036231	SAMN46291310
+SRR32036220	R231_043_2_TS		p_43	t_2	follow	ts	d_5	no	no_vap	follow_no_vap	follow_no_vap_ts		5/15/20 0:00	5/18/20 0:00	i_3	l_7	no	no	no	043_2_TS	SRR32036220	SAMN46291311
+SRR32036214	R231_048_1_BAL	21193,1	p_48	t_1	baseline	bal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/1/20 0:00	6/12/20 0:00	i_11	l_11	yes	yes	yes	048_1_BAL	SRR32036214	SAMN46291312
+SRR32036213	R231_048_1_NASAL		p_48	t_1	baseline	nasal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/1/20 0:00	6/12/20 0:00	i_11	l_11	yes	yes	yes	048_1_NASAL	SRR32036213	SAMN46291313
+SRR32036211	R231_048_1_TS		p_48	t_1	baseline	ts	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/1/20 0:00	6/12/20 0:00	i_11	l_11	yes	yes	yes	048_1_TS	SRR32036211	SAMN46291314
+SRR32036210	R231_048_2_BAL	9234,7	p_48	t_2	follow	bal	d_11	no	no_vap	follow_no_vap	follow_no_vap_bal		6/1/20 0:00	6/12/20 0:00	i_11	l_11	no	yes	yes	048_2_BAL	SRR32036210	SAMN46291315
+SRR32036209	R231_048_2_NASAL		p_48	t_2	follow	nasal	d_11	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/1/20 0:00	6/12/20 0:00	i_11	l_11	no	yes	yes	048_2_NASAL	SRR32036209	SAMN46291316
+SRR32036469	R231_048_2_TS		p_48	t_2	follow	ts	d_11	no	no_vap	follow_no_vap	follow_no_vap_ts		6/1/20 0:00	6/12/20 0:00	i_11	l_11	no	yes	yes	048_2_TS	SRR32036469	SAMN46291317
+SRR32036468	R231_049_1_BAL	15104,3	p_49	t_1	baseline	bal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_1_BAL	SRR32036468	SAMN46291318
+SRR32036467	R231_049_1_NASAL		p_49	t_1	baseline	nasal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_1_NASAL	SRR32036467	SAMN46291319
+SRR32036466	R231_049_1_TS		p_49	t_1	baseline	ts	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_1_TS	SRR32036466	SAMN46291320
+SRR32036465	R231_049_2_BAL	23876,0	p_49	t_2	follow	bal	d_8	no	no_vap	follow_no_vap	follow_no_vap_bal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_2_BAL	SRR32036465	SAMN46291321
+SRR32036464	R231_049_2_NASAL		p_49	t_2	follow	nasal	d_8	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_2_NASAL	SRR32036464	SAMN46291322
+SRR32036463	R231_049_2_TS	4705288,5	p_49	t_2	follow	ts	d_8	no	no_vap	follow_no_vap	follow_no_vap_ts		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_2_TS	SRR32036463	SAMN46291323
+SRR32035975	R231_049_3_BAL	50185,0	p_49	t_3	follow	bal	d_8	no	no_vap	follow_no_vap	follow_no_vap_bal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_3_BAL	SRR32035975	SAMN46291324
+SRR32035974	R231_049_3_NASAL		p_49	t_3	follow	nasal	d_8	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_3_NASAL	SRR32035974	SAMN46291325
+SRR32035973	R231_049_3_TS	17041,1	p_49	t_3	follow	ts	d_8	no	no_vap	follow_no_vap	follow_no_vap_ts		6/4/20 0:00	6/10/20 0:00	i_6	l_13	no	no	no	049_3_TS	SRR32035973	SAMN46291326
+SRR32035972	R231_052_1_BAL	922,9	p_52	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/18/20 0:00	6/20/20 0:00	i_2	l_5	no	no	no	052_1_BAL	SRR32035972	SAMN46291327
+SRR32035971	R231_052_1_NASAL		p_52	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/18/20 0:00	6/20/20 0:00	i_2	l_5	no	no	no	052_1_NASAL	SRR32035971	SAMN46291328
+SRR32035970	R231_052_1_TS	445,7	p_52	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/18/20 0:00	6/20/20 0:00	i_2	l_5	no	no	no	052_1_TS	SRR32035970	SAMN46291329
+SRR32035969	R231_057_1_BAL	110900,1	p_57	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/14/20 0:00	7/17/20 0:00	i_3	l_3	yes	yes	yes	057_1_BAL	SRR32035969	SAMN46291330
+SRR32035968	R231_059_1_BAL	13839,6	p_59	t_1	baseline	bal	d_39	yes	vap	baseline_vap	baseline_vap_bal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_1_BAL	SRR32035968	SAMN46291331
+SRR32035967	R231_059_1_NASAL		p_59	t_1	baseline	nasal	d_39	yes	vap	baseline_vap	baseline_vap_nasal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_1_NASAL	SRR32035967	SAMN46291332
+SRR32035966	R231_059_1_TS	6128,1	p_59	t_1	baseline	ts	d_39	yes	vap	baseline_vap	baseline_vap_ts	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_1_TS	SRR32035966	SAMN46291333
+SRR32035964	R231_059_2_BAL	901285,3	p_59	t_2	follow	bal	d_39	yes	vap	follow_vap	follow_vap_bal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_2_BAL	SRR32035964	SAMN46291334
+SRR32035963	R231_059_2_TS	909795,2	p_59	t_2	follow	ts	d_39	yes	vap	follow_vap	follow_vap_ts	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_2_TS	SRR32035963	SAMN46291335
+SRR32035962	R231_059_3_BAL		p_59	t_3	follow	bal	d_39	yes	vap	follow_vap	follow_vap_bal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_3_BAL	SRR32035962	SAMN46291336
+SRR32035961	R231_059_3_NASAL		p_59	t_3	follow	nasal	d_39	yes	vap	follow_vap	follow_vap_nasal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_3_NASAL	SRR32035961	SAMN46291337
+SRR32035960	R231_059_3_TS	909352,1	p_59	t_3	follow	ts	d_39	yes	vap	follow_vap	follow_vap_ts	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_3_TS	SRR32035960	SAMN46291338
+SRR32035959	R231_059_4_BAL	376836,8	p_59	t_4	follow	bal	d_39	yes	vap	follow_vap	follow_vap_bal	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_4_BAL	SRR32035959	SAMN46291339
+SRR32035958	R231_059_4_TS	3213247,4	p_59	t_4	follow	ts	d_39	yes	vap	follow_vap	follow_vap_ts	8/12/20 0:00	8/2/20 0:00	8/12/20 0:00	i_10	l_39	no	no	yes	059_4_TS	SRR32035958	SAMN46291340
+SRR32035957	R231_060_1_BAL	21177,2	p_60	t_1	baseline	bal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/11/20 0:00	8/14/20 0:00	i_3	l_43	no	no	no	060_1_BAL	SRR32035957	SAMN46291341
+SRR32035956	R231_060_1_TS	4426545,8	p_60	t_1	baseline	ts	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/11/20 0:00	8/14/20 0:00	i_3	l_43	no	no	no	060_1_TS	SRR32035956	SAMN46291342
+SRR32035955	R231_060_2_BAL	64334,6	p_60	t_2	follow	bal	d_8	no	no_vap	follow_no_vap	follow_no_vap_bal		8/11/20 0:00	8/14/20 0:00	i_3	l_43	no	no	no	060_2_BAL	SRR32035955	SAMN46291343
+SRR32035953	R231_060_2_NASAL		p_60	t_2	follow	nasal	d_8	no	no_vap	follow_no_vap	follow_no_vap_nasal		8/11/20 0:00	8/14/20 0:00	i_3	l_43	no	no	no	060_2_NASAL	SRR32035953	SAMN46291344
+SRR32035952	R231_061_1_BAL	1022983,6	p_61	t_1	baseline	bal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_1_BAL	SRR32035952	SAMN46291345
+SRR32035951	R231_061_1_NASAL		p_61	t_1	baseline	nasal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_1_NASAL	SRR32035951	SAMN46291346
+SRR32035950	R231_061_1_TS	1039697,7	p_61	t_1	baseline	ts	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_1_TS	SRR32035950	SAMN46291347
+SRR32035949	R231_061_2_BAL	19821,7	p_61	t_2	follow	bal	d_11	no	no_vap	follow_no_vap	follow_no_vap_bal		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_2_BAL	SRR32035949	SAMN46291348
+SRR32035948	R231_061_2_NASAL		p_61	t_2	follow	nasal	d_11	no	no_vap	follow_no_vap	follow_no_vap_nasal		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_2_NASAL	SRR32035948	SAMN46291349
+SRR32035947	R231_061_2_TS	191178,2	p_61	t_2	follow	ts	d_11	no	no_vap	follow_no_vap	follow_no_vap_ts		8/24/20 0:00	8/29/20 0:00	i_5	l_19	yes	yes	yes	061_2_TS	SRR32035947	SAMN46291350
+SRR32035946	R231_062_1_BAL	34802,2	p_62	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/28/20 0:00	9/2/20 0:00	i_5	l_12	no	no	no	062_1_BAL	SRR32035946	SAMN46291351
+SRR32035945	R231_062_1_NASAL		p_62	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/28/20 0:00	9/2/20 0:00	i_5	l_12	no	no	no	062_1_NASAL	SRR32035945	SAMN46291352
+SRR32035944	R231_062_1_TS	182390,6	p_62	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/28/20 0:00	9/2/20 0:00	i_5	l_12	no	no	no	062_1_TS	SRR32035944	SAMN46291353
+SRR32035750	R231_063_1_BAL	133098,0	p_63	t_1	baseline	bal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/28/20 0:00	9/1/20 0:00	i_4	l_17	no	no	no	063_1_BAL	SRR32035750	SAMN46291354
+SRR32035749	R231_063_1_NASAL		p_63	t_1	baseline	nasal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/28/20 0:00	9/1/20 0:00	i_4	l_17	no	no	no	063_1_NASAL	SRR32035749	SAMN46291355
+SRR32035748	R231_063_1_TS	254852,0	p_63	t_1	baseline	ts	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/28/20 0:00	9/1/20 0:00	i_4	l_17	no	no	no	063_1_TS	SRR32035748	SAMN46291356
+SRR32035747	R231_064_1_BAL	2263920,6	p_64	t_1	baseline	bal	d_10	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_1_BAL	SRR32035747	SAMN46291357
+SRR32035746	R231_064_1_NASAL		p_64	t_1	baseline	nasal	d_10	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_1_NASAL	SRR32035746	SAMN46291358
+SRR32035745	R231_064_1_TS		p_64	t_1	baseline	ts	d_10	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_1_TS	SRR32035745	SAMN46291359
+SRR32035744	R231_064_2_BAL	15628,5	p_64	t_2	follow	bal	d_10	no	no_vap	follow_no_vap	follow_no_vap_bal		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_2_BAL	SRR32035744	SAMN46291360
+SRR32035743	R231_064_2_NASAL		p_64	t_2	follow	nasal	d_10	no	no_vap	follow_no_vap	follow_no_vap_nasal		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_2_NASAL	SRR32035743	SAMN46291361
+SRR32035742	R231_064_2_TS	1912940,8	p_64	t_2	follow	ts	d_10	no	no_vap	follow_no_vap	follow_no_vap_ts		8/30/20 0:00	9/5/20 0:00	i_6	l_15	no	no	no	064_2_TS	SRR32035742	SAMN46291362
+SRR32035741	R231_065_1_BAL	15928,8	p_65	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/31/20 0:00	9/1/20 0:00	i_1	l_2	no	no	no	065_1_BAL	SRR32035741	SAMN46291363
+SRR32035739	R231_065_1_NASAL		p_65	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/31/20 0:00	9/1/20 0:00	i_1	l_2	no	no	no	065_1_NASAL	SRR32035739	SAMN46291364
+SRR32035738	R231_065_1_TS	2285957,3	p_65	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/31/20 0:00	9/1/20 0:00	i_1	l_2	no	no	no	065_1_TS	SRR32035738	SAMN46291365
+SRR32035737	R231_066_1_NASAL		p_66	t_1	baseline	nasal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_1_NASAL	SRR32035737	SAMN46291366
+SRR32035736	R231_066_2_BAL	923,4	p_66	t_2	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_2_BAL	SRR32035736	SAMN46291367
+SRR32035735	R231_066_2_TS	7265044,3	p_66	t_2	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_2_TS	SRR32035735	SAMN46291368
+SRR32035734	R231_066_3_BAL	1760,4	p_66	t_3	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_3_BAL	SRR32035734	SAMN46291369
+SRR32035733	R231_066_3_NASAL		p_66	t_3	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_3_NASAL	SRR32035733	SAMN46291370
+SRR32035732	R231_066_3_TS	2216894,8	p_66	t_3	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_3_TS	SRR32035732	SAMN46291371
+SRR32035731	R231_066_4_BAL	5201,5	p_66	t_4	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_4_BAL	SRR32035731	SAMN46291372
+SRR32035730	R231_066_4_NASAL		p_66	t_4	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_4_NASAL	SRR32035730	SAMN46291373
+SRR32035728	R231_066_4_TS	228449,7	p_66	t_4	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		9/5/20 0:00	9/14/20 0:00	i_9	l_20	no	no	no	066_4_TS	SRR32035728	SAMN46291374
+SRR32035727	R231_067_1_BAL	319755,6	p_67	t_1	baseline	bal	d_16	yes	vap	baseline_vap	baseline_vap_bal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_1_BAL	SRR32035727	SAMN46291375
+SRR32035726	R231_067_1_NASAL		p_67	t_1	baseline	nasal	d_16	yes	vap	baseline_vap	baseline_vap_nasal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_1_NASAL	SRR32035726	SAMN46291376
+SRR32035725	R231_067_1_TS	5518222,9	p_67	t_1	baseline	ts	d_16	yes	vap	baseline_vap	baseline_vap_ts	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_1_TS	SRR32035725	SAMN46291377
+SRR32035724	R231_067_2_BAL	8297,6	p_67	t_2	follow	bal	d_16	yes	vap	follow_vap	follow_vap_bal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_2_BAL	SRR32035724	SAMN46291378
+SRR32035723	R231_067_2_NASAL		p_67	t_2	follow	nasal	d_16	yes	vap	follow_vap	follow_vap_nasal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_2_NASAL	SRR32035723	SAMN46291379
+SRR32035722	R231_067_2_TS	56700,8	p_67	t_2	follow	ts	d_16	yes	vap	follow_vap	follow_vap_ts	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_2_TS	SRR32035722	SAMN46291380
+SRR32035721	R231_067_3_BAL	5192,7	p_67	t_3	follow	bal	d_16	yes	vap	follow_vap	follow_vap_bal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_3_BAL	SRR32035721	SAMN46291381
+SRR32035720	R231_067_3_NASAL		p_67	t_3	follow	nasal	d_16	yes	vap	follow_vap	follow_vap_nasal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_3_NASAL	SRR32035720	SAMN46291382
+SRR32035719	R231_067_3_TS	17724,3	p_67	t_3	follow	ts	d_16	yes	vap	follow_vap	follow_vap_ts	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_3_TS	SRR32035719	SAMN46291383
+SRR32036207	R231_067_4_BAL	138,5	p_67	t_4	follow	bal	d_16	yes	vap	follow_vap	follow_vap_bal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_4_BAL	SRR32036207	SAMN46291384
+SRR32036206	R231_067_4_NASAL		p_67	t_4	follow	nasal	d_16	yes	vap	follow_vap	follow_vap_nasal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_4_NASAL	SRR32036206	SAMN46291385
+SRR32036205	R231_067_4_TS	762899,4	p_67	t_4	follow	ts	d_16	yes	vap	follow_vap	follow_vap_ts	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_4_TS	SRR32036205	SAMN46291386
+SRR32036204	R231_067_5_BAL	1234,7	p_67	t_5	follow	bal	d_16	yes	vap	follow_vap	follow_vap_bal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_5_BAL	SRR32036204	SAMN46291387
+SRR32036203	R231_067_5_NASAL		p_67	t_5	follow	nasal	d_16	yes	vap	follow_vap	follow_vap_nasal	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_5_NASAL	SRR32036203	SAMN46291388
+SRR32036202	R231_067_5_TS	23868,6	p_67	t_5	follow	ts	d_16	yes	vap	follow_vap	follow_vap_ts	9/29/20 0:00	9/13/20 0:00	9/29/20 0:00	i_16	l_17	yes	yes	yes	067_5_TS	SRR32036202	SAMN46291389
+SRR32036201	R231_068_1_BAL	37754,8	p_68	t_1	baseline	bal	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_bal	9/21/20 0:00	9/14/20 0:00	9/21/20 0:00	i_7	l_140	no	no	no	068_1_BAL	SRR32036201	SAMN46291390
+SRR32036200	R231_068_1_NASAL		p_68	t_1	baseline	nasal	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_nasal	9/21/20 0:00	9/14/20 0:00	9/21/20 0:00	i_7	l_140	no	no	no	068_1_NASAL	SRR32036200	SAMN46291391
+SRR32036199	R231_068_1_TS	18376,1	p_68	t_1	baseline	ts	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_ts	9/21/20 0:00	9/14/20 0:00	9/21/20 0:00	i_7	l_140	no	no	no	068_1_TS	SRR32036199	SAMN46291392
+SRR32036198	R231_069_1_BAL	549864,3	p_69	t_1	baseline	bal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_bal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_1_BAL	SRR32036198	SAMN46291393
+SRR32036196	R231_069_1_NASAL		p_69	t_1	baseline	nasal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_1_NASAL	SRR32036196	SAMN46291394
+SRR32036195	R231_069_1_TS	6412525,0	p_69	t_1	baseline	ts	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_ts		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_1_TS	SRR32036195	SAMN46291395
+SRR32036194	R231_069_2_BAL	2490,2	p_69	t_2	follow	bal	d_11	no	no_vap	follow_no_vap	follow_no_vap_bal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_2_BAL	SRR32036194	SAMN46291396
+SRR32036193	R231_069_2_NASAL		p_69	t_2	follow	nasal	d_11	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_2_NASAL	SRR32036193	SAMN46291397
+SRR32036192	R231_069_2_TS	277894,6	p_69	t_2	follow	ts	d_11	no	no_vap	follow_no_vap	follow_no_vap_ts		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_2_TS	SRR32036192	SAMN46291398
+SRR32036191	R231_069_3_BAL	11384,8	p_69	t_3	follow	bal	d_11	no	no_vap	follow_no_vap	follow_no_vap_bal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_3_BAL	SRR32036191	SAMN46291399
+SRR32036190	R231_069_3_NASAL		p_69	t_3	follow	nasal	d_11	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_3_NASAL	SRR32036190	SAMN46291400
+SRR32036189	R231_069_3_TS	40939,2	p_69	t_3	follow	ts	d_11	no	no_vap	follow_no_vap	follow_no_vap_ts		9/23/20 0:00	10/1/20 0:00	i_8	l_11	yes	yes	yes	069_3_TS	SRR32036189	SAMN46291401
+SRR32036188	R231_070_1_BAL	59971,8	p_70	t_1	baseline	bal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_bal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_1_BAL	SRR32036188	SAMN46291402
+SRR32036187	R231_070_1_NASAL		p_70	t_1	baseline	nasal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_1_NASAL	SRR32036187	SAMN46291403
+SRR32036185	R231_070_1_TS	501275,4	p_70	t_1	baseline	ts	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_ts		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_1_TS	SRR32036185	SAMN46291404
+SRR32036184	R231_070_2_BAL	3649,8	p_70	t_2	follow	bal	d_14	no	no_vap	follow_no_vap	follow_no_vap_bal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_2_BAL	SRR32036184	SAMN46291405
+SRR32036183	R231_070_2_NASAL		p_70	t_2	follow	nasal	d_14	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_2_NASAL	SRR32036183	SAMN46291406
+SRR32036182	R231_070_2_TS	143727,1	p_70	t_2	follow	ts	d_14	no	no_vap	follow_no_vap	follow_no_vap_ts		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_2_TS	SRR32036182	SAMN46291407
+SRR32036181	R231_070_3_BAL		p_70	t_3	follow	bal	d_14	no	no_vap	follow_no_vap	follow_no_vap_bal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_3_BAL	SRR32036181	SAMN46291408
+SRR32036180	R231_070_3_NASAL		p_70	t_3	follow	nasal	d_14	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_3_NASAL	SRR32036180	SAMN46291409
+SRR32036179	R231_070_3_TS	55215,3	p_70	t_3	follow	ts	d_14	no	no_vap	follow_no_vap	follow_no_vap_ts		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_3_TS	SRR32036179	SAMN46291410
+SRR32036178	R231_070_4_BAL	147743,6	p_70	t_4	follow	bal	d_14	no	no_vap	follow_no_vap	follow_no_vap_bal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_4_BAL	SRR32036178	SAMN46291411
+SRR32036177	R231_070_4_NASAL		p_70	t_4	follow	nasal	d_14	no	no_vap	follow_no_vap	follow_no_vap_nasal		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_4_NASAL	SRR32036177	SAMN46291412
+SRR32036462	R231_070_4_TS	22300,5	p_70	t_4	follow	ts	d_14	no	no_vap	follow_no_vap	follow_no_vap_ts		9/26/20 0:00	10/4/20 0:00	i_8	l_21	no	no	no	070_4_TS	SRR32036462	SAMN46291413
+SRR32036460	R231_071_1_BAL	34708,6	p_71	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/13/20 0:00	10/15/20 0:00	i_2	l_2	no	no	no	071_1_BAL	SRR32036460	SAMN46291414
+SRR32036459	R231_071_1_NASAL		p_71	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/13/20 0:00	10/15/20 0:00	i_2	l_2	no	no	no	071_1_NASAL	SRR32036459	SAMN46291415
+SRR32036458	R231_071_1_TS		p_71	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/13/20 0:00	10/15/20 0:00	i_2	l_2	no	no	no	071_1_TS	SRR32036458	SAMN46291416
+SRR32036457	R231_072_1_BAL	243633,6	p_72	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/15/20 0:00	10/19/20 0:00	i_4	l_4	yes	yes	yes	072_1_BAL	SRR32036457	SAMN46291417
+SRR32036456	R231_072_1_NASAL		p_72	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/15/20 0:00	10/19/20 0:00	i_4	l_4	yes	yes	yes	072_1_NASAL	SRR32036456	SAMN46291418
+SRR32036455	R231_072_1_TS	917,3	p_72	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/15/20 0:00	10/19/20 0:00	i_4	l_4	yes	yes	yes	072_1_TS	SRR32036455	SAMN46291419
+SRR32036454	R231_073_1_BAL	168,0	p_73	t_1	baseline	bal	d_32	yes	vap	baseline_vap	baseline_vap_bal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_1_BAL	SRR32036454	SAMN46291420
+SRR32036453	R231_073_1_NASAL		p_73	t_1	baseline	nasal	d_32	yes	vap	baseline_vap	baseline_vap_nasal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_1_NASAL	SRR32036453	SAMN46291421
+SRR32036452	R231_073_1_TS	415509,2	p_73	t_1	baseline	ts	d_32	yes	vap	baseline_vap	baseline_vap_ts	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_1_TS	SRR32036452	SAMN46291422
+SRR32036451	R231_073_2_BAL	195577,8	p_73	t_2	follow	bal	d_32	yes	vap	follow_vap	follow_vap_bal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_2_BAL	SRR32036451	SAMN46291423
+SRR32036448	R231_073_2_NASAL		p_73	t_2	follow	nasal	d_32	yes	vap	follow_vap	follow_vap_nasal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_2_NASAL	SRR32036448	SAMN46291424
+SRR32036447	R231_073_2_TS	32151,5	p_73	t_2	follow	ts	d_32	yes	vap	follow_vap	follow_vap_ts	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_2_TS	SRR32036447	SAMN46291425
+SRR32036446	R231_073_3_BAL		p_73	t_3	follow	bal	d_32	yes	vap	follow_vap	follow_vap_bal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_3_BAL	SRR32036446	SAMN46291426
+SRR32036445	R231_073_3_NASAL		p_73	t_3	follow	nasal	d_32	yes	vap	follow_vap	follow_vap_nasal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_3_NASAL	SRR32036445	SAMN46291427
+SRR32036444	R231_073_3_TS	65974095,1	p_73	t_3	follow	ts	d_32	yes	vap	follow_vap	follow_vap_ts	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_3_TS	SRR32036444	SAMN46291428
+SRR32036443	R231_073_4_BAL		p_73	t_4	follow	bal	d_32	yes	vap	follow_vap	follow_vap_bal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_4_BAL	SRR32036443	SAMN46291429
+SRR32036442	R231_073_4_NASAL		p_73	t_4	follow	nasal	d_32	yes	vap	follow_vap	follow_vap_nasal	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_4_NASAL	SRR32036442	SAMN46291430
+SRR32036441	R231_073_4_TS	69157213,5	p_73	t_4	follow	ts	d_32	yes	vap	follow_vap	follow_vap_ts	10/27/20 0:00	10/18/20 0:00	10/27/20 0:00	i_9	l_48	no	no	yes	073_4_TS	SRR32036441	SAMN46291431
+SRR32036440	R231_074_1_BAL	173982,2	p_74	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_1_BAL	SRR32036440	SAMN46291432
+SRR32036439	R231_074_1_NASAL		p_74	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_1_NASAL	SRR32036439	SAMN46291433
+SRR32036437	R231_074_1_TS	8559758,5	p_74	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_1_TS	SRR32036437	SAMN46291434
+SRR32036436	R231_074_2_BAL	10101926,4	p_74	t_2	follow	bal	d_5	no	no_vap	follow_no_vap	follow_no_vap_bal		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_2_BAL	SRR32036436	SAMN46291435
+SRR32036435	R231_074_2_NASAL		p_74	t_2	follow	nasal	d_5	no	no_vap	follow_no_vap	follow_no_vap_nasal		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_2_NASAL	SRR32036435	SAMN46291436
+SRR32036434	R231_074_2_TS		p_74	t_2	follow	ts	d_5	no	no_vap	follow_no_vap	follow_no_vap_ts		10/26/20 0:00	11/1/20 0:00	i_6	l_6	yes	yes	yes	074_2_TS	SRR32036434	SAMN46291437
+SRR32036433	R231_075_1_BAL	651,5	p_75	t_1	baseline	bal	d_24	yes	vap	baseline_vap	baseline_vap_bal	11/13/20 0:00	10/26/20 0:00	10/29/20 0:00	i_3	l_24	yes	yes	yes	075_1_BAL	SRR32036433	SAMN46291438
+SRR32036432	R231_075_1_NASAL		p_75	t_1	baseline	nasal	d_24	yes	vap	baseline_vap	baseline_vap_nasal	11/13/20 0:00	10/26/20 0:00	10/29/20 0:00	i_3	l_24	yes	yes	yes	075_1_NASAL	SRR32036432	SAMN46291439
+SRR32036431	R231_075_1_TS	86910,4	p_75	t_1	baseline	ts	d_24	yes	vap	baseline_vap	baseline_vap_ts	11/13/20 0:00	10/26/20 0:00	10/29/20 0:00	i_3	l_24	yes	yes	yes	075_1_TS	SRR32036431	SAMN46291440
+SRR32035718	R231_076_1_BAL	244207,9	p_76	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/1/20 0:00	11/3/20 0:00	i_2	l_10	no	no	no	076_1_BAL	SRR32035718	SAMN46291441
+SRR32035717	R231_076_1_NASAL		p_76	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/1/20 0:00	11/3/20 0:00	i_2	l_10	no	no	no	076_1_NASAL	SRR32035717	SAMN46291442
+SRR32035716	R231_076_1_TS	1,0	p_76	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/1/20 0:00	11/3/20 0:00	i_2	l_10	no	no	no	076_1_TS	SRR32035716	SAMN46291443
+SRR32035714	R231_077_1_BAL	777,5	p_77	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/9/20 0:00	11/12/20 0:00	i_3	l_7	no	no	no	077_1_BAL	SRR32035714	SAMN46291444
+SRR32035713	R231_077_1_NASAL		p_77	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/9/20 0:00	11/12/20 0:00	i_3	l_7	no	no	no	077_1_NASAL	SRR32035713	SAMN46291445
+SRR32035712	R231_077_1_TS		p_77	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/9/20 0:00	11/12/20 0:00	i_3	l_7	no	no	no	077_1_TS	SRR32035712	SAMN46291446
+SRR32035711	R231_078_1_BAL	50470,3	p_78	t_1	baseline	bal	d_11	no	vap	baseline_vap	baseline_vap_bal		11/10/20 0:00	11/19/20 0:00	i_9	l_18	no	no	no	078_1_BAL	SRR32035711	SAMN46291447
+SRR32035710	R231_078_1_TS		p_78	t_1	baseline	ts	d_11	no	vap	baseline_vap	baseline_vap_ts		11/10/20 0:00	11/19/20 0:00	i_9	l_18	no	no	no	078_1_TS	SRR32035710	SAMN46291448
+SRR32036216	R231_78_3_BAL	8414,7	p_78	t_3	follow	bal	d_11	no	vap	follow_vap	follow_vap_bal		11/10/20 0:00	11/19/20 0:00	i_9	l_18	no	no	no	78_3_BAL	SRR32036216	SAMN46292097
+SRR32036215	R231_78_3_TS	59127,7	p_78	t_3	follow	ts	d_11	no	vap	follow_vap	follow_vap_ts		11/10/20 0:00	11/19/20 0:00	i_9	l_18	no	no	no	78_3_TS	SRR32036215	SAMN46292098
+SRR32035709	R231_080_1_BAL	481,1	p_80	t_1	baseline	bal	d_14	no	vap	baseline_vap	baseline_vap_bal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_1_BAL	SRR32035709	SAMN46291449
+SRR32035708	R231_080_1_NASAL		p_80	t_1	baseline	nasal	d_14	no	vap	baseline_vap	baseline_vap_nasal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_1_NASAL	SRR32035708	SAMN46291450
+SRR32035707	R231_080_1_TS	93678,2	p_80	t_1	baseline	ts	d_14	no	vap	baseline_vap	baseline_vap_ts		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_1_TS	SRR32035707	SAMN46291451
+SRR32035706	R231_080_2_BAL	151117,0	p_80	t_2	follow	bal	d_14	no	vap	follow_vap	follow_vap_bal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_2_BAL	SRR32035706	SAMN46291452
+SRR32035705	R231_080_2_NASAL		p_80	t_2	follow	nasal	d_14	no	vap	follow_vap	follow_vap_nasal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_2_NASAL	SRR32035705	SAMN46291453
+SRR32035703	R231_080_2_TS	256479,9	p_80	t_2	follow	ts	d_14	no	vap	follow_vap	follow_vap_ts		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_2_TS	SRR32035703	SAMN46291454
+SRR32035702	R231_080_3_BAL	963,9	p_80	t_3	follow	bal	d_14	no	vap	follow_vap	follow_vap_bal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_3_BAL	SRR32035702	SAMN46291455
+SRR32035701	R231_080_3_NASAL		p_80	t_3	follow	nasal	d_14	no	vap	follow_vap	follow_vap_nasal		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_3_NASAL	SRR32035701	SAMN46291456
+SRR32035700	R231_080_3_TS	477963,2	p_80	t_3	follow	ts	d_14	no	vap	follow_vap	follow_vap_ts		11/29/20 0:00	12/6/20 0:00	i_7	l_20	no	no	no	080_3_TS	SRR32035700	SAMN46291457
+SRR32035699	R231_081_1_BAL	522,2	p_81	t_1	baseline	bal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_1_BAL	SRR32035699	SAMN46291458
+SRR32035698	R231_081_1_NASAL		p_81	t_1	baseline	nasal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_1_NASAL	SRR32035698	SAMN46291459
+SRR32035697	R231_081_1_TS	198622,7	p_81	t_1	baseline	ts	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_1_TS	SRR32035697	SAMN46291460
+SRR32035696	R231_081_2_BAL		p_81	t_2	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_2_BAL	SRR32035696	SAMN46291461
+SRR32035695	R231_081_2_NASAL		p_81	t_2	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_2_NASAL	SRR32035695	SAMN46291462
+SRR32035694	R231_081_2_TS	124345,8	p_81	t_2	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_2_TS	SRR32035694	SAMN46291463
+SRR32035692	R231_081_3_BAL	2461,1	p_81	t_3	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_3_BAL	SRR32035692	SAMN46291464
+SRR32035691	R231_081_3_NASAL		p_81	t_3	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_3_NASAL	SRR32035691	SAMN46291465
+SRR32035690	R231_081_3_TS	52065,5	p_81	t_3	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_3_TS	SRR32035690	SAMN46291466
+SRR32035689	R231_081_4_BAL	167835,1	p_81	t_4	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_4_BAL	SRR32035689	SAMN46291467
+SRR32035688	R231_081_4_NASAL		p_81	t_4	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_4_NASAL	SRR32035688	SAMN46291468
+SRR32035687	R231_081_4_TS	4040982,3	p_81	t_4	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		12/1/20 0:00	12/14/20 0:00	i_13	l_38	no	no	no	081_4_TS	SRR32035687	SAMN46291469
+SRR32036176	R231_082_1_BAL	25762,8	p_82	t_1	baseline	bal	d_13	no	vap	baseline_vap	baseline_vap_bal		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_1_BAL	SRR32036176	SAMN46291470
+SRR32036175	R231_082_1_NASAL		p_82	t_1	baseline	nasal	d_13	no	vap	baseline_vap	baseline_vap_nasal		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_1_NASAL	SRR32036175	SAMN46291471
+SRR32036174	R231_082_1_TS	2022765,6	p_82	t_1	baseline	ts	d_13	no	vap	baseline_vap	baseline_vap_ts		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_1_TS	SRR32036174	SAMN46291472
+SRR32036173	R231_082_2_BAL	3361,3	p_82	t_2	follow	bal	d_13	no	vap	follow_vap	follow_vap_bal		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_2_BAL	SRR32036173	SAMN46291473
+SRR32036171	R231_082_2_NASAL		p_82	t_2	follow	nasal	d_13	no	vap	follow_vap	follow_vap_nasal		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_2_NASAL	SRR32036171	SAMN46291474
+SRR32036170	R231_082_2_TS	28635,5	p_82	t_2	follow	ts	d_13	no	vap	follow_vap	follow_vap_ts		12/9/20 0:00	12/21/20 0:00	i_12	l_76	no	no	no	082_2_TS	SRR32036170	SAMN46291475
+SRR32036169	R231_083_1_BAL	2569,6	p_83	t_1	baseline	bal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/10/20 0:00	12/14/20 0:00	i_4	l_16	no	no	no	083_1_BAL	SRR32036169	SAMN46291476
+SRR32036168	R231_083_1_NASAL		p_83	t_1	baseline	nasal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/10/20 0:00	12/14/20 0:00	i_4	l_16	no	no	no	083_1_NASAL	SRR32036168	SAMN46291477
+SRR32036167	R231_083_1_TS	4808,5	p_83	t_1	baseline	ts	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/10/20 0:00	12/14/20 0:00	i_4	l_16	no	no	no	083_1_TS	SRR32036167	SAMN46291478
+SRR32036166	R231_084_1_BAL	131267,8	p_84	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/11/20 0:00	12/14/20 0:00	i_3	l_18	no	no	no	084_1_BAL	SRR32036166	SAMN46291479
+SRR32036165	R231_084_1_NASAL		p_84	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/11/20 0:00	12/14/20 0:00	i_3	l_18	no	no	no	084_1_NASAL	SRR32036165	SAMN46291480
+SRR32036164	R231_084_1_TS	1420836,7	p_84	t_1	baseline	ts	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/11/20 0:00	12/14/20 0:00	i_3	l_18	no	no	no	084_1_TS	SRR32036164	SAMN46291481
+SRR32036163	R231_086_1_BAL	663,0	p_86	t_1	baseline	bal	d_9	yes	vap	baseline_vap	baseline_vap_bal	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_1_BAL	SRR32036163	SAMN46291482
+SRR32036162	R231_086_1_NASAL		p_86	t_1	baseline	nasal	d_9	yes	vap	baseline_vap	baseline_vap_nasal	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_1_NASAL	SRR32036162	SAMN46291483
+SRR32036160	R231_086_1_TS	178463,4	p_86	t_1	baseline	ts	d_9	yes	vap	baseline_vap	baseline_vap_ts	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_1_TS	SRR32036160	SAMN46291484
+SRR32036159	R231_086_2_BAL	35154,7	p_86	t_2	follow	bal	d_9	yes	vap	follow_vap	follow_vap_bal	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_2_BAL	SRR32036159	SAMN46291485
+SRR32036158	R231_086_2_NASAL		p_86	t_2	follow	nasal	d_9	yes	vap	follow_vap	follow_vap_nasal	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_2_NASAL	SRR32036158	SAMN46291486
+SRR32036157	R231_086_2_TS	414557,6	p_86	t_2	follow	ts	d_9	yes	vap	follow_vap	follow_vap_ts	1/27/21 0:00	1/20/21 0:00	1/27/21 0:00	i_7	l_49	no	no	no	086_2_TS	SRR32036157	SAMN46291487
+SRR32036156	R231_087_1_BAL	840669,8	p_87	t_1	baseline	bal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_bal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_1_BAL	SRR32036156	SAMN46291488
+SRR32036155	R231_087_1_NASAL		p_87	t_1	baseline	nasal	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_1_NASAL	SRR32036155	SAMN46291489
+SRR32036154	R231_087_1_TS	1676449,5	p_87	t_1	baseline	ts	d_8	no	no_vap	baseline_no_vap	baseline_no_vap_ts		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_1_TS	SRR32036154	SAMN46291490
+SRR32036153	R231_087_2_BAL	2742719,8	p_87	t_2	follow	bal	d_8	no	no_vap	follow_no_vap	follow_no_vap_bal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_2_BAL	SRR32036153	SAMN46291491
+SRR32036152	R231_087_2_NASAL		p_87	t_2	follow	nasal	d_8	no	no_vap	follow_no_vap	follow_no_vap_nasal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_2_NASAL	SRR32036152	SAMN46291492
+SRR32036151	R231_087_2_TS	2288,9	p_87	t_2	follow	ts	d_8	no	no_vap	follow_no_vap	follow_no_vap_ts		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_2_TS	SRR32036151	SAMN46291493
+SRR32036149	R231_087_3_BAL		p_87	t_3	follow	bal	d_8	no	no_vap	follow_no_vap	follow_no_vap_bal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_3_BAL	SRR32036149	SAMN46291494
+SRR32036148	R231_087_3_NASAL		p_87	t_3	follow	nasal	d_8	no	no_vap	follow_no_vap	follow_no_vap_nasal		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_3_NASAL	SRR32036148	SAMN46291495
+SRR32036147	R231_087_3_TS	10693,6	p_87	t_3	follow	ts	d_8	no	no_vap	follow_no_vap	follow_no_vap_ts		1/29/21 0:00	2/4/21 0:00	i_6	l_34	no	no	no	087_3_TS	SRR32036147	SAMN46291496
+SRR32036146	R231_088_1_BAL	205724,4	p_88	t_1	baseline	bal	d_18	yes	vap	baseline_vap	baseline_vap_bal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_1_BAL	SRR32036146	SAMN46291497
+SRR32036145	R231_088_1_NASAL		p_88	t_1	baseline	nasal	d_18	yes	vap	baseline_vap	baseline_vap_nasal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_1_NASAL	SRR32036145	SAMN46291498
+SRR32036430	R231_088_1_TS	1738535,2	p_88	t_1	baseline	ts	d_18	yes	vap	baseline_vap	baseline_vap_ts	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_1_TS	SRR32036430	SAMN46291499
+SRR32036429	R231_088_2_BAL	5183624,0	p_88	t_2	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_2_BAL	SRR32036429	SAMN46291500
+SRR32036428	R231_088_2_NASAL		p_88	t_2	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_2_NASAL	SRR32036428	SAMN46291501
+SRR32036427	R231_088_2_TS	1463797,4	p_88	t_2	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_2_TS	SRR32036427	SAMN46291502
+SRR32036426	R231_088_3_BAL	9836,6	p_88	t_3	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_3_BAL	SRR32036426	SAMN46291503
+SRR32036424	R231_088_3_NASAL		p_88	t_3	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_3_NASAL	SRR32036424	SAMN46291504
+SRR32036423	R231_088_3_TS	520784,7	p_88	t_3	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_3_TS	SRR32036423	SAMN46291505
+SRR32036422	R231_088_4_BAL	33849,1	p_88	t_4	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_4_BAL	SRR32036422	SAMN46291506
+SRR32036421	R231_088_4_NASAL		p_88	t_4	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_4_NASAL	SRR32036421	SAMN46291507
+SRR32036420	R231_088_4_TS	11827,9	p_88	t_4	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/3/21 0:00	2/11/21 0:00	i_8	l_44	no	no	no	088_4_TS	SRR32036420	SAMN46291508
+SRR32036419	R231_089_1_BAL	192568,2	p_89	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/4/21 0:00	2/5/21 0:00	i_1	l_13	no	no	no	089_1_BAL	SRR32036419	SAMN46291509
+SRR32036418	R231_089_1_NASAL		p_89	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/4/21 0:00	2/5/21 0:00	i_1	l_13	no	no	no	089_1_NASAL	SRR32036418	SAMN46291510
+SRR32036417	R231_089_1_TS	38296,0	p_89	t_1	baseline	ts	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/4/21 0:00	2/5/21 0:00	i_1	l_13	no	no	no	089_1_TS	SRR32036417	SAMN46291511
+SRR32036416	R231_090_1_BAL	7381,0	p_90	t_1	baseline	bal	d_19	yes	vap	baseline_vap	baseline_vap_bal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_1_BAL	SRR32036416	SAMN46291512
+SRR32036415	R231_090_1_NASAL		p_90	t_1	baseline	nasal	d_19	yes	vap	baseline_vap	baseline_vap_nasal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_1_NASAL	SRR32036415	SAMN46291513
+SRR32036413	R231_090_1_TS	1677807,6	p_90	t_1	baseline	ts	d_19	yes	vap	baseline_vap	baseline_vap_ts	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_1_TS	SRR32036413	SAMN46291514
+SRR32036412	R231_090_2_BAL	21531513,0	p_90	t_2	follow	bal	d_19	yes	vap	follow_vap	follow_vap_bal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_2_BAL	SRR32036412	SAMN46291515
+SRR32036411	R231_090_2_NASAL		p_90	t_2	follow	nasal	d_19	yes	vap	follow_vap	follow_vap_nasal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_2_NASAL	SRR32036411	SAMN46291516
+SRR32036410	R231_090_2_TS		p_90	t_2	follow	ts	d_19	yes	vap	follow_vap	follow_vap_ts	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_2_TS	SRR32036410	SAMN46291517
+SRR32036409	R231_090_3_BAL	374567,7	p_90	t_3	follow	bal	d_19	yes	vap	follow_vap	follow_vap_bal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_3_BAL	SRR32036409	SAMN46291518
+SRR32036408	R231_090_3_NASAL		p_90	t_3	follow	nasal	d_19	yes	vap	follow_vap	follow_vap_nasal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_3_NASAL	SRR32036408	SAMN46291519
+SRR32036407	R231_090_4_BAL	1089115,2	p_90	t_4	follow	bal	d_19	yes	vap	follow_vap	follow_vap_bal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_4_BAL	SRR32036407	SAMN46291520
+SRR32036406	R231_090_4_NASAL		p_90	t_4	follow	nasal	d_19	yes	vap	follow_vap	follow_vap_nasal	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_4_NASAL	SRR32036406	SAMN46291521
+SRR32036405	R231_090_4_TS	260233,3	p_90	t_4	follow	ts	d_19	yes	vap	follow_vap	follow_vap_ts	2/9/21 0:00	2/4/21 0:00	2/9/21 0:00	i_5	l_105	no	no	no	090_4_TS	SRR32036405	SAMN46291522
+SRR32036404	R231_091_1_BAL	27469,4	p_91	t_1	baseline	bal	d_13	yes	vap	baseline_vap	baseline_vap_bal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_1_BAL	SRR32036404	SAMN46291523
+SRR32036401	R231_091_1_NASAL		p_91	t_1	baseline	nasal	d_13	yes	vap	baseline_vap	baseline_vap_nasal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_1_NASAL	SRR32036401	SAMN46291524
+SRR32036400	R231_091_1_TS	15674975,3	p_91	t_1	baseline	ts	d_13	yes	vap	baseline_vap	baseline_vap_ts	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_1_TS	SRR32036400	SAMN46291525
+SRR32036399	R231_091_2_BAL	3491018,2	p_91	t_2	follow	bal	d_13	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_2_BAL	SRR32036399	SAMN46291526
+SRR32035942	R231_091_2_NASAL		p_91	t_2	follow	nasal	d_13	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_2_NASAL	SRR32035942	SAMN46291527
+SRR32035941	R231_091_2_TS	76761302,1	p_91	t_2	follow	ts	d_13	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_2_TS	SRR32035941	SAMN46291528
+SRR32035940	R231_091_3_BAL		p_91	t_3	follow	bal	d_13	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_3_BAL	SRR32035940	SAMN46291529
+SRR32035939	R231_091_3_NASAL		p_91	t_3	follow	nasal	d_13	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_3_NASAL	SRR32035939	SAMN46291530
+SRR32035938	R231_091_3_TS	13302307,3	p_91	t_3	follow	ts	d_13	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_3_TS	SRR32035938	SAMN46291531
+SRR32035937	R231_091_4_BAL	41583,3	p_91	t_4	follow	bal	d_13	yes	vap	follow_vap	follow_vap_bal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_4_BAL	SRR32035937	SAMN46291532
+SRR32035936	R231_091_4_NASAL		p_91	t_4	follow	nasal	d_13	yes	vap	follow_vap	follow_vap_nasal	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_4_NASAL	SRR32035936	SAMN46291533
+SRR32035934	R231_091_4_TS	79544,0	p_91	t_4	follow	ts	d_13	yes	vap	follow_vap	follow_vap_ts	2/12/21 0:00	2/4/21 0:00	2/12/21 0:00	i_8	l_13	yes	yes	yes	091_4_TS	SRR32035934	SAMN46291534
+SRR32035933	R231_093_1_BAL	18652,9	p_93	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_1_BAL	SRR32035933	SAMN46291535
+SRR32035932	R231_093_1_NASAL		p_93	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_1_NASAL	SRR32035932	SAMN46291536
+SRR32035931	R231_093_1_TS	668554,2	p_93	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_1_TS	SRR32035931	SAMN46291537
+SRR32035930	R231_093_2_BAL	1123,2	p_93	t_2	follow	bal	d_6	no	no_vap	follow_no_vap	follow_no_vap_bal		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_2_BAL	SRR32035930	SAMN46291538
+SRR32035929	R231_093_2_NASAL		p_93	t_2	follow	nasal	d_6	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_2_NASAL	SRR32035929	SAMN46291539
+SRR32035928	R231_093_2_TS	1245,7	p_93	t_2	follow	ts	d_6	no	no_vap	follow_no_vap	follow_no_vap_ts		2/13/21 0:00	2/18/21 0:00	i_5	l_18	no	no	no	093_2_TS	SRR32035928	SAMN46291540
+SRR32035927	R572_094_1_BAL	22322,8	p_94	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/22/21 0:00	2/25/21 0:00	i_3	l_3	no	no	no	094_1_BAL	SRR32035927	SAMN46291541
+SRR32035926	R572_094_1_NASAL		p_94	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/22/21 0:00	2/25/21 0:00	i_3	l_3	no	no	no	094_1_NASAL	SRR32035926	SAMN46291542
+SRR32035925	R572_094_1_TS	46422,4	p_94	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/22/21 0:00	2/25/21 0:00	i_3	l_3	no	no	no	094_1_TS	SRR32035925	SAMN46291543
+SRR32035923	R572_095_1_BAL	83891,3	p_95	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_1_BAL	SRR32035923	SAMN46291544
+SRR32035922	R572_095_1_NASAL		p_95	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_1_NASAL	SRR32035922	SAMN46291545
+SRR32035921	R572_095_1_TS	6971,9	p_95	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_1_TS	SRR32035921	SAMN46291546
+SRR32035920	R572_095_2_BAL	191,8	p_95	t_2	follow	bal	d_3	no	no_vap	follow_no_vap	follow_no_vap_bal		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_2_BAL	SRR32035920	SAMN46291547
+SRR32035919	R572_095_2_NASAL		p_95	t_2	follow	nasal	d_3	no	no_vap	follow_no_vap	follow_no_vap_nasal		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_2_NASAL	SRR32035919	SAMN46291548
+SRR32035918	R572_095_2_TS		p_95	t_2	follow	ts	d_3	no	no_vap	follow_no_vap	follow_no_vap_ts		2/23/21 0:00	2/26/21 0:00	i_3	l_3	yes	yes	yes	095_2_TS	SRR32035918	SAMN46291549
+SRR32035917	R572_096_1_BAL	388,8	p_96	t_1	baseline	bal	d_15	yes	no_vap	baseline_no_vap	baseline_no_vap_bal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_1_BAL	SRR32035917	SAMN46291550
+SRR32035916	R572_096_1_NASAL		p_96	t_1	baseline	nasal	d_15	yes	no_vap	baseline_no_vap	baseline_no_vap_nasal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_1_NASAL	SRR32035916	SAMN46291551
+SRR32035915	R572_096_1_TS	2285013,3	p_96	t_1	baseline	ts	d_15	yes	no_vap	baseline_no_vap	baseline_no_vap_ts	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_1_TS	SRR32035915	SAMN46291552
+SRR32035914	R572_096_3_BAL	5929,5	p_96	t_3	follow	bal	d_15	yes	no_vap	follow_no_vap	follow_no_vap_bal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_3_BAL	SRR32035914	SAMN46291553
+SRR32035912	R572_096_3_NASAL		p_96	t_3	follow	nasal	d_15	yes	no_vap	follow_no_vap	follow_no_vap_nasal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_3_NASAL	SRR32035912	SAMN46291554
+SRR32035911	R572_096_3_TS	182828,5	p_96	t_3	follow	ts	d_15	yes	no_vap	follow_no_vap	follow_no_vap_ts	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_3_TS	SRR32035911	SAMN46291555
+SRR32035686	R572_096_4_BAL	37170,9	p_96	t_4	follow	bal	d_15	yes	no_vap	follow_no_vap	follow_no_vap_bal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_4_BAL	SRR32035686	SAMN46291556
+SRR32035685	R572_096_4_NASAL		p_96	t_4	follow	nasal	d_15	yes	no_vap	follow_no_vap	follow_no_vap_nasal	3/10/20 0:00	2/28/21 0:00	3/10/21 0:00	i_10	l_43	no	no	no	096_4_NASAL	SRR32035685	SAMN46291557
+SRR32035684	R572_097_1_BAL	196,6	p_97	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/27/21 0:00	3/1/21 0:00	i_2	l_20	no	no	no	097_1_BAL	SRR32035684	SAMN46291558
+SRR32035683	R572_097_1_NASAL		p_97	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/27/21 0:00	3/1/21 0:00	i_2	l_20	no	no	no	097_1_NASAL	SRR32035683	SAMN46291559
+SRR32035682	R572_097_1_TS	3133690,1	p_97	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/27/21 0:00	3/1/21 0:00	i_2	l_20	no	no	no	097_1_TS	SRR32035682	SAMN46291560
+SRR32035681	R572_099_1_BAL	77298,4	p_99	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/1/21 0:00	3/4/21 0:00	i_3	l_3	yes	yes	yes	099_1_BAL	SRR32035681	SAMN46291561
+SRR32035680	R572_099_1_NASAL		p_99	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/1/21 0:00	3/4/21 0:00	i_3	l_3	yes	yes	yes	099_1_NASAL	SRR32035680	SAMN46291562
+SRR32035679	R572_099_1_TS	1338754,9	p_99	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/1/21 0:00	3/4/21 0:00	i_3	l_3	yes	yes	yes	099_1_TS	SRR32035679	SAMN46291563
+SRR32035677	R572_100_1_BAL		p_100	t_1	baseline	bal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_1_BAL	SRR32035677	SAMN46291564
+SRR32035676	R572_100_1_NASAL		p_100	t_1	baseline	nasal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_1_NASAL	SRR32035676	SAMN46291565
+SRR32035675	R572_100_1_TS	2101,0	p_100	t_1	baseline	ts	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_1_TS	SRR32035675	SAMN46291566
+SRR32035674	R572_100_2_BAL	3585,0	p_100	t_2	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_2_BAL	SRR32035674	SAMN46291567
+SRR32035673	R572_100_2_NASAL		p_100	t_2	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_2_NASAL	SRR32035673	SAMN46291568
+SRR32035672	R572_100_2_TS	552,4	p_100	t_2	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_2_TS	SRR32035672	SAMN46291569
+SRR32035671	R572_100_3_BAL	425854,8	p_100	t_3	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_3_BAL	SRR32035671	SAMN46291570
+SRR32035670	R572_100_3_NASAL		p_100	t_3	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_3_NASAL	SRR32035670	SAMN46291571
+SRR32035669	R572_100_3_TS	657,1	p_100	t_3	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_3_TS	SRR32035669	SAMN46291572
+SRR32035668	R572_100_4_BAL	36070,3	p_100	t_4	follow	bal	d_13	no	no_vap	follow_no_vap	follow_no_vap_bal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_4_BAL	SRR32035668	SAMN46291573
+SRR32035666	R572_100_4_NASAL		p_100	t_4	follow	nasal	d_13	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_4_NASAL	SRR32035666	SAMN46291574
+SRR32035665	R572_100_4_TS	1166,7	p_100	t_4	follow	ts	d_13	no	no_vap	follow_no_vap	follow_no_vap_ts		3/6/21 0:00	3/17/21 0:00	i_11	l_17	no	no	no	100_4_TS	SRR32035665	SAMN46291575
+SRR32035664	R572_101_1_BAL	8991832,7	p_101	t_1	baseline	bal	d_49	yes	vap	baseline_vap	baseline_vap_bal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_1_BAL	SRR32035664	SAMN46291576
+SRR32035663	R572_101_1_NASAL		p_101	t_1	baseline	nasal	d_49	yes	vap	baseline_vap	baseline_vap_nasal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_1_NASAL	SRR32035663	SAMN46291577
+SRR32035662	R572_101_1_TS	1482,4	p_101	t_1	baseline	ts	d_49	yes	vap	baseline_vap	baseline_vap_ts	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_1_TS	SRR32035662	SAMN46291578
+SRR32035661	R572_101_2_BAL	69607714,8	p_101	t_2	follow	bal	d_49	yes	vap	follow_vap	follow_vap_bal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_2_BAL	SRR32035661	SAMN46291579
+SRR32035660	R572_101_2_NASAL		p_101	t_2	follow	nasal	d_49	yes	vap	follow_vap	follow_vap_nasal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_2_NASAL	SRR32035660	SAMN46291580
+SRR32035659	R572_101_2_TS	2808,1	p_101	t_2	follow	ts	d_49	yes	vap	follow_vap	follow_vap_ts	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_2_TS	SRR32035659	SAMN46291581
+SRR32035658	R572_101_3_BAL	82635,2	p_101	t_3	follow	bal	d_49	yes	vap	follow_vap	follow_vap_bal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_3_BAL	SRR32035658	SAMN46291582
+SRR32035657	R572_101_3_NASAL		p_101	t_3	follow	nasal	d_49	yes	vap	follow_vap	follow_vap_nasal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_3_NASAL	SRR32035657	SAMN46291583
+SRR32035655	R572_101_3_TS	14435,2	p_101	t_3	follow	ts	d_49	yes	vap	follow_vap	follow_vap_ts	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_3_TS	SRR32035655	SAMN46291584
+SRR32036398	R572_101_4_BAL	61358,2	p_101	t_4	follow	bal	d_49	yes	vap	follow_vap	follow_vap_bal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_4_BAL	SRR32036398	SAMN46291585
+SRR32036397	R572_101_4_NASAL		p_101	t_4	follow	nasal	d_49	yes	vap	follow_vap	follow_vap_nasal	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_4_NASAL	SRR32036397	SAMN46291586
+SRR32036396	R572_101_4_TS	761416,7	p_101	t_4	follow	ts	d_49	yes	vap	follow_vap	follow_vap_ts	3/24/21 0:00	3/6/21 0:00	3/24/21 0:00	i_18	l_50	no	no	no	101_4_TS	SRR32036396	SAMN46291587
+SRR32036395	R572_104_1_BAL	1147630,1	p_104	t_1	baseline	bal	d_11	no	vap	baseline_vap	baseline_vap_bal		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_1_BAL	SRR32036395	SAMN46291588
+SRR32036394	R572_104_1_NASAL		p_104	t_1	baseline	nasal	d_11	no	vap	baseline_vap	baseline_vap_nasal		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_1_NASAL	SRR32036394	SAMN46291589
+SRR32036393	R572_104_1_TS	198018,6	p_104	t_1	baseline	ts	d_11	no	vap	baseline_vap	baseline_vap_ts		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_1_TS	SRR32036393	SAMN46291590
+SRR32036392	R572_104_2_BAL		p_104	t_2	follow	bal	d_11	no	vap	follow_vap	follow_vap_bal		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_2_BAL	SRR32036392	SAMN46291591
+SRR32036391	R572_104_2_NASAL		p_104	t_2	follow	nasal	d_11	no	vap	follow_vap	follow_vap_nasal		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_2_NASAL	SRR32036391	SAMN46291592
+SRR32036390	R572_104_2_TS	2022338,5	p_104	t_2	follow	ts	d_11	no	vap	follow_vap	follow_vap_ts		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_2_TS	SRR32036390	SAMN46291593
+SRR32036388	R572_104_3_BAL	113909,8	p_104	t_3	follow	bal	d_11	no	vap	follow_vap	follow_vap_bal		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_3_BAL	SRR32036388	SAMN46291594
+SRR32036387	R572_104_3_TS	4496,5	p_104	t_3	follow	ts	d_11	no	vap	follow_vap	follow_vap_ts		3/18/21 0:00	3/25/21 0:00	i_7	l_12	no	no	no	104_3_TS	SRR32036387	SAMN46291595
+SRR32036386	R572_106_1_BAL	899506,9	p_106	t_1	baseline	bal	d_18	yes	vap	baseline_vap	baseline_vap_bal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_1_BAL	SRR32036386	SAMN46291596
+SRR32036385	R572_106_1_NASAL		p_106	t_1	baseline	nasal	d_18	yes	vap	baseline_vap	baseline_vap_nasal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_1_NASAL	SRR32036385	SAMN46291597
+SRR32036384	R572_106_1_TS	4521463,2	p_106	t_1	baseline	ts	d_18	yes	vap	baseline_vap	baseline_vap_ts	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_1_TS	SRR32036384	SAMN46291598
+SRR32036383	R572_106_2_BAL	31549,8	p_106	t_2	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_2_BAL	SRR32036383	SAMN46291599
+SRR32036382	R572_106_2_NASAL		p_106	t_2	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_2_NASAL	SRR32036382	SAMN46291600
+SRR32036381	R572_106_2_TS	911485,3	p_106	t_2	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_2_TS	SRR32036381	SAMN46291601
+SRR32036380	R572_106_3_BAL	172345,8	p_106	t_3	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_3_BAL	SRR32036380	SAMN46291602
+SRR32036379	R572_106_3_NASAL		p_106	t_3	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_3_NASAL	SRR32036379	SAMN46291603
+SRR32036377	R572_106_3_TS	28480,2	p_106	t_3	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_3_TS	SRR32036377	SAMN46291604
+SRR32036376	R572_106_4_BAL	1588130,5	p_106	t_4	follow	bal	d_18	yes	vap	follow_vap	follow_vap_bal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_4_BAL	SRR32036376	SAMN46291605
+SRR32036375	R572_106_4_NASAL		p_106	t_4	follow	nasal	d_18	yes	vap	follow_vap	follow_vap_nasal	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_4_NASAL	SRR32036375	SAMN46291606
+SRR32036374	R572_106_4_TS	1042021,0	p_106	t_4	follow	ts	d_18	yes	vap	follow_vap	follow_vap_ts	4/7/21 0:00	3/29/21 0:00	4/7/21 0:00	i_9	l_32	no	no	no	106_4_TS	SRR32036374	SAMN46291607
+SRR32036373	R572_107_1_BAL	4352,4	p_107	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/27/21 0:00	3/29/21 0:00	i_2	l_2	yes	yes	yes	107_1_BAL	SRR32036373	SAMN46291608
+SRR32036372	R572_107_1_NASAL		p_107	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/27/21 0:00	3/29/21 0:00	i_2	l_2	yes	yes	yes	107_1_NASAL	SRR32036372	SAMN46291609
+SRR32036371	R572_107_1_TS	1951632,3	p_107	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/27/21 0:00	3/29/21 0:00	i_2	l_2	yes	yes	yes	107_1_TS	SRR32036371	SAMN46291610
+SRR32036370	R572_108_1_BAL	681,7	p_108	t_1	baseline	bal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_1_BAL	SRR32036370	SAMN46291611
+SRR32036369	R572_108_1_NASAL		p_108	t_1	baseline	nasal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_1_NASAL	SRR32036369	SAMN46291612
+SRR32036368	R572_108_1_TS	76826,6	p_108	t_1	baseline	ts	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_1_TS	SRR32036368	SAMN46291613
+SRR32035910	R572_108_2_BAL	293891,8	p_108	t_2	follow	bal	d_14	no	no_vap	follow_no_vap	follow_no_vap_bal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_2_BAL	SRR32035910	SAMN46291614
+SRR32035909	R572_108_2_NASAL		p_108	t_2	follow	nasal	d_14	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_2_NASAL	SRR32035909	SAMN46291615
+SRR32035908	R572_108_2_TS	1488,1	p_108	t_2	follow	ts	d_14	no	no_vap	follow_no_vap	follow_no_vap_ts		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_2_TS	SRR32035908	SAMN46291616
+SRR32035907	R572_108_3_BAL	376512,9	p_108	t_3	follow	bal	d_14	no	no_vap	follow_no_vap	follow_no_vap_bal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_3_BAL	SRR32035907	SAMN46291617
+SRR32035906	R572_108_3_NASAL		p_108	t_3	follow	nasal	d_14	no	no_vap	follow_no_vap	follow_no_vap_nasal		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_3_NASAL	SRR32035906	SAMN46291618
+SRR32035905	R572_108_3_TS	164063,3	p_108	t_3	follow	ts	d_14	no	no_vap	follow_no_vap	follow_no_vap_ts		3/30/21 0:00	4/5/21 0:00	i_6	l_22	yes	yes	yes	108_3_TS	SRR32035905	SAMN46291619
+SRR32035904	R572_122_1_BAL	0,0	p_122	t_1	baseline	bal	d_12	yes	vap	baseline_vap	baseline_vap_bal	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_1_BAL	SRR32035904	SAMN46291620
+SRR32035903	R572_122_1_TS	5524,4	p_122	t_1	baseline	ts	d_12	yes	vap	baseline_vap	baseline_vap_ts	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_1_TS	SRR32035903	SAMN46291621
+SRR32035902	R572_122_2_BAL	1023814,5	p_122	t_2	follow	bal	d_12	yes	vap	follow_vap	follow_vap_bal	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_2_BAL	SRR32035902	SAMN46291622
+SRR32035901	R572_122_2_TS		p_122	t_2	follow	ts	d_12	yes	vap	follow_vap	follow_vap_ts	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_2_TS	SRR32035901	SAMN46291623
+SRR32035898	R572_122_3_BAL	482340,2	p_122	t_3	follow	bal	d_12	yes	vap	follow_vap	follow_vap_bal	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_3_BAL	SRR32035898	SAMN46291624
+SRR32035897	R572_122_3_TS	389098,6	p_122	t_3	follow	ts	d_12	yes	vap	follow_vap	follow_vap_ts	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_3_TS	SRR32035897	SAMN46291625
+SRR32035896	R572_122_4_TS	11174389,6	p_122	t_4	follow	ts	d_12	yes	vap	follow_vap	follow_vap_ts	4/14/21 0:00	4/4/21 0:00	4/14/21 0:00	i_10	l_12	no	no	no	122_4_TS	SRR32035896	SAMN46291626
+SRR32035895	R572_124_1_BAL	33322,2	p_124	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/6/21 0:00	4/8/21 0:00	i_2	l_3	no	no	no	124_1_BAL	SRR32035895	SAMN46291627
+SRR32035894	R572_124_1_NASAL		p_124	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/6/21 0:00	4/8/21 0:00	i_2	l_3	no	no	no	124_1_NASAL	SRR32035894	SAMN46291628
+SRR32035893	R572_124_1_TS	69018,8	p_124	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/6/21 0:00	4/8/21 0:00	i_2	l_3	no	no	no	124_1_TS	SRR32035893	SAMN46291629
+SRR32035892	R572_126_1_BAL	9700,5	p_126	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_1_BAL	SRR32035892	SAMN46291630
+SRR32035891	R572_126_1_NASAL		p_126	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_1_NASAL	SRR32035891	SAMN46291631
+SRR32035890	R572_126_1_TS	6169875,0	p_126	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_1_TS	SRR32035890	SAMN46291632
+SRR32035889	R572_126_2_BAL	1437093,9	p_126	t_2	follow	bal	d_5	no	no_vap	follow_no_vap	follow_no_vap_bal		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_2_BAL	SRR32035889	SAMN46291633
+SRR32035887	R572_126_2_NASAL		p_126	t_2	follow	nasal	d_5	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_2_NASAL	SRR32035887	SAMN46291634
+SRR32035886	R572_126_2_TS	300768,8	p_126	t_2	follow	ts	d_5	no	no_vap	follow_no_vap	follow_no_vap_ts		4/16/21 0:00	4/21/21 0:00	i_5	l_15	no	no	no	126_2_TS	SRR32035886	SAMN46291635
+SRR32035885	R572_127_1_BAL	384223,8	p_127	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/17/21 0:00	4/20/21 0:00	i_3	l_17	no	no	no	127_1_BAL	SRR32035885	SAMN46291636
+SRR32035884	R572_127_1_NASAL		p_127	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/17/21 0:00	4/20/21 0:00	i_3	l_17	no	no	no	127_1_NASAL	SRR32035884	SAMN46291637
+SRR32035883	R572_127_1_TS	15390,0	p_127	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/17/21 0:00	4/20/21 0:00	i_3	l_17	no	no	no	127_1_TS	SRR32035883	SAMN46291638
+SRR32035882	R572_129_1_BAL		p_129	t_1	baseline	bal	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_bal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_1_BAL	SRR32035882	SAMN46291639
+SRR32035881	R572_129_1_NASAL		p_129	t_1	baseline	nasal	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_nasal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_1_NASAL	SRR32035881	SAMN46291640
+SRR32035880	R572_129_1_TS	1120,8	p_129	t_1	baseline	ts	d_13	yes	no_vap	baseline_no_vap	baseline_no_vap_ts	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_1_TS	SRR32035880	SAMN46291641
+SRR32035879	R572_129_2_BAL	10573,1	p_129	t_2	follow	bal	d_13	yes	no_vap	follow_no_vap	follow_no_vap_bal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_2_BAL	SRR32035879	SAMN46291642
+SRR32036144	R572_129_2_NASAL		p_129	t_2	follow	nasal	d_13	yes	no_vap	follow_no_vap	follow_no_vap_nasal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_2_NASAL	SRR32036144	SAMN46291643
+SRR32036142	R572_129_2_TS	387640,8	p_129	t_2	follow	ts	d_13	yes	no_vap	follow_no_vap	follow_no_vap_ts	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_2_TS	SRR32036142	SAMN46291644
+SRR32036141	R572_129_3_BAL	17711,4	p_129	t_3	follow	bal	d_13	yes	no_vap	follow_no_vap	follow_no_vap_bal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_3_BAL	SRR32036141	SAMN46291645
+SRR32036140	R572_129_3_NASAL		p_129	t_3	follow	nasal	d_13	yes	no_vap	follow_no_vap	follow_no_vap_nasal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_3_NASAL	SRR32036140	SAMN46291646
+SRR32036139	R572_129_3_TS	44946385,4	p_129	t_3	follow	ts	d_13	yes	no_vap	follow_no_vap	follow_no_vap_ts	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_3_TS	SRR32036139	SAMN46291647
+SRR32036138	R572_129_4_NASAL		p_129	t_4	follow	nasal	d_13	yes	no_vap	follow_no_vap	follow_no_vap_nasal	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_4_NASAL	SRR32036138	SAMN46291648
+SRR32036137	R572_129_4_TS	214533,3	p_129	t_4	follow	ts	d_13	yes	no_vap	follow_no_vap	follow_no_vap_ts	5/4/21 0:00	4/23/21 0:00	5/4/21 0:00	i_11	l_94	no	no	no	129_4_TS	SRR32036137	SAMN46291649
+SRR32036136	R572_169_1_BAL	11786,2	p_169	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/14/21 0:00	5/19/21 0:00	i_5	l_21	no	no	no	169_1_BAL	SRR32036136	SAMN46291650
+SRR32036135	R572_169_1_NASAL		p_169	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/14/21 0:00	5/19/21 0:00	i_5	l_21	no	no	no	169_1_NASAL	SRR32036135	SAMN46291651
+SRR32036134	R572_169_1_TS	9528488,5	p_169	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/14/21 0:00	5/19/21 0:00	i_5	l_21	no	no	no	169_1_TS	SRR32036134	SAMN46291652
+SRR32036133	R572_170_1_BAL	197270,8	p_170	t_1	baseline	bal	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/18/21 0:00	5/19/21 0:00	i_1	l_1	yes	yes	yes	170_1_BAL	SRR32036133	SAMN46291653
+SRR32036131	R572_170_1_NASAL		p_170	t_1	baseline	nasal	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/18/21 0:00	5/19/21 0:00	i_1	l_1	yes	yes	yes	170_1_NASAL	SRR32036131	SAMN46291654
+SRR32036130	R572_170_1_TS	40038636,1	p_170	t_1	baseline	ts	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/18/21 0:00	5/19/21 0:00	i_1	l_1	yes	yes	yes	170_1_TS	SRR32036130	SAMN46291655
+SRR32036129	R572_174_1_BAL	3430543,8	p_174	t_1	baseline	bal	d_7	no	vap	baseline_vap	baseline_vap_bal		5/25/21 0:00	6/1/21 0:00	i_7	l_7	yes	yes	yes	174_1_BAL	SRR32036129	SAMN46291656
+SRR32036128	R572_174_1_NASAL		p_174	t_1	baseline	nasal	d_7	no	vap	baseline_vap	baseline_vap_nasal		5/25/21 0:00	6/1/21 0:00	i_7	l_7	yes	yes	yes	174_1_NASAL	SRR32036128	SAMN46291657
+SRR32036127	R572_174_1_TS	7502407,6	p_174	t_1	baseline	ts	d_7	no	vap	baseline_vap	baseline_vap_ts		5/25/21 0:00	6/1/21 0:00	i_7	l_7	yes	yes	yes	174_1_TS	SRR32036127	SAMN46291658
+SRR32036126	R572_175_1_BAL	98325,6	p_175	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/6/21 0:00	6/9/21 0:00	i_3	l_3	yes	yes	yes	175_1_BAL	SRR32036126	SAMN46291659
+SRR32036125	R572_175_1_NASAL		p_175	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/6/21 0:00	6/9/21 0:00	i_3	l_3	yes	yes	yes	175_1_NASAL	SRR32036125	SAMN46291660
+SRR32036124	R572_175_1_TS	655215,0	p_175	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/6/21 0:00	6/9/21 0:00	i_3	l_3	yes	yes	yes	175_1_TS	SRR32036124	SAMN46291661
+SRR32036123	R572_190_1_BAL	112347500,0	p_190	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/1/21 0:00	7/3/21 0:00	i_2	l_2	yes	yes	yes	190_1_BAL	SRR32036123	SAMN46291662
+SRR32036122	R572_190_1_NASAL		p_190	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		7/1/21 0:00	7/3/21 0:00	i_2	l_2	yes	yes	yes	190_1_NASAL	SRR32036122	SAMN46291663
+SRR32036120	R572_190_1_TS	552439,2	p_190	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/1/21 0:00	7/3/21 0:00	i_2	l_2	yes	yes	yes	190_1_TS	SRR32036120	SAMN46291664
+SRR32036119	R572_191_1_BAL	9694823,4	p_191	t_1	baseline	bal	d_2	no	vap	baseline_vap	baseline_vap_bal		7/2/21 0:00	7/5/21 0:00	i_3	l_3	yes	yes	yes	191_1_BAL	SRR32036119	SAMN46291665
+SRR32036118	R572_191_1_NASAL		p_191	t_1	baseline	nasal	d_2	no	vap	baseline_vap	baseline_vap_nasal		7/2/21 0:00	7/5/21 0:00	i_3	l_3	yes	yes	yes	191_1_NASAL	SRR32036118	SAMN46291666
+SRR32036117	R572_191_1_TS	883844,7	p_191	t_1	baseline	ts	d_2	no	vap	baseline_vap	baseline_vap_ts		7/2/21 0:00	7/5/21 0:00	i_3	l_3	yes	yes	yes	191_1_TS	SRR32036117	SAMN46291667
+SRR32036116	R572_193_1_BAL	34,9	p_193	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_1_BAL	SRR32036116	SAMN46291668
+SRR32036115	R572_193_1_NASAL		p_193	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_1_NASAL	SRR32036115	SAMN46291669
+SRR32036114	R572_193_1_TS	848496,1	p_193	t_1	baseline	ts	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_1_TS	SRR32036114	SAMN46291670
+SRR32036113	R572_193_2_BAL	43031,0	p_193	t_2	follow	bal	d_7	no	no_vap	follow_no_vap	follow_no_vap_bal		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_2_BAL	SRR32036113	SAMN46291671
+SRR32036366	R572_193_2_NASAL		p_193	t_2	follow	nasal	d_7	no	no_vap	follow_no_vap	follow_no_vap_nasal		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_2_NASAL	SRR32036366	SAMN46291672
+SRR32036365	R572_193_2_TS	737932,2	p_193	t_2	follow	ts	d_7	no	no_vap	follow_no_vap	follow_no_vap_ts		7/8/21 0:00	7/13/21 0:00	i_5	l_11	no	no	no	193_2_TS	SRR32036365	SAMN46291673
+SRR32036363	R572_194_1_BAL	1531617,8	p_194	t_1	baseline	bal	d_9	no	vap	baseline_vap	baseline_vap_bal		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_1_BAL	SRR32036363	SAMN46291674
+SRR32036362	R572_194_1_TS	17622,8	p_194	t_1	baseline	ts	d_9	no	vap	baseline_vap	baseline_vap_ts		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_1_TS	SRR32036362	SAMN46291675
+SRR32036361	R572_194_2_BAL	207265,2	p_194	t_2	follow	bal	d_9	no	vap	follow_vap	follow_vap_bal		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_2_BAL	SRR32036361	SAMN46291676
+SRR32036360	R572_194_2_TS	3215071,9	p_194	t_2	follow	ts	d_9	no	vap	follow_vap	follow_vap_ts		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_2_TS	SRR32036360	SAMN46291677
+SRR32036359	R572_194_3_BAL		p_194	t_3	follow	bal	d_9	no	vap	follow_vap	follow_vap_bal		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_3_BAL	SRR32036359	SAMN46291678
+SRR32036358	R572_194_3_TS	643816,3	p_194	t_3	follow	ts	d_9	no	vap	follow_vap	follow_vap_ts		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_3_TS	SRR32036358	SAMN46291679
+SRR32036357	R572_194_4_BAL	9914,9	p_194	t_4	follow	bal	d_9	no	vap	follow_vap	follow_vap_bal		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_4_BAL	SRR32036357	SAMN46291680
+SRR32036356	R572_194_4_TS	112213,5	p_194	t_4	follow	ts	d_9	no	vap	follow_vap	follow_vap_ts		7/10/21 0:00	7/20/21 0:00	i_10	l_10	yes	yes	yes	194_4_TS	SRR32036356	SAMN46291681
+SRR32036355	R572_195_1_BAL	442776,3	p_195	t_1	baseline	bal	d_31	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/13/21 0:00	7/18/21 0:00	i_5	l_39	no	no	no	195_1_BAL	SRR32036355	SAMN46291682
+SRR32036354	R572_195_1_TS	4346,3	p_195	t_1	baseline	ts	d_31	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/13/21 0:00	7/18/21 0:00	i_5	l_39	no	no	no	195_1_TS	SRR32036354	SAMN46291683
+SRR32036352	R572_195_2_BAL	439,9	p_195	t_2	follow	bal	d_31	no	no_vap	follow_no_vap	follow_no_vap_bal		7/13/21 0:00	7/18/21 0:00	i_5	l_39	no	no	no	195_2_BAL	SRR32036352	SAMN46291684
+SRR32036351	R572_195_2_TS	2374031,3	p_195	t_2	follow	ts	d_31	no	no_vap	follow_no_vap	follow_no_vap_ts		7/13/21 0:00	7/18/21 0:00	i_5	l_39	no	no	no	195_2_TS	SRR32036351	SAMN46291685
+SRR32036350	R572_196_1_BAL		p_196	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/13/21 0:00	7/17/21 0:00	i_4	l_7	no	no	no	196_1_BAL	SRR32036350	SAMN46291686
+SRR32036349	R572_196_1_NASAL		p_196	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		7/13/21 0:00	7/17/21 0:00	i_4	l_7	no	no	no	196_1_NASAL	SRR32036349	SAMN46291687
+SRR32036348	R572_196_1_TS	64044,8	p_196	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/13/21 0:00	7/17/21 0:00	i_4	l_7	no	no	no	196_1_TS	SRR32036348	SAMN46291688
+SRR32036347	R572_197_1_BAL	8628165,4	p_197	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/21/21 0:00	7/22/21 0:00	i_1	l_2	yes	yes	yes	197_1_BAL	SRR32036347	SAMN46291689
+SRR32036346	R572_197_1_NASAL		p_197	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		7/21/21 0:00	7/22/21 0:00	i_1	l_2	yes	yes	yes	197_1_NASAL	SRR32036346	SAMN46291690
+SRR32036345	R572_197_1_TS	138222,7	p_197	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/21/21 0:00	7/22/21 0:00	i_1	l_2	yes	yes	yes	197_1_TS	SRR32036345	SAMN46291691
+SRR32036344	R572_198_1_BAL	29492,2	p_198	t_1	baseline	bal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_bal		7/27/21 0:00	7/29/21 0:00	i_2	l_2	no	no	no	198_1_BAL	SRR32036344	SAMN46291692
+SRR32036343	R572_198_1_NASAL		p_198	t_1	baseline	nasal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		7/27/21 0:00	7/29/21 0:00	i_2	l_2	no	no	no	198_1_NASAL	SRR32036343	SAMN46291693
+SRR32036341	R572_198_1_TS	449172,9	p_198	t_1	baseline	ts	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_ts		7/27/21 0:00	7/29/21 0:00	i_2	l_2	no	no	no	198_1_TS	SRR32036341	SAMN46291694
+SRR32036340	R572_199_1_BAL	3901,4	p_199	t_1	baseline	bal	d_17	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/1/21 0:00	8/4/21 0:00	i_3	l_29	no	no	no	199_1_BAL	SRR32036340	SAMN46291695
+SRR32036339	R572_199_1_NASAL		p_199	t_1	baseline	nasal	d_17	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/1/21 0:00	8/4/21 0:00	i_3	l_29	no	no	no	199_1_NASAL	SRR32036339	SAMN46291696
+SRR32036338	R572_199_1_TS	646802,0	p_199	t_1	baseline	ts	d_17	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/1/21 0:00	8/4/21 0:00	i_3	l_29	no	no	no	199_1_TS	SRR32036338	SAMN46291697
+SRR32036337	R572_200_1_BAL	5137,5	p_200	t_1	baseline	bal	d_22	no	vap	baseline_vap	baseline_vap_bal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_1_BAL	SRR32036337	SAMN46291698
+SRR32036336	R572_200_1_NASAL		p_200	t_1	baseline	nasal	d_22	no	vap	baseline_vap	baseline_vap_nasal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_1_NASAL	SRR32036336	SAMN46291699
+SRR32036335	R572_200_1_TS	21538481,8	p_200	t_1	baseline	ts	d_22	no	vap	baseline_vap	baseline_vap_ts		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_1_TS	SRR32036335	SAMN46291700
+SRR32035878	R572_200_2_BAL	23112,3	p_200	t_2	follow	bal	d_22	no	vap	follow_vap	follow_vap_bal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_2_BAL	SRR32035878	SAMN46291701
+SRR32035877	R572_200_2_NASAL		p_200	t_2	follow	nasal	d_22	no	vap	follow_vap	follow_vap_nasal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_2_NASAL	SRR32035877	SAMN46291702
+SRR32035876	R572_200_2_TS	415,6	p_200	t_2	follow	ts	d_22	no	vap	follow_vap	follow_vap_ts		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_2_TS	SRR32035876	SAMN46291703
+SRR32035874	R572_200_3_BAL	5489,5	p_200	t_3	follow	bal	d_22	no	vap	follow_vap	follow_vap_bal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_3_BAL	SRR32035874	SAMN46291704
+SRR32035873	R572_200_3_NASAL		p_200	t_3	follow	nasal	d_22	no	vap	follow_vap	follow_vap_nasal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_3_NASAL	SRR32035873	SAMN46291705
+SRR32035872	R572_200_3_TS	41994,2	p_200	t_3	follow	ts	d_22	no	vap	follow_vap	follow_vap_ts		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_3_TS	SRR32035872	SAMN46291706
+SRR32035871	R572_200_4_BAL	8199,8	p_200	t_4	follow	bal	d_22	no	vap	follow_vap	follow_vap_bal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_4_BAL	SRR32035871	SAMN46291707
+SRR32035870	R572_200_4_NASAL		p_200	t_4	follow	nasal	d_22	no	vap	follow_vap	follow_vap_nasal		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_4_NASAL	SRR32035870	SAMN46291708
+SRR32035869	R572_200_4_TS	798411,5	p_200	t_4	follow	ts	d_22	no	vap	follow_vap	follow_vap_ts		8/2/21 0:00	8/16/21 0:00	i_14	l_29	no	no	no	200_4_TS	SRR32035869	SAMN46291709
+SRR32035868	R572_201_1_BAL	157,0	p_201	t_1	baseline	bal	d_33	yes	vap	baseline_vap	baseline_vap_bal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_1_BAL	SRR32035868	SAMN46291710
+SRR32035867	R572_201_1_NASAL		p_201	t_1	baseline	nasal	d_33	yes	vap	baseline_vap	baseline_vap_nasal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_1_NASAL	SRR32035867	SAMN46291711
+SRR32035866	R572_201_1_TS	382076,9	p_201	t_1	baseline	ts	d_33	yes	vap	baseline_vap	baseline_vap_ts	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_1_TS	SRR32035866	SAMN46291712
+SRR32035865	R572_201_2_BAL		p_201	t_2	follow	bal	d_33	yes	vap	follow_vap	follow_vap_bal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_2_BAL	SRR32035865	SAMN46291713
+SRR32035863	R572_201_2_NASAL		p_201	t_2	follow	nasal	d_33	yes	vap	follow_vap	follow_vap_nasal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_2_NASAL	SRR32035863	SAMN46291714
+SRR32035862	R572_201_2_TS	696922,3	p_201	t_2	follow	ts	d_33	yes	vap	follow_vap	follow_vap_ts	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_2_TS	SRR32035862	SAMN46291715
+SRR32035861	R572_201_3_BAL	333010,0	p_201	t_3	follow	bal	d_33	yes	vap	follow_vap	follow_vap_bal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_3_BAL	SRR32035861	SAMN46291716
+SRR32035860	R572_201_3_NASAL		p_201	t_3	follow	nasal	d_33	yes	vap	follow_vap	follow_vap_nasal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_3_NASAL	SRR32035860	SAMN46291717
+SRR32035859	R572_201_3_TS	547756,9	p_201	t_3	follow	ts	d_33	yes	vap	follow_vap	follow_vap_ts	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_3_TS	SRR32035859	SAMN46291718
+SRR32035858	R572_201_4_BAL		p_201	t_4	follow	bal	d_33	yes	vap	follow_vap	follow_vap_bal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_4_BAL	SRR32035858	SAMN46291719
+SRR32035857	R572_201_4_NASAL		p_201	t_4	follow	nasal	d_33	yes	vap	follow_vap	follow_vap_nasal	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_4_NASAL	SRR32035857	SAMN46291720
+SRR32035856	R572_201_4_TS	369186,5	p_201	t_4	follow	ts	d_33	yes	vap	follow_vap	follow_vap_ts	9/1/21 0:00	8/8/21 0:00	8/18/21 0:00	i_10	l_58	no	no	no	201_4_TS	SRR32035856	SAMN46291721
+SRR32035855	R572_202_1_BAL	342244,1	p_202	t_1	baseline	bal	d_10	no	vap	baseline_vap	baseline_vap_bal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_1_BAL	SRR32035855	SAMN46291722
+SRR32035854	R572_202_1_NASAL		p_202	t_1	baseline	nasal	d_10	no	vap	baseline_vap	baseline_vap_nasal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_1_NASAL	SRR32035854	SAMN46291723
+SRR32035851	R572_202_1_TS	365847,6	p_202	t_1	baseline	ts	d_10	no	vap	baseline_vap	baseline_vap_ts		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_1_TS	SRR32035851	SAMN46291724
+SRR32035850	R572_202_2_BAL	9698,1	p_202	t_2	follow	bal	d_10	no	vap	follow_vap	follow_vap_bal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_2_BAL	SRR32035850	SAMN46291725
+SRR32035849	R572_202_2_NASAL		p_202	t_2	follow	nasal	d_10	no	vap	follow_vap	follow_vap_nasal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_2_NASAL	SRR32035849	SAMN46291726
+SRR32035848	R572_202_2_TS	85725,9	p_202	t_2	follow	ts	d_10	no	vap	follow_vap	follow_vap_ts		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_2_TS	SRR32035848	SAMN46291727
+SRR32035847	R572_202_3_BAL	1826325,4	p_202	t_3	follow	bal	d_10	no	vap	follow_vap	follow_vap_bal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_3_BAL	SRR32035847	SAMN46291728
+SRR32036112	R572_202_3_NASAL		p_202	t_3	follow	nasal	d_10	no	vap	follow_vap	follow_vap_nasal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_3_NASAL	SRR32036112	SAMN46291729
+SRR32036111	R572_202_3_TS	1194999,9	p_202	t_3	follow	ts	d_10	no	vap	follow_vap	follow_vap_ts		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_3_TS	SRR32036111	SAMN46291730
+SRR32036110	R572_202_4_BAL	142126,5	p_202	t_4	follow	bal	d_10	no	vap	follow_vap	follow_vap_bal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_4_BAL	SRR32036110	SAMN46291731
+SRR32036109	R572_202_4_NASAL		p_202	t_4	follow	nasal	d_10	no	vap	follow_vap	follow_vap_nasal		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_4_NASAL	SRR32036109	SAMN46291732
+SRR32036108	R572_202_4_TS	322908,1	p_202	t_4	follow	ts	d_10	no	vap	follow_vap	follow_vap_ts		8/10/21 0:00	8/20/21 0:00	i_10	l_10	yes	yes	yes	202_4_TS	SRR32036108	SAMN46291733
+SRR32036106	R572_203_1_BAL	23328,7	p_203	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		8/19/21 0:00	8/20/21 0:00	i_1	l_8	no	no	no	203_1_BAL	SRR32036106	SAMN46291734
+SRR32036105	R572_203_1_NASAL		p_203	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		8/19/21 0:00	8/20/21 0:00	i_1	l_8	no	no	no	203_1_NASAL	SRR32036105	SAMN46291735
+SRR32036104	R572_203_1_TS	10337610,7	p_203	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		8/19/21 0:00	8/20/21 0:00	i_1	l_8	no	no	no	203_1_TS	SRR32036104	SAMN46291736
+SRR32036103	R572_204_1_BAL	299,8	p_204	t_1	baseline	bal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_bal		9/10/21 0:00	9/13/21 0:00	i_3	l_21	no	no	no	204_1_BAL	SRR32036103	SAMN46291737
+SRR32036102	R572_204_1_NASAL		p_204	t_1	baseline	nasal	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		9/10/21 0:00	9/13/21 0:00	i_3	l_21	no	no	no	204_1_NASAL	SRR32036102	SAMN46291738
+SRR32036101	R572_204_1_TS	780437,1	p_204	t_1	baseline	ts	d_14	no	no_vap	baseline_no_vap	baseline_no_vap_ts		9/10/21 0:00	9/13/21 0:00	i_3	l_21	no	no	no	204_1_TS	SRR32036101	SAMN46291739
+SRR32036100	R572_205_1_BAL	4635971,4	p_205	t_1	baseline	bal	d_30	yes	vap	baseline_vap	baseline_vap_bal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_1_BAL	SRR32036100	SAMN46291740
+SRR32036099	R572_205_1_NASAL		p_205	t_1	baseline	nasal	d_30	yes	vap	baseline_vap	baseline_vap_nasal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_1_NASAL	SRR32036099	SAMN46291741
+SRR32036098	R572_205_1_TS		p_205	t_1	baseline	ts	d_30	yes	vap	baseline_vap	baseline_vap_ts	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_1_TS	SRR32036098	SAMN46291742
+SRR32036097	R572_205_2_BAL	265367,8	p_205	t_2	follow	bal	d_30	yes	vap	follow_vap	follow_vap_bal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_2_BAL	SRR32036097	SAMN46291743
+SRR32036095	R572_205_2_NASAL		p_205	t_2	follow	nasal	d_30	yes	vap	follow_vap	follow_vap_nasal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_2_NASAL	SRR32036095	SAMN46291744
+SRR32036094	R572_205_2_TS	324201,9	p_205	t_2	follow	ts	d_30	yes	vap	follow_vap	follow_vap_ts	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_2_TS	SRR32036094	SAMN46291745
+SRR32036093	R572_205_3_BAL	9417,7	p_205	t_3	follow	bal	d_30	yes	vap	follow_vap	follow_vap_bal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_3_BAL	SRR32036093	SAMN46291746
+SRR32036092	R572_205_3_NASAL		p_205	t_3	follow	nasal	d_30	yes	vap	follow_vap	follow_vap_nasal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_3_NASAL	SRR32036092	SAMN46291747
+SRR32036091	R572_205_3_TS	5179,0	p_205	t_3	follow	ts	d_30	yes	vap	follow_vap	follow_vap_ts	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_3_TS	SRR32036091	SAMN46291748
+SRR32036090	R572_205_4_BAL	161714,4	p_205	t_4	follow	bal	d_30	yes	vap	follow_vap	follow_vap_bal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_4_BAL	SRR32036090	SAMN46291749
+SRR32036089	R572_205_4_NASAL		p_205	t_4	follow	nasal	d_30	yes	vap	follow_vap	follow_vap_nasal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_4_NASAL	SRR32036089	SAMN46291750
+SRR32036088	R572_205_4_TS	29300393,2	p_205	t_4	follow	ts	d_30	yes	vap	follow_vap	follow_vap_ts	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_4_TS	SRR32036088	SAMN46291751
+SRR32036087	R572_205_5_BAL	3059,8	p_205	t_5	follow	bal	d_30	yes	vap	follow_vap	follow_vap_bal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_5_BAL	SRR32036087	SAMN46291752
+SRR32036086	R572_205_5_NASAL		p_205	t_5	follow	nasal	d_30	yes	vap	follow_vap	follow_vap_nasal	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_5_NASAL	SRR32036086	SAMN46291753
+SRR32036084	R572_205_5_TS	28570,1	p_205	t_5	follow	ts	d_30	yes	vap	follow_vap	follow_vap_ts	10/11/21 0:00	9/22/21 0:00	10/11/21 0:00	i_19	l_93	no	no	no	205_5_TS	SRR32036084	SAMN46291754
+SRR32036083	R572_207_1_BAL	8652,9	p_207	t_1	baseline	bal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/2/21 0:00	10/4/21 0:00	i_2	l_15	no	no	no	207_1_BAL	SRR32036083	SAMN46291755
+SRR32036082	R572_207_1_NASAL		p_207	t_1	baseline	nasal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/2/21 0:00	10/4/21 0:00	i_2	l_15	no	no	no	207_1_NASAL	SRR32036082	SAMN46291756
+SRR32036081	R572_207_1_TS	38588,1	p_207	t_1	baseline	ts	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/2/21 0:00	10/4/21 0:00	i_2	l_15	no	no	no	207_1_TS	SRR32036081	SAMN46291757
+SRR32035846	R572_208_1_BAL	748813,9	p_208	t_1	baseline	bal	d_7	no	vap	baseline_vap	baseline_vap_bal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_1_BAL	SRR32035846	SAMN46291758
+SRR32035845	R572_208_1_NASAL		p_208	t_1	baseline	nasal	d_7	no	vap	baseline_vap	baseline_vap_nasal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_1_NASAL	SRR32035845	SAMN46291759
+SRR32035844	R572_208_1_TS	3338302,1	p_208	t_1	baseline	ts	d_7	no	vap	baseline_vap	baseline_vap_ts		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_1_TS	SRR32035844	SAMN46291760
+SRR32035843	R572_208_2_BAL	866096,0	p_208	t_2	follow	bal	d_7	no	vap	follow_vap	follow_vap_bal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_2_BAL	SRR32035843	SAMN46291761
+SRR32035842	R572_208_2_NASAL		p_208	t_2	follow	nasal	d_7	no	vap	follow_vap	follow_vap_nasal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_2_NASAL	SRR32035842	SAMN46291762
+SRR32035841	R572_208_2_TS	16097507,8	p_208	t_2	follow	ts	d_7	no	vap	follow_vap	follow_vap_ts		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_2_TS	SRR32035841	SAMN46291763
+SRR32035839	R572_208_3_BAL	465559,7	p_208	t_3	follow	bal	d_7	no	vap	follow_vap	follow_vap_bal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_3_BAL	SRR32035839	SAMN46291764
+SRR32035838	R572_208_3_NASAL		p_208	t_3	follow	nasal	d_7	no	vap	follow_vap	follow_vap_nasal		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_3_NASAL	SRR32035838	SAMN46291765
+SRR32035837	R572_208_3_TS	67908,9	p_208	t_3	follow	ts	d_7	no	vap	follow_vap	follow_vap_ts		10/13/21 0:00	10/20/21 0:00	i_7	l_8	yes	yes	yes	208_3_TS	SRR32035837	SAMN46291766
+SRR32035836	R572_210_1_BAL	532,4	p_210	t_1	baseline	bal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_1_BAL	SRR32035836	SAMN46291767
+SRR32035835	R572_210_1_NASAL		p_210	t_1	baseline	nasal	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_1_NASAL	SRR32035835	SAMN46291768
+SRR32035834	R572_210_1_TS	3130,1	p_210	t_1	baseline	ts	d_11	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_1_TS	SRR32035834	SAMN46291769
+SRR32035833	R572_210_2_BAL	110417,3	p_210	t_2	follow	bal	d_11	no	no_vap	follow_no_vap	follow_no_vap_bal		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_2_BAL	SRR32035833	SAMN46291770
+SRR32035832	R572_210_2_NASAL		p_210	t_2	follow	nasal	d_11	no	no_vap	follow_no_vap	follow_no_vap_nasal		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_2_NASAL	SRR32035832	SAMN46291771
+SRR32035831	R572_210_2_TS	11288,1	p_210	t_2	follow	ts	d_11	no	no_vap	follow_no_vap	follow_no_vap_ts		10/18/21 0:00	10/23/21 0:00	i_5	l_15	no	no	no	210_2_TS	SRR32035831	SAMN46291772
+SRR32035830	R572_211_1_BAL	48042,0	p_211	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/18/21 0:00	10/20/21 0:00	i_2	l_6	no	no	no	211_1_BAL	SRR32035830	SAMN46291773
+SRR32035828	R572_211_1_NASAL		p_211	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/18/21 0:00	10/20/21 0:00	i_2	l_6	no	no	no	211_1_NASAL	SRR32035828	SAMN46291774
+SRR32035827	R572_211_1_TS	29218645,8	p_211	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/18/21 0:00	10/20/21 0:00	i_2	l_6	no	no	no	211_1_TS	SRR32035827	SAMN46291775
+SRR32035826	R572_212_1_BAL	1989075,7	p_212	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		10/24/21 0:00	10/26/21 0:00	i_2	l_2	no	no	no	212_1_BAL	SRR32035826	SAMN46291776
+SRR32035825	R572_212_1_NASAL		p_212	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		10/24/21 0:00	10/26/21 0:00	i_2	l_2	no	no	no	212_1_NASAL	SRR32035825	SAMN46291777
+SRR32035824	R572_212_1_TS	26997625,0	p_212	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		10/24/21 0:00	10/26/21 0:00	i_2	l_2	no	no	no	212_1_TS	SRR32035824	SAMN46291778
+SRR32035823	R572_213_1_BAL	895349,2	p_213	t_1	baseline	bal	d_31	yes	vap	baseline_vap	baseline_vap_bal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_1_BAL	SRR32035823	SAMN46291779
+SRR32035822	R572_213_1_NASAL		p_213	t_1	baseline	nasal	d_31	yes	vap	baseline_vap	baseline_vap_nasal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_1_NASAL	SRR32035822	SAMN46291780
+SRR32035821	R572_213_1_TS	1871220,1	p_213	t_1	baseline	ts	d_31	yes	vap	baseline_vap	baseline_vap_ts	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_1_TS	SRR32035821	SAMN46291781
+SRR32035820	R572_213_2_BAL	17788931,0	p_213	t_2	follow	bal	d_31	yes	vap	follow_vap	follow_vap_bal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_2_BAL	SRR32035820	SAMN46291782
+SRR32035819	R572_213_2_NASAL		p_213	t_2	follow	nasal	d_31	yes	vap	follow_vap	follow_vap_nasal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_2_NASAL	SRR32035819	SAMN46291783
+SRR32035817	R572_213_2_TS	880780,5	p_213	t_2	follow	ts	d_31	yes	vap	follow_vap	follow_vap_ts	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_2_TS	SRR32035817	SAMN46291784
+SRR32035816	R572_213_3_BAL		p_213	t_3	follow	bal	d_31	yes	vap	follow_vap	follow_vap_bal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_3_BAL	SRR32035816	SAMN46291785
+SRR32035815	R572_213_3_NASAL		p_213	t_3	follow	nasal	d_31	yes	vap	follow_vap	follow_vap_nasal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_3_NASAL	SRR32035815	SAMN46291786
+SRR32036080	R572_213_3_TS	6807966,7	p_213	t_3	follow	ts	d_31	yes	vap	follow_vap	follow_vap_ts	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_3_TS	SRR32036080	SAMN46291787
+SRR32036079	R572_213_4_BAL	600309,9	p_213	t_4	follow	bal	d_31	yes	vap	follow_vap	follow_vap_bal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_4_BAL	SRR32036079	SAMN46291788
+SRR32036078	R572_213_4_NASAL		p_213	t_4	follow	nasal	d_31	yes	vap	follow_vap	follow_vap_nasal	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_4_NASAL	SRR32036078	SAMN46291789
+SRR32036077	R572_213_4_TS	92664,9	p_213	t_4	follow	ts	d_31	yes	vap	follow_vap	follow_vap_ts	11/7/21 0:00	10/25/21 0:00	11/7/21 0:00	i_13	l_66	no	no	no	213_4_TS	SRR32036077	SAMN46291790
+SRR32036076	R572_214_1_BAL	826,7	p_214	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/12/21 0:00	11/16/21 0:00	i_4	l_4	yes	yes	yes	214_1_BAL	SRR32036076	SAMN46291791
+SRR32036075	R572_214_1_NASAL		p_214	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/12/21 0:00	11/16/21 0:00	i_4	l_4	yes	yes	yes	214_1_NASAL	SRR32036075	SAMN46291792
+SRR32036074	R572_214_1_TS	250744,0	p_214	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/12/21 0:00	11/16/21 0:00	i_4	l_4	yes	yes	yes	214_1_TS	SRR32036074	SAMN46291793
+SRR32036072	R572_215_1_BAL	31793,5	p_215	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/18/21 0:00	11/21/21 0:00	i_3	l_3	yes	yes	yes	215_1_BAL	SRR32036072	SAMN46291794
+SRR32036071	R572_215_1_NASAL		p_215	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/18/21 0:00	11/21/21 0:00	i_3	l_3	yes	yes	yes	215_1_NASAL	SRR32036071	SAMN46291795
+SRR32036070	R572_215_1_TS	7867227,2	p_215	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/18/21 0:00	11/21/21 0:00	i_3	l_3	yes	yes	yes	215_1_TS	SRR32036070	SAMN46291796
+SRR32036069	R572_217_1_BAL	95578183,6	p_217	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/26/21 0:00	11/28/21 0:00	i_2	l_35	no	no	no	217_1_BAL	SRR32036069	SAMN46291797
+SRR32036068	R572_217_1_NASAL		p_217	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/26/21 0:00	11/28/21 0:00	i_2	l_35	no	no	no	217_1_NASAL	SRR32036068	SAMN46291798
+SRR32036067	R572_217_1_TS	1442700,0	p_217	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/26/21 0:00	11/28/21 0:00	i_2	l_35	no	no	no	217_1_TS	SRR32036067	SAMN46291799
+SRR32036066	R572_218_1_BAL	64237,6	p_218	t_1	baseline	bal	d_15	no	vap	baseline_vap	baseline_vap_bal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_1_BAL	SRR32036066	SAMN46291800
+SRR32036065	R572_218_1_NASAL		p_218	t_1	baseline	nasal	d_15	no	vap	baseline_vap	baseline_vap_nasal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_1_NASAL	SRR32036065	SAMN46291801
+SRR32036064	R572_218_1_TS	3652866,1	p_218	t_1	baseline	ts	d_15	no	vap	baseline_vap	baseline_vap_ts		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_1_TS	SRR32036064	SAMN46291802
+SRR32036063	R572_218_2_BAL	2809123,7	p_218	t_2	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_2_BAL	SRR32036063	SAMN46291803
+SRR32036061	R572_218_2_NASAL		p_218	t_2	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_2_NASAL	SRR32036061	SAMN46291804
+SRR32036060	R572_218_2_TS	1053842,2	p_218	t_2	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_2_TS	SRR32036060	SAMN46291805
+SRR32036059	R572_218_3_BAL	132884,4	p_218	t_3	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_3_BAL	SRR32036059	SAMN46291806
+SRR32036058	R572_218_3_NASAL		p_218	t_3	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_3_NASAL	SRR32036058	SAMN46291807
+SRR32036057	R572_218_3_TS	3568434,9	p_218	t_3	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_3_TS	SRR32036057	SAMN46291808
+SRR32036056	R572_218_4_BAL	136481,5	p_218	t_4	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_4_BAL	SRR32036056	SAMN46291809
+SRR32036055	R572_218_4_NASAL		p_218	t_4	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_4_NASAL	SRR32036055	SAMN46291810
+SRR32036054	R572_218_4_TS	1037616,1	p_218	t_4	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		11/28/21 0:00	12/6/21 0:00	i_8	l_33	no	no	no	218_4_TS	SRR32036054	SAMN46291811
+SRR32036053	R572_219_1_BAL	399,2	p_219	t_1	baseline	bal	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_bal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_1_BAL	SRR32036053	SAMN46291812
+SRR32036052	R572_219_1_NASAL		p_219	t_1	baseline	nasal	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_1_NASAL	SRR32036052	SAMN46291813
+SRR32036050	R572_219_1_TS	503009,4	p_219	t_1	baseline	ts	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_ts		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_1_TS	SRR32036050	SAMN46291814
+SRR32036049	R572_219_2_BAL	1105381,5	p_219	t_2	follow	bal	d_15	no	no_vap	follow_no_vap	follow_no_vap_bal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_2_BAL	SRR32036049	SAMN46291815
+SRR32035654	R572_219_2_NASAL		p_219	t_2	follow	nasal	d_15	no	no_vap	follow_no_vap	follow_no_vap_nasal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_2_NASAL	SRR32035654	SAMN46291816
+SRR32035653	R572_219_2_TS	120872,5	p_219	t_2	follow	ts	d_15	no	no_vap	follow_no_vap	follow_no_vap_ts		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_2_TS	SRR32035653	SAMN46291817
+SRR32035979	R572_219_3_BAL	915,3	p_219	t_3	follow	bal	d_15	no	no_vap	follow_no_vap	follow_no_vap_bal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_3_BAL	SRR32035979	SAMN46291818
+SRR32036301	R572_219_3_NASAL		p_219	t_3	follow	nasal	d_15	no	no_vap	follow_no_vap	follow_no_vap_nasal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_3_NASAL	SRR32036301	SAMN46291819
+SRR32036300	R572_219_3_TS	46269,1	p_219	t_3	follow	ts	d_15	no	no_vap	follow_no_vap	follow_no_vap_ts		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_3_TS	SRR32036300	SAMN46291820
+SRR32036299	R572_219_4_BAL	1163,3	p_219	t_4	follow	bal	d_15	no	no_vap	follow_no_vap	follow_no_vap_bal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_4_BAL	SRR32036299	SAMN46291821
+SRR32036298	R572_219_4_NASAL		p_219	t_4	follow	nasal	d_15	no	no_vap	follow_no_vap	follow_no_vap_nasal		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_4_NASAL	SRR32036298	SAMN46291822
+SRR32036297	R572_219_4_TS	1706,5	p_219	t_4	follow	ts	d_15	no	no_vap	follow_no_vap	follow_no_vap_ts		11/29/21 0:00	12/8/21 0:00	i_9	l_16	no	yes	yes	219_4_TS	SRR32036297	SAMN46291823
+SRR32036294	R572_221_1_BAL	8205660,9	p_221	t_1	baseline	bal	d_23	yes	vap	baseline_vap	baseline_vap_bal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_1_BAL	SRR32036294	SAMN46291824
+SRR32036293	R572_221_1_NASAL		p_221	t_1	baseline	nasal	d_23	yes	vap	baseline_vap	baseline_vap_nasal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_1_NASAL	SRR32036293	SAMN46291825
+SRR32036292	R572_221_1_TS	4432765,6	p_221	t_1	baseline	ts	d_23	yes	vap	baseline_vap	baseline_vap_ts	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_1_TS	SRR32036292	SAMN46291826
+SRR32036291	R572_221_2_BAL	732332,0	p_221	t_2	follow	bal	d_23	yes	vap	follow_vap	follow_vap_bal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_2_BAL	SRR32036291	SAMN46291827
+SRR32036290	R572_221_2_NASAL		p_221	t_2	follow	nasal	d_23	yes	vap	follow_vap	follow_vap_nasal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_2_NASAL	SRR32036290	SAMN46291828
+SRR32036289	R572_221_2_TS	238,6	p_221	t_2	follow	ts	d_23	yes	vap	follow_vap	follow_vap_ts	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_2_TS	SRR32036289	SAMN46291829
+SRR32036288	R572_221_3_BAL	193045,6	p_221	t_3	follow	bal	d_23	yes	vap	follow_vap	follow_vap_bal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_3_BAL	SRR32036288	SAMN46291830
+SRR32036287	R572_221_3_NASAL		p_221	t_3	follow	nasal	d_23	yes	vap	follow_vap	follow_vap_nasal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_3_NASAL	SRR32036287	SAMN46291831
+SRR32036286	R572_221_3_TS	29959255,2	p_221	t_3	follow	ts	d_23	yes	vap	follow_vap	follow_vap_ts	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_3_TS	SRR32036286	SAMN46291832
+SRR32036285	R572_221_4_BAL	46664,1	p_221	t_4	follow	bal	d_23	yes	vap	follow_vap	follow_vap_bal	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_4_BAL	SRR32036285	SAMN46291833
+SRR32036283	R572_221_4_TS	204227,5	p_221	t_4	follow	ts	d_23	yes	vap	follow_vap	follow_vap_ts	12/31/21 0:00	12/10/21 0:00	12/31/21 0:00	i_21	l_61	yes	yes	yes	221_4_TS	SRR32036283	SAMN46291834
+SRR32036282	R572_222_1_BAL	162756,7	p_222	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/12/21 0:00	12/14/21 0:00	i_2	l_2	yes	yes	yes	222_1_BAL	SRR32036282	SAMN46291835
+SRR32036281	R572_222_1_TS	3750,7	p_222	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/12/21 0:00	12/14/21 0:00	i_2	l_2	yes	yes	yes	222_1_TS	SRR32036281	SAMN46291836
+SRR32036280	R572_223_1_BAL	4088,2	p_223	t_1	baseline	bal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/12/21 0:00	12/13/21 0:00	i_1	l_1	yes	yes	yes	223_1_BAL	SRR32036280	SAMN46291837
+SRR32036279	R572_223_1_NASAL		p_223	t_1	baseline	nasal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/12/21 0:00	12/13/21 0:00	i_1	l_1	yes	yes	yes	223_1_NASAL	SRR32036279	SAMN46291838
+SRR32036278	R572_223_1_TS	1732851,8	p_223	t_1	baseline	ts	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/12/21 0:00	12/13/21 0:00	i_1	l_1	yes	yes	yes	223_1_TS	SRR32036278	SAMN46291839
+SRR32036277	R572_224_1_BAL	3158890,9	p_224	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/13/21 0:00	12/14/21 0:00	i_1	l_12	no	no	no	224_1_BAL	SRR32036277	SAMN46291840
+SRR32036276	R572_224_1_NASAL		p_224	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/13/21 0:00	12/14/21 0:00	i_1	l_12	no	no	no	224_1_NASAL	SRR32036276	SAMN46291841
+SRR32036275	R572_224_1_TS	54041067,7	p_224	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/13/21 0:00	12/14/21 0:00	i_1	l_12	no	no	no	224_1_TS	SRR32036275	SAMN46291842
+SRR32036274	R572_225_1_BAL	13497015,6	p_225	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_1_BAL	SRR32036274	SAMN46291843
+SRR32036048	R572_225_1_NASAL		p_225	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_1_NASAL	SRR32036048	SAMN46291844
+SRR32036047	R572_225_1_TS	47799993,5	p_225	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_1_TS	SRR32036047	SAMN46291845
+SRR32036046	R572_225_2_BAL	2079894,7	p_225	t_2	follow	bal	d_3	no	no_vap	follow_no_vap	follow_no_vap_bal		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_2_BAL	SRR32036046	SAMN46291846
+SRR32036045	R572_225_2_NASAL		p_225	t_2	follow	nasal	d_3	no	no_vap	follow_no_vap	follow_no_vap_nasal		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_2_NASAL	SRR32036045	SAMN46291847
+SRR32036044	R572_225_2_TS		p_225	t_2	follow	ts	d_3	no	no_vap	follow_no_vap	follow_no_vap_ts		12/14/21 0:00	12/17/21 0:00	i_3	l_3	yes	yes	yes	225_2_TS	SRR32036044	SAMN46291848
+SRR32036043	R572_226_1_BAL	193745,1	p_226	t_1	baseline	bal	d_27	yes	vap	baseline_vap	baseline_vap_bal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_1_BAL	SRR32036043	SAMN46291849
+SRR32036042	R572_226_1_NASAL		p_226	t_1	baseline	nasal	d_27	yes	vap	baseline_vap	baseline_vap_nasal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_1_NASAL	SRR32036042	SAMN46291850
+SRR32036041	R572_226_1_TS	2074988,4	p_226	t_1	baseline	ts	d_27	yes	vap	baseline_vap	baseline_vap_ts	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_1_TS	SRR32036041	SAMN46291851
+SRR32036040	R572_226_2_BAL	2223,6	p_226	t_2	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_2_BAL	SRR32036040	SAMN46291852
+SRR32036039	R572_226_2_NASAL		p_226	t_2	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_2_NASAL	SRR32036039	SAMN46291853
+SRR32036037	R572_226_2_TS		p_226	t_2	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_2_TS	SRR32036037	SAMN46291854
+SRR32036036	R572_226_3_BAL	3071,9	p_226	t_3	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_3_BAL	SRR32036036	SAMN46291855
+SRR32036035	R572_226_3_NASAL		p_226	t_3	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_3_NASAL	SRR32036035	SAMN46291856
+SRR32036034	R572_226_3_TS	3151,0	p_226	t_3	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_3_TS	SRR32036034	SAMN46291857
+SRR32036032	R572_226_4_NASAL		p_226	t_4	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_4_NASAL	SRR32036032	SAMN46291859
+SRR32036033	R575_226_4_BAL	3,8	p_226	t_4	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_4_BAL	SRR32036033	SAMN46291858
+SRR32036031	R575_226_4_TS	416,6	p_226	t_4	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	1/4/21 0:00	12/14/21 0:00	1/4/22 0:00	i_21	l_52	no	no	no	226_4_TS	SRR32036031	SAMN46291860
+SRR32036030	R575_227_1_BAL	731,8	p_227	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		12/15/21 0:00	12/16/21 0:00	i_1	l_18	no	no	no	227_1_BAL	SRR32036030	SAMN46291861
+SRR32036029	R575_227_1_NASAL		p_227	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		12/15/21 0:00	12/16/21 0:00	i_1	l_18	no	no	no	227_1_NASAL	SRR32036029	SAMN46291862
+SRR32036028	R575_227_1_TS	2,3	p_227	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		12/15/21 0:00	12/16/21 0:00	i_1	l_18	no	no	no	227_1_TS	SRR32036028	SAMN46291863
+SRR32036026	R575_228_1_BAL	3564006,5	p_228	t_1	baseline	bal	d_9	no	vap	baseline_vap	baseline_vap_bal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_1_BAL	SRR32036026	SAMN46291864
+SRR32036025	R575_228_1_NASAL		p_228	t_1	baseline	nasal	d_9	no	vap	baseline_vap	baseline_vap_nasal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_1_NASAL	SRR32036025	SAMN46291865
+SRR32036024	R575_228_1_TS		p_228	t_1	baseline	ts	d_9	no	vap	baseline_vap	baseline_vap_ts		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_1_TS	SRR32036024	SAMN46291866
+SRR32036023	R575_228_2_BAL	10897982,4	p_228	t_2	follow	bal	d_9	no	vap	follow_vap	follow_vap_bal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_2_BAL	SRR32036023	SAMN46291867
+SRR32036022	R575_228_2_NASAL		p_228	t_2	follow	nasal	d_9	no	vap	follow_vap	follow_vap_nasal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_2_NASAL	SRR32036022	SAMN46291868
+SRR32036021	R575_228_2_TS	2259,8	p_228	t_2	follow	ts	d_9	no	vap	follow_vap	follow_vap_ts		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_2_TS	SRR32036021	SAMN46291869
+SRR32036020	R575_228_3_BAL	1904,1	p_228	t_3	follow	bal	d_9	no	vap	follow_vap	follow_vap_bal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_3_BAL	SRR32036020	SAMN46291870
+SRR32036019	R575_228_3_NASAL		p_228	t_3	follow	nasal	d_9	no	vap	follow_vap	follow_vap_nasal		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_3_NASAL	SRR32036019	SAMN46291871
+SRR32036018	R575_228_3_TS		p_228	t_3	follow	ts	d_9	no	vap	follow_vap	follow_vap_ts		12/20/21 0:00	12/27/21 0:00	i_7	l_11	no	no	no	228_3_TS	SRR32036018	SAMN46291872
+SRR32036017	R575_240_1_BAL	7116692,7	p_240	t_1	baseline	bal	d_20	no	no_vap	baseline_no_vap	baseline_no_vap_bal		1/10/22 0:00	1/13/22 0:00	i_3	l_26	no	no	no	240_1_BAL	SRR32036017	SAMN46291873
+SRR32035813	R575_240_1_NASAL		p_240	t_1	baseline	nasal	d_20	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		1/10/22 0:00	1/13/22 0:00	i_3	l_26	no	no	no	240_1_NASAL	SRR32035813	SAMN46291874
+SRR32035812	R575_240_1_TS		p_240	t_1	baseline	ts	d_20	no	no_vap	baseline_no_vap	baseline_no_vap_ts		1/10/22 0:00	1/13/22 0:00	i_3	l_26	no	no	no	240_1_TS	SRR32035812	SAMN46291875
+SRR32035811	R575_241_1_BAL	7837363,5	p_241	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_1_BAL	SRR32035811	SAMN46291876
+SRR32035810	R575_241_1_NASAL		p_241	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_1_NASAL	SRR32035810	SAMN46291877
+SRR32035809	R575_241_1_TS		p_241	t_1	baseline	ts	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_ts		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_1_TS	SRR32035809	SAMN46291878
+SRR32035808	R575_241_2_BAL	17955700,5	p_241	t_2	follow	bal	d_7	no	no_vap	follow_no_vap	follow_no_vap_bal		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_2_BAL	SRR32035808	SAMN46291879
+SRR32035807	R575_241_2_NASAL		p_241	t_2	follow	nasal	d_7	no	no_vap	follow_no_vap	follow_no_vap_nasal		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_2_NASAL	SRR32035807	SAMN46291880
+SRR32035806	R575_241_2_TS	139656914,1	p_241	t_2	follow	ts	d_7	no	no_vap	follow_no_vap	follow_no_vap_ts		1/11/22 0:00	1/18/22 0:00	i_7	l_22	yes	yes	yes	241_2_TS	SRR32035806	SAMN46291881
+SRR32035805	R575_244_1_BAL		p_244	t_1	baseline	bal	d_14	no	vap	baseline_vap	baseline_vap_bal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_1_BAL	SRR32035805	SAMN46291882
+SRR32035804	R575_244_1_NASAL		p_244	t_1	baseline	nasal	d_14	no	vap	baseline_vap	baseline_vap_nasal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_1_NASAL	SRR32035804	SAMN46291883
+SRR32035802	R575_244_1_TS	1147,8	p_244	t_1	baseline	ts	d_14	no	vap	baseline_vap	baseline_vap_ts		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_1_TS	SRR32035802	SAMN46291884
+SRR32035801	R575_244_2_BAL		p_244	t_2	follow	bal	d_14	no	vap	follow_vap	follow_vap_bal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_2_BAL	SRR32035801	SAMN46291885
+SRR32035800	R575_244_2_NASAL		p_244	t_2	follow	nasal	d_14	no	vap	follow_vap	follow_vap_nasal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_2_NASAL	SRR32035800	SAMN46291886
+SRR32035799	R575_244_2_TS		p_244	t_2	follow	ts	d_14	no	vap	follow_vap	follow_vap_ts		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_2_TS	SRR32035799	SAMN46291887
+SRR32035798	R575_244_3_BAL	830983,1	p_244	t_3	follow	bal	d_14	no	vap	follow_vap	follow_vap_bal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_3_BAL	SRR32035798	SAMN46291888
+SRR32035797	R575_244_3_TS	28439229,2	p_244	t_3	follow	ts	d_14	no	vap	follow_vap	follow_vap_ts		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_3_TS	SRR32035797	SAMN46291889
+SRR32035796	R575_244_4_BAL	13239,6	p_244	t_4	follow	bal	d_14	no	vap	follow_vap	follow_vap_bal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_4_BAL	SRR32035796	SAMN46291890
+SRR32035795	R575_244_4_NASAL		p_244	t_4	follow	nasal	d_14	no	vap	follow_vap	follow_vap_nasal		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_4_NASAL	SRR32035795	SAMN46291891
+SRR32035794	R575_244_4_TS	452218,5	p_244	t_4	follow	ts	d_14	no	vap	follow_vap	follow_vap_ts		1/26/22 0:00	2/9/22 0:00	i_14	l_14	yes	yes	yes	244_4_TS	SRR32035794	SAMN46291892
+SRR32035793	R575_245_1_BAL	442,8	p_245	t_1	baseline	bal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_bal		1/28/22 0:00	1/31/22 0:00	i_3	l_11	no	no	no	245_1_BAL	SRR32035793	SAMN46291893
+SRR32035791	R575_245_1_NASAL		p_245	t_1	baseline	nasal	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		1/28/22 0:00	1/31/22 0:00	i_3	l_11	no	no	no	245_1_NASAL	SRR32035791	SAMN46291894
+SRR32035790	R575_245_1_TS	984,8	p_245	t_1	baseline	ts	d_7	no	no_vap	baseline_no_vap	baseline_no_vap_ts		1/28/22 0:00	1/31/22 0:00	i_3	l_11	no	no	no	245_1_TS	SRR32035790	SAMN46291895
+SRR32035789	R575_247_1_BAL	201822,1	p_247	t_1	baseline	bal	d_14	yes	no_vap	baseline_no_vap	baseline_no_vap_bal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_1_BAL	SRR32035789	SAMN46291896
+SRR32035788	R575_247_1_NASAL		p_247	t_1	baseline	nasal	d_14	yes	no_vap	baseline_no_vap	baseline_no_vap_nasal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_1_NASAL	SRR32035788	SAMN46291897
+SRR32035787	R575_247_1_TS		p_247	t_1	baseline	ts	d_14	yes	no_vap	baseline_no_vap	baseline_no_vap_ts	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_1_TS	SRR32035787	SAMN46291898
+SRR32035786	R575_247_2_BAL	271759,8	p_247	t_2	follow	bal	d_14	yes	no_vap	follow_no_vap	follow_no_vap_bal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_2_BAL	SRR32035786	SAMN46291899
+SRR32035785	R575_247_2_NASAL		p_247	t_2	follow	nasal	d_14	yes	no_vap	follow_no_vap	follow_no_vap_nasal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_2_NASAL	SRR32035785	SAMN46291900
+SRR32035784	R575_247_2_TS	11048226,6	p_247	t_2	follow	ts	d_14	yes	no_vap	follow_no_vap	follow_no_vap_ts	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_2_TS	SRR32035784	SAMN46291901
+SRR32035783	R575_247_3_BAL	370792,7	p_247	t_3	follow	bal	d_14	yes	no_vap	follow_no_vap	follow_no_vap_bal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_3_BAL	SRR32035783	SAMN46291902
+SRR32036016	R575_247_3_NASAL		p_247	t_3	follow	nasal	d_14	yes	no_vap	follow_no_vap	follow_no_vap_nasal	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_3_NASAL	SRR32036016	SAMN46291903
+SRR32036014	R575_247_3_TS		p_247	t_3	follow	ts	d_14	yes	no_vap	follow_no_vap	follow_no_vap_ts	2/8/22 0:00	1/29/22 0:00	2/8/22 0:00	i_10	l_37	no	no	no	247_3_TS	SRR32036014	SAMN46291904
+SRR32036013	R575_248_1_BAL	5224438,5	p_248	t_1	baseline	bal	d_8	yes	no_vap	baseline_no_vap	baseline_no_vap_bal	2/8/22 0:00	1/30/22 0:00	1/31/22 0:00	i_1	l_10	no	no	no	248_1_BAL	SRR32036013	SAMN46291905
+SRR32036012	R575_248_1_TS	2513756,5	p_248	t_1	baseline	ts	d_8	yes	no_vap	baseline_no_vap	baseline_no_vap_ts	2/8/22 0:00	1/30/22 0:00	1/31/22 0:00	i_1	l_10	no	no	no	248_1_TS	SRR32036012	SAMN46291906
+SRR32036011	R575_249_1_BAL	986233,6	p_249	t_1	baseline	bal	d_6	no	vap	baseline_vap	baseline_vap_bal		1/30/22 0:00	2/5/22 0:00	i_6	l_6	no	yes	yes	249_1_BAL	SRR32036011	SAMN46291907
+SRR32036010	R575_249_1_NASAL		p_249	t_1	baseline	nasal	d_6	no	vap	baseline_vap	baseline_vap_nasal		1/30/22 0:00	2/5/22 0:00	i_6	l_6	no	yes	yes	249_1_NASAL	SRR32036010	SAMN46291908
+SRR32036009	R575_249_1_TS	51979203,1	p_249	t_1	baseline	ts	d_6	no	vap	baseline_vap	baseline_vap_ts		1/30/22 0:00	2/5/22 0:00	i_6	l_6	no	yes	yes	249_1_TS	SRR32036009	SAMN46291909
+SRR32036008	R575_249_2_BAL	8075320,3	p_249	t_2	follow	bal	d_6	no	vap	follow_vap	follow_vap_bal		1/30/22 0:00	2/5/22 0:00	i_6	l_6	no	yes	yes	249_2_BAL	SRR32036008	SAMN46291910
+SRR32036007	R575_249_2_TS	84918561,2	p_249	t_2	follow	ts	d_6	no	vap	follow_vap	follow_vap_ts		1/30/22 0:00	2/5/22 0:00	i_6	l_6	no	yes	yes	249_2_TS	SRR32036007	SAMN46291911
+SRR32036006	R575_250_1_BAL	1254927,2	p_250	t_1	baseline	bal	d_6	no	vap	baseline_vap	baseline_vap_bal		2/1/22 0:00	2/4/22 0:00	i_3	l_30	no	no	no	250_1_BAL	SRR32036006	SAMN46291912
+SRR32036005	R575_250_1_TS	9291,2	p_250	t_1	baseline	ts	d_6	no	vap	baseline_vap	baseline_vap_ts		2/1/22 0:00	2/4/22 0:00	i_3	l_30	no	no	no	250_1_TS	SRR32036005	SAMN46291913
+SRR32036003	R575_252_1_BAL		p_252	t_1	baseline	bal	d_27	yes	vap	baseline_vap	baseline_vap_bal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_1_BAL	SRR32036003	SAMN46291914
+SRR32036002	R575_252_1_NASAL		p_252	t_1	baseline	nasal	d_27	yes	vap	baseline_vap	baseline_vap_nasal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_1_NASAL	SRR32036002	SAMN46291915
+SRR32036001	R575_252_1_TS	6233,4	p_252	t_1	baseline	ts	d_27	yes	vap	baseline_vap	baseline_vap_ts	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_1_TS	SRR32036001	SAMN46291916
+SRR32036000	R575_252_2_BAL	1267,4	p_252	t_2	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_2_BAL	SRR32036000	SAMN46291917
+SRR32035999	R575_252_2_NASAL		p_252	t_2	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_2_NASAL	SRR32035999	SAMN46291918
+SRR32035998	R575_252_2_TS		p_252	t_2	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_2_TS	SRR32035998	SAMN46291919
+SRR32035997	R575_252_3_BAL	450,2	p_252	t_3	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_3_BAL	SRR32035997	SAMN46291920
+SRR32035996	R575_252_3_NASAL		p_252	t_3	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_3_NASAL	SRR32035996	SAMN46291921
+SRR32035995	R575_252_3_TS	4669,2	p_252	t_3	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_3_TS	SRR32035995	SAMN46291922
+SRR32035994	R575_252_4_BAL	42120345,1	p_252	t_4	follow	bal	d_27	yes	vap	follow_vap	follow_vap_bal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_4_BAL	SRR32035994	SAMN46291923
+SRR32035991	R575_252_4_NASAL		p_252	t_4	follow	nasal	d_27	yes	vap	follow_vap	follow_vap_nasal	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_4_NASAL	SRR32035991	SAMN46291924
+SRR32035990	R575_252_4_TS		p_252	t_4	follow	ts	d_27	yes	vap	follow_vap	follow_vap_ts	2/15/22 0:00	2/6/22 0:00	2/15/22 0:00	i_9	l_28	no	no	no	252_4_TS	SRR32035990	SAMN46291925
+SRR32035989	R575_253_1_BAL	322815,6	p_253	t_1	baseline	bal	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/16/22 0:00	2/17/22 0:00	i_1	l_1	no	no	no	253_1_BAL	SRR32035989	SAMN46291926
+SRR32035988	R575_253_1_NASAL		p_253	t_1	baseline	nasal	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/16/22 0:00	2/17/22 0:00	i_1	l_1	no	no	no	253_1_NASAL	SRR32035988	SAMN46291927
+SRR32035987	R575_253_1_TS		p_253	t_1	baseline	ts	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/16/22 0:00	2/17/22 0:00	i_1	l_1	no	no	no	253_1_TS	SRR32035987	SAMN46291928
+SRR32035986	R575_254_1_BAL	2499717,2	p_254	t_1	baseline	bal	d_9	no	vap	baseline_vap	baseline_vap_bal		2/23/22 0:00	2/26/22 0:00	i_3	l_13	no	no	no	254_1_BAL	SRR32035986	SAMN46291929
+SRR32035985	R575_254_1_NASAL		p_254	t_1	baseline	nasal	d_9	no	vap	baseline_vap	baseline_vap_nasal		2/23/22 0:00	2/26/22 0:00	i_3	l_13	no	no	no	254_1_NASAL	SRR32035985	SAMN46291930
+SRR32036334	R575_255_1_BAL	117491,1	p_255	t_1	baseline	bal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_bal		2/27/22 0:00	3/2/22 0:00	i_3	l_29	no	no	no	255_1_BAL	SRR32036334	SAMN46291931
+SRR32036333	R575_255_1_NASAL		p_255	t_1	baseline	nasal	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		2/27/22 0:00	3/2/22 0:00	i_3	l_29	no	no	no	255_1_NASAL	SRR32036333	SAMN46291932
+SRR32036332	R575_255_1_TS		p_255	t_1	baseline	ts	d_9	no	no_vap	baseline_no_vap	baseline_no_vap_ts		2/27/22 0:00	3/2/22 0:00	i_3	l_29	no	no	no	255_1_TS	SRR32036332	SAMN46291933
+SRR32036330	R575_256_1_BAL	6161255,7	p_256	t_1	baseline	bal	d_29	yes	vap	baseline_vap	baseline_vap_bal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_1_BAL	SRR32036330	SAMN46291934
+SRR32036329	R575_256_1_NASAL		p_256	t_1	baseline	nasal	d_29	yes	vap	baseline_vap	baseline_vap_nasal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_1_NASAL	SRR32036329	SAMN46291935
+SRR32036328	R575_256_1_TS		p_256	t_1	baseline	ts	d_29	yes	vap	baseline_vap	baseline_vap_ts	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_1_TS	SRR32036328	SAMN46291936
+SRR32036327	R575_256_2_BAL	35022851,6	p_256	t_2	follow	bal	d_29	yes	vap	follow_vap	follow_vap_bal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_2_BAL	SRR32036327	SAMN46291937
+SRR32036326	R575_256_2_NASAL		p_256	t_2	follow	nasal	d_29	yes	vap	follow_vap	follow_vap_nasal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_2_NASAL	SRR32036326	SAMN46291938
+SRR32036325	R575_256_2_TS		p_256	t_2	follow	ts	d_29	yes	vap	follow_vap	follow_vap_ts	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_2_TS	SRR32036325	SAMN46291939
+SRR32036324	R575_256_3_BAL	4255425,8	p_256	t_3	follow	bal	d_29	yes	vap	follow_vap	follow_vap_bal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_3_BAL	SRR32036324	SAMN46291940
+SRR32036323	R575_256_3_NASAL		p_256	t_3	follow	nasal	d_29	yes	vap	follow_vap	follow_vap_nasal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_3_NASAL	SRR32036323	SAMN46291941
+SRR32036322	R575_256_3_TS		p_256	t_3	follow	ts	d_29	yes	vap	follow_vap	follow_vap_ts	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_3_TS	SRR32036322	SAMN46291942
+SRR32036321	R575_256_4_BAL	8259,0	p_256	t_4	follow	bal	d_29	yes	vap	follow_vap	follow_vap_bal	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_4_BAL	SRR32036321	SAMN46291943
+SRR32036319	R575_256_4_TS	194180,1	p_256	t_4	follow	ts	d_29	yes	vap	follow_vap	follow_vap_ts	3/25/22 0:00	3/8/22 0:00	3/25/22 0:00	i_17	l_40	yes	yes	yes	256_4_TS	SRR32036319	SAMN46291944
+SRR32036318	R575_257_1_2NASAL		p_257	t_1	baseline	nasal	d_11	no	vap	baseline_vap	baseline_vap_nasal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_1_2NASAL	SRR32036318	SAMN46291945
+SRR32036317	R575_257_1_BAL	224248,4	p_257	t_1	baseline	bal	d_11	no	vap	baseline_vap	baseline_vap_bal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_1_BAL	SRR32036317	SAMN46291946
+SRR32036316	R575_257_1_NASAL		p_257	t_2	follow	nasal	d_11	no	vap	follow_vap	follow_vap_nasal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_1_NASAL	SRR32036316	SAMN46291947
+SRR32036315	R575_257_1_TS	42751734,4	p_257	t_1	baseline	ts	d_11	no	vap	baseline_vap	baseline_vap_ts		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_1_TS	SRR32036315	SAMN46291948
+SRR32036314	R575_257_2_BAL		p_257	t_2	follow	bal	d_11	no	vap	follow_vap	follow_vap_bal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_2_BAL	SRR32036314	SAMN46291949
+SRR32036313	R575_257_2_TS		p_257	t_2	follow	ts	d_11	no	vap	follow_vap	follow_vap_ts		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_2_TS	SRR32036313	SAMN46291950
+SRR32036312	R575_257_3_BAL	32093291,7	p_257	t_3	follow	bal	d_11	no	vap	follow_vap	follow_vap_bal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_3_BAL	SRR32036312	SAMN46291951
+SRR32036311	R575_257_3_NASAL		p_257	t_3	follow	nasal	d_11	no	vap	follow_vap	follow_vap_nasal		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_3_NASAL	SRR32036311	SAMN46291952
+SRR32036310	R575_257_3_TS		p_257	t_3	follow	ts	d_11	no	vap	follow_vap	follow_vap_ts		3/10/22 0:00	3/16/22 0:00	i_6	l_19	no	no	no	257_3_TS	SRR32036310	SAMN46291953
+SRR32036308	R575_258_1_BAL	422896,4	p_258	t_1	baseline	bal	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/20/21 0:00	3/21/21 0:00	i_1	l_1	yes	yes	yes	258_1_BAL	SRR32036308	SAMN46291954
+SRR32036307	R575_258_1_TS	16893813,5	p_258	t_1	baseline	ts	d_0	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/20/21 0:00	3/21/21 0:00	i_1	l_1	yes	yes	yes	258_1_TS	SRR32036307	SAMN46291955
+SRR32036306	R575_259_1_BAL	0,0	p_259	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/21/22 0:00	3/22/22 0:00	i_1	l_7	no	no	no	259_1_BAL	SRR32036306	SAMN46291956
+SRR32036305	R575_259_1_NASAL		p_259	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/21/22 0:00	3/22/22 0:00	i_1	l_7	no	no	no	259_1_NASAL	SRR32036305	SAMN46291957
+SRR32036304	R575_259_1_TS	1054806,7	p_259	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/21/22 0:00	3/22/22 0:00	i_1	l_7	no	no	no	259_1_TS	SRR32036304	SAMN46291958
+SRR32036302	R575_260_1_BAL		p_260	t_1	baseline	bal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_bal		3/29/22 0:00	4/1/22 0:00	i_3	l_3	yes	yes	yes	260_1_BAL	SRR32036302	SAMN46291959
+SRR32036272	R575_260_1_NASAL		p_260	t_1	baseline	nasal	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		3/29/22 0:00	4/1/22 0:00	i_3	l_3	yes	yes	yes	260_1_NASAL	SRR32036272	SAMN46291960
+SRR32036271	R575_260_1_TS		p_260	t_1	baseline	ts	d_2	no	no_vap	baseline_no_vap	baseline_no_vap_ts		3/29/22 0:00	4/1/22 0:00	i_3	l_3	yes	yes	yes	260_1_TS	SRR32036271	SAMN46291961
+SRR32036270	R575_280_1_BAL	573839,1	p_280	t_1	baseline	bal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/7/22 0:00	4/8/22 0:00	i_1	l_1	yes	yes	yes	280_1_BAL	SRR32036270	SAMN46291962
+SRR32036269	R575_280_1_NASAL		p_280	t_1	baseline	nasal	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/7/22 0:00	4/8/22 0:00	i_1	l_1	yes	yes	yes	280_1_NASAL	SRR32036269	SAMN46291963
+SRR32036267	R575_280_1_TS	228970,5	p_280	t_1	baseline	ts	d_1	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/7/22 0:00	4/8/22 0:00	i_1	l_1	yes	yes	yes	280_1_TS	SRR32036267	SAMN46291964
+SRR32036266	R575_281_1_BAL	29817,3	p_281	t_1	baseline	bal	d_24	yes	vap	baseline_vap	baseline_vap_bal	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_1_BAL	SRR32036266	SAMN46291965
+SRR32036265	R575_281_1_NASAL		p_281	t_1	baseline	nasal	d_24	yes	vap	baseline_vap	baseline_vap_nasal	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_1_NASAL	SRR32036265	SAMN46291966
+SRR32036264	R575_281_1_TS		p_281	t_1	baseline	ts	d_24	yes	vap	baseline_vap	baseline_vap_ts	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_1_TS	SRR32036264	SAMN46291967
+SRR32036263	R575_281_2_BAL	26129,6	p_281	t_2	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_2_BAL	SRR32036263	SAMN46291968
+SRR32036262	R575_281_2_TS		p_281	t_2	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_2_TS	SRR32036262	SAMN46291969
+SRR32036261	R575_281_3_BAL	12981,2	p_281	t_3	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_3_BAL	SRR32036261	SAMN46291970
+SRR32036260	R575_281_3_TS	2351365,1	p_281	t_3	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_3_TS	SRR32036260	SAMN46291971
+SRR32036259	R575_281_4_BAL	1579919,9	p_281	t_4	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_4_BAL	SRR32036259	SAMN46291972
+SRR32036258	R575_281_4_TS	242440,2	p_281	t_4	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	4/29/22 0:00	4/19/22 0:00	4/29/22 0:00	i_10	l_32	no	no	no	281_4_TS	SRR32036258	SAMN46291973
+SRR32036256	R575_284_1_BAL	2401,5	p_284	t_1	baseline	bal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_bal		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_1_BAL	SRR32036256	SAMN46291974
+SRR32036255	R575_284_1_NASAL		p_284	t_1	baseline	nasal	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_1_NASAL	SRR32036255	SAMN46291975
+SRR32036254	R575_284_1_TS	4061,7	p_284	t_1	baseline	ts	d_3	no	no_vap	baseline_no_vap	baseline_no_vap_ts		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_1_TS	SRR32036254	SAMN46291976
+SRR32036253	R575_284_2_BAL		p_284	t_2	follow	bal	d_3	no	no_vap	follow_no_vap	follow_no_vap_bal		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_2_BAL	SRR32036253	SAMN46291977
+SRR32036252	R575_284_2_NASAL		p_284	t_2	follow	nasal	d_3	no	no_vap	follow_no_vap	follow_no_vap_nasal		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_2_NASAL	SRR32036252	SAMN46291978
+SRR32036251	R575_284_2_TS	342024,5	p_284	t_2	follow	ts	d_3	no	no_vap	follow_no_vap	follow_no_vap_ts		4/24/22 0:00	4/27/22 0:00	i_3	l_3	no	yes	yes	284_2_TS	SRR32036251	SAMN46291979
+SRR32036250	R575_286_1_BAL	653,3	p_286	t_1	baseline	bal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/3/22 0:00	5/5/22 0:00	i_2	l_16	no	no	no	286_1_BAL	SRR32036250	SAMN46291980
+SRR32036249	R575_286_1_NASAL		p_286	t_1	baseline	nasal	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/3/22 0:00	5/5/22 0:00	i_2	l_16	no	no	no	286_1_NASAL	SRR32036249	SAMN46291981
+SRR32036248	R575_286_1_TS	1221067,6	p_286	t_1	baseline	ts	d_13	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/3/22 0:00	5/5/22 0:00	i_2	l_16	no	no	no	286_1_TS	SRR32036248	SAMN46291982
+SRR32036247	R575_287_1_BAL	49538,6	p_287	t_1	baseline	bal	d_16	no	vap	baseline_vap	baseline_vap_bal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_1_BAL	SRR32036247	SAMN46291983
+SRR32036245	R575_287_1_NASAL		p_287	t_1	baseline	nasal	d_16	no	vap	baseline_vap	baseline_vap_nasal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_1_NASAL	SRR32036245	SAMN46291984
+SRR32036244	R575_287_1_TS	128017,8	p_287	t_1	baseline	ts	d_16	no	vap	baseline_vap	baseline_vap_ts		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_1_TS	SRR32036244	SAMN46291985
+SRR32036243	R575_287_2_BAL	39063,7	p_287	t_2	follow	bal	d_16	no	vap	follow_vap	follow_vap_bal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_2_BAL	SRR32036243	SAMN46291986
+SRR32036242	R575_287_2_TS		p_287	t_2	follow	ts	d_16	no	vap	follow_vap	follow_vap_ts		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_2_TS	SRR32036242	SAMN46291987
+SRR32036241	R575_287_3_BAL	839,3	p_287	t_3	follow	bal	d_16	no	vap	follow_vap	follow_vap_bal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_3_BAL	SRR32036241	SAMN46291988
+SRR32035984	R575_287_3_NASAL		p_287	t_3	follow	nasal	d_16	no	vap	follow_vap	follow_vap_nasal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_3_NASAL	SRR32035984	SAMN46291989
+SRR32035983	R575_287_3_TS	1034713,8	p_287	t_3	follow	ts	d_16	no	vap	follow_vap	follow_vap_ts		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_3_TS	SRR32035983	SAMN46291990
+SRR32035982	R575_287_4_BAL	52081,8	p_287	t_4	follow	bal	d_16	no	vap	follow_vap	follow_vap_bal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_4_BAL	SRR32035982	SAMN46291991
+SRR32035981	R575_287_4_NASAL		p_287	t_4	follow	nasal	d_16	no	vap	follow_vap	follow_vap_nasal		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_4_NASAL	SRR32035981	SAMN46291992
+SRR32035980	R575_287_4_TS	567,4	p_287	t_4	follow	ts	d_16	no	vap	follow_vap	follow_vap_ts		5/5/22 0:00	5/21/22 0:00	i_16	l_16	yes	yes	yes	287_4_TS	SRR32035980	SAMN46291993
+SRR32036527	R575_288_1_BAL	3444,7	p_288	t_1	baseline	bal	d_20	yes	vap	baseline_vap	baseline_vap_bal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_1_BAL	SRR32036527	SAMN46291994
+SRR32036526	R575_288_1_NASAL		p_288	t_1	baseline	nasal	d_20	yes	vap	baseline_vap	baseline_vap_nasal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_1_NASAL	SRR32036526	SAMN46291995
+SRR32036525	R575_288_1_TS	3753654,2	p_288	t_1	baseline	ts	d_20	yes	vap	baseline_vap	baseline_vap_ts	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_1_TS	SRR32036525	SAMN46291996
+SRR32036524	R575_288_2_BAL	183851,6	p_288	t_2	follow	bal	d_20	yes	vap	follow_vap	follow_vap_bal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_2_BAL	SRR32036524	SAMN46291997
+SRR32036523	R575_288_2_NASAL		p_288	t_2	follow	nasal	d_20	yes	vap	follow_vap	follow_vap_nasal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_2_NASAL	SRR32036523	SAMN46291998
+SRR32036522	R575_288_2_TS	41652125,0	p_288	t_2	follow	ts	d_20	yes	vap	follow_vap	follow_vap_ts	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_2_TS	SRR32036522	SAMN46291999
+SRR32036521	R575_288_3_BAL	48827,2	p_288	t_3	follow	bal	d_20	yes	vap	follow_vap	follow_vap_bal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_3_BAL	SRR32036521	SAMN46292000
+SRR32036520	R575_288_3_NASAL		p_288	t_3	follow	nasal	d_20	yes	vap	follow_vap	follow_vap_nasal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_3_NASAL	SRR32036520	SAMN46292001
+SRR32036519	R575_288_3_TS	112646,7	p_288	t_3	follow	ts	d_20	yes	vap	follow_vap	follow_vap_ts	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_3_TS	SRR32036519	SAMN46292002
+SRR32036518	R575_288_4_BAL	554851,2	p_288	t_4	follow	bal	d_20	yes	vap	follow_vap	follow_vap_bal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_4_BAL	SRR32036518	SAMN46292003
+SRR32036516	R575_288_4_NASAL		p_288	t_4	follow	nasal	d_20	yes	vap	follow_vap	follow_vap_nasal	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_4_NASAL	SRR32036516	SAMN46292004
+SRR32036515	R575_288_4_TS	251630,4	p_288	t_4	follow	ts	d_20	yes	vap	follow_vap	follow_vap_ts	5/22/22 0:00	5/6/22 0:00	5/22/22 0:00	i_16	l_34	no	no	no	288_4_TS	SRR32036515	SAMN46292005
+SRR32036514	R575_289_1_BAL	735,2	p_289	t_1	baseline	bal	d_6	no	vap	baseline_vap	baseline_vap_bal		5/6/22 0:00	5/12/22 0:00	i_6	l_6	no	no	no	289_1_BAL	SRR32036514	SAMN46292006
+SRR32036513	R575_289_1_TS	113,2	p_289	t_1	baseline	ts	d_6	no	vap	baseline_vap	baseline_vap_ts		5/6/22 0:00	5/12/22 0:00	i_6	l_6	no	no	no	289_1_TS	SRR32036513	SAMN46292007
+SRR32036512	R575_289_2_BAL	16137,3	p_289	t_2	follow	bal	d_6	no	vap	follow_vap	follow_vap_bal		5/6/22 0:00	5/12/22 0:00	i_6	l_6	no	no	no	289_2_BAL	SRR32036512	SAMN46292008
+SRR32036511	R575_289_2_NASAL		p_289	t_2	follow	nasal	d_6	no	vap	follow_vap	follow_vap_nasal		5/6/22 0:00	5/12/22 0:00	i_6	l_6	no	no	no	289_2_NASAL	SRR32036511	SAMN46292009
+SRR32036510	R575_289_2_TS	1691952,5	p_289	t_2	follow	ts	d_6	no	vap	follow_vap	follow_vap_ts		5/6/22 0:00	5/12/22 0:00	i_6	l_6	no	no	no	289_2_TS	SRR32036510	SAMN46292010
+SRR32036509	R575_290_1_BAL	24132,0	p_290	t_1	baseline	bal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/8/22 0:00	5/9/22 0:00	i_1	l_7	no	no	no	290_1_BAL	SRR32036509	SAMN46292011
+SRR32036508	R575_290_1_NASAL		p_290	t_1	baseline	nasal	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/8/22 0:00	5/9/22 0:00	i_1	l_7	no	no	no	290_1_NASAL	SRR32036508	SAMN46292012
+SRR32036507	R575_290_1_TS		p_290	t_1	baseline	ts	d_4	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/8/22 0:00	5/9/22 0:00	i_1	l_7	no	no	no	290_1_TS	SRR32036507	SAMN46292013
+SRR32036505	R575_291_1_BAL	12626,6	p_291	t_1	baseline	bal	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_1_BAL	SRR32036505	SAMN46292014
+SRR32036504	R575_291_1_NASAL		p_291	t_1	baseline	nasal	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_1_NASAL	SRR32036504	SAMN46292015
+SRR32036503	R575_291_1_TS	1451,5	p_291	t_1	baseline	ts	d_15	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_1_TS	SRR32036503	SAMN46292016
+SRR32036502	R575_291_2_BAL	2956,1	p_291	t_2	follow	bal	d_15	no	no_vap	follow_no_vap	follow_no_vap_bal		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_2_BAL	SRR32036502	SAMN46292017
+SRR32035782	R575_291_2_NASAL		p_291	t_2	follow	nasal	d_15	no	no_vap	follow_no_vap	follow_no_vap_nasal		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_2_NASAL	SRR32035782	SAMN46292018
+SRR32035781	R575_291_2_TS	22506,0	p_291	t_2	follow	ts	d_15	no	no_vap	follow_no_vap	follow_no_vap_ts		5/17/22 0:00	5/21/22 0:00	i_4	l_22	no	no	no	291_2_TS	SRR32035781	SAMN46292019
+SRR32035780	R575_292_1_BAL	336087,7	p_292	t_1	baseline	bal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_1_BAL	SRR32035780	SAMN46292020
+SRR32035779	R575_292_1_NASAL		p_292	t_1	baseline	nasal	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_1_NASAL	SRR32035779	SAMN46292021
+SRR32035778	R575_292_1_TS		p_292	t_1	baseline	ts	d_5	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_1_TS	SRR32035778	SAMN46292022
+SRR32035777	R575_292_2_BAL	21794,7	p_292	t_2	follow	bal	d_5	no	no_vap	follow_no_vap	follow_no_vap_bal		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_2_BAL	SRR32035777	SAMN46292023
+SRR32035774	R575_292_2_NASAL		p_292	t_2	follow	nasal	d_5	no	no_vap	follow_no_vap	follow_no_vap_nasal		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_2_NASAL	SRR32035774	SAMN46292024
+SRR32035773	R575_292_2_TS		p_292	t_2	follow	ts	d_5	no	no_vap	follow_no_vap	follow_no_vap_ts		5/22/22 0:00	5/26/22 0:00	i_4	l_10	yes	yes	yes	292_2_TS	SRR32035773	SAMN46292025
+SRR32035772	R575_293_1_BAL	2623934,6	p_293	t_1	baseline	bal	d_44	yes	vap	baseline_vap	baseline_vap_bal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_1_BAL	SRR32035772	SAMN46292026
+SRR32035771	R575_293_1_NASAL		p_293	t_1	baseline	nasal	d_44	yes	vap	baseline_vap	baseline_vap_nasal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_1_NASAL	SRR32035771	SAMN46292027
+SRR32035770	R575_293_1_TS	4425,3	p_293	t_1	baseline	ts	d_44	yes	vap	baseline_vap	baseline_vap_ts	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_1_TS	SRR32035770	SAMN46292028
+SRR32035769	R575_293_2_BAL	2369,5	p_293	t_2	follow	bal	d_44	yes	vap	follow_vap	follow_vap_bal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_2_BAL	SRR32035769	SAMN46292029
+SRR32035768	R575_293_2_NASAL		p_293	t_2	follow	nasal	d_44	yes	vap	follow_vap	follow_vap_nasal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_2_NASAL	SRR32035768	SAMN46292030
+SRR32035767	R575_293_2_TS	126513,6	p_293	t_2	follow	ts	d_44	yes	vap	follow_vap	follow_vap_ts	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_2_TS	SRR32035767	SAMN46292031
+SRR32035766	R575_293_3_BAL	1487,2	p_293	t_3	follow	bal	d_44	yes	vap	follow_vap	follow_vap_bal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_3_BAL	SRR32035766	SAMN46292032
+SRR32035765	R575_293_3_NASAL		p_293	t_3	follow	nasal	d_44	yes	vap	follow_vap	follow_vap_nasal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_3_NASAL	SRR32035765	SAMN46292033
+SRR32035763	R575_293_3_TS		p_293	t_3	follow	ts	d_44	yes	vap	follow_vap	follow_vap_ts	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_3_TS	SRR32035763	SAMN46292034
+SRR32035762	R575_293_4_BAL	2724,1	p_293	t_4	follow	bal	d_44	yes	vap	follow_vap	follow_vap_bal	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_4_BAL	SRR32035762	SAMN46292035
+SRR32035761	R575_293_4_TS	12,6	p_293	t_4	follow	ts	d_44	yes	vap	follow_vap	follow_vap_ts	6/2/22 0:00	5/22/22 0:00	6/2/22 0:00	i_11	l_52	no	no	no	293_4_TS	SRR32035761	SAMN46292036
+SRR32035760	R575_294_1_BAL	241709,6	p_294	t_1	baseline	bal	d_24	yes	vap	baseline_vap	baseline_vap_bal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_1_BAL	SRR32035760	SAMN46292037
+SRR32035759	R575_294_1_NASAL		p_294	t_1	baseline	nasal	d_24	yes	vap	baseline_vap	baseline_vap_nasal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_1_NASAL	SRR32035759	SAMN46292038
+SRR32035758	R575_294_1_TS	55180546,9	p_294	t_1	baseline	ts	d_24	yes	vap	baseline_vap	baseline_vap_ts	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_1_TS	SRR32035758	SAMN46292039
+SRR32035757	R575_294_2_BAL	20141,0	p_294	t_2	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_2_BAL	SRR32035757	SAMN46292040
+SRR32035756	R575_294_2_NASAL		p_294	t_2	follow	nasal	d_24	yes	vap	follow_vap	follow_vap_nasal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_2_NASAL	SRR32035756	SAMN46292041
+SRR32035755	R575_294_2_TS		p_294	t_2	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_2_TS	SRR32035755	SAMN46292042
+SRR32035754	R575_294_3_BAL	46521,7	p_294	t_3	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_3_BAL	SRR32035754	SAMN46292043
+SRR32035752	R575_294_3_NASAL		p_294	t_3	follow	nasal	d_24	yes	vap	follow_vap	follow_vap_nasal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_3_NASAL	SRR32035752	SAMN46292044
+SRR32035751	R575_294_3_TS	49134,3	p_294	t_3	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_3_TS	SRR32035751	SAMN46292045
+SRR32036501	R575_294_4_BAL	559262,7	p_294	t_4	follow	bal	d_24	yes	vap	follow_vap	follow_vap_bal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_4_BAL	SRR32036501	SAMN46292046
+SRR32036500	R575_294_4_NASAL		p_294	t_4	follow	nasal	d_24	yes	vap	follow_vap	follow_vap_nasal	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_4_NASAL	SRR32036500	SAMN46292047
+SRR32036499	R575_294_4_TS	74247109,4	p_294	t_4	follow	ts	d_24	yes	vap	follow_vap	follow_vap_ts	6/21/22 0:00	6/2/22 0:00	6/21/22 0:00	i_19	l_37	no	no	no	294_4_TS	SRR32036499	SAMN46292048
+SRR32036498	R575_295_1_BAL	835,8	p_295	t_1	baseline	bal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_bal		5/28/22 0:00	5/30/22 0:00	i_2	l_7	no	no	no	295_1_BAL	SRR32036498	SAMN46292049
+SRR32036497	R575_295_1_NASAL		p_295	t_1	baseline	nasal	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		5/28/22 0:00	5/30/22 0:00	i_2	l_7	no	no	no	295_1_NASAL	SRR32036497	SAMN46292050
+SRR32036496	R575_295_1_TS	281,9	p_295	t_1	baseline	ts	d_6	no	no_vap	baseline_no_vap	baseline_no_vap_ts		5/28/22 0:00	5/30/22 0:00	i_2	l_7	no	no	no	295_1_TS	SRR32036496	SAMN46292051
+SRR32036495	R575_296_1_BAL	249,8	p_296	t_1	baseline	bal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_1_BAL	SRR32036495	SAMN46292052
+SRR32036494	R575_296_1_NASAL		p_296	t_1	baseline	nasal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_1_NASAL	SRR32036494	SAMN46292053
+SRR32036492	R575_296_1_TS		p_296	t_1	baseline	ts	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_1_TS	SRR32036492	SAMN46292054
+SRR32036491	R575_296_2_BAL	1853150,5	p_296	t_2	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_2_BAL	SRR32036491	SAMN46292055
+SRR32036490	R575_296_2_NASAL		p_296	t_2	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_2_NASAL	SRR32036490	SAMN46292056
+SRR32036489	R575_296_2_TS	13139722,7	p_296	t_2	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_2_TS	SRR32036489	SAMN46292057
+SRR32036488	R575_296_3_BAL	52,1	p_296	t_3	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_3_BAL	SRR32036488	SAMN46292058
+SRR32036487	R575_296_3_NASAL		p_296	t_3	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_3_NASAL	SRR32036487	SAMN46292059
+SRR32036486	R575_296_3_TS	3943833,9	p_296	t_3	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		6/6/22 0:00	6/13/22 0:00	i_7	l_48	no	no	no	296_3_TS	SRR32036486	SAMN46292060
+SRR32036485	R575_297_1_BAL	465,9	p_297	t_1	baseline	bal	d_15	yes	vap	baseline_vap	baseline_vap_bal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_1_BAL	SRR32036485	SAMN46292061
+SRR32036484	R575_297_1_NASAL		p_297	t_1	baseline	nasal	d_15	yes	vap	baseline_vap	baseline_vap_nasal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_1_NASAL	SRR32036484	SAMN46292062
+SRR32036483	R575_297_1_TS	93304,2	p_297	t_1	baseline	ts	d_15	yes	vap	baseline_vap	baseline_vap_ts	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_1_TS	SRR32036483	SAMN46292063
+SRR32036481	R575_297_2_BAL	50856,4	p_297	t_2	follow	bal	d_15	yes	vap	follow_vap	follow_vap_bal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_2_BAL	SRR32036481	SAMN46292064
+SRR32036480	R575_297_2_NASAL		p_297	t_2	follow	nasal	d_15	yes	vap	follow_vap	follow_vap_nasal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_2_NASAL	SRR32036480	SAMN46292065
+SRR32036479	R575_297_2_TS		p_297	t_2	follow	ts	d_15	yes	vap	follow_vap	follow_vap_ts	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_2_TS	SRR32036479	SAMN46292066
+SRR32036478	R575_297_3_BAL	39,1	p_297	t_3	follow	bal	d_15	yes	vap	follow_vap	follow_vap_bal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_3_BAL	SRR32036478	SAMN46292067
+SRR32036477	R575_297_3_NASAL		p_297	t_3	follow	nasal	d_15	yes	vap	follow_vap	follow_vap_nasal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_3_NASAL	SRR32036477	SAMN46292068
+SRR32036476	R575_297_3_TS	2225967,2	p_297	t_3	follow	ts	d_15	yes	vap	follow_vap	follow_vap_ts	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_3_TS	SRR32036476	SAMN46292069
+SRR32036475	R575_297_4_BAL	48490,3	p_297	t_4	follow	bal	d_15	yes	vap	follow_vap	follow_vap_bal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_4_BAL	SRR32036475	SAMN46292070
+SRR32036474	R575_297_4_NASAL		p_297	t_4	follow	nasal	d_15	yes	vap	follow_vap	follow_vap_nasal	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_4_NASAL	SRR32036474	SAMN46292071
+SRR32036473	R575_297_4_TS	2235922,9	p_297	t_4	follow	ts	d_15	yes	vap	follow_vap	follow_vap_ts	6/27/22 0:00	6/11/22 0:00	6/27/22 0:00	i_16	l_51	no	no	no	297_4_TS	SRR32036473	SAMN46292072
+SRR32036472	R575_298_1_BAL	453582,8	p_298	t_1	baseline	bal	d_15	no	vap	baseline_vap	baseline_vap_bal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_1_BAL	SRR32036472	SAMN46292073
+SRR32036470	R575_298_1_NASAL		p_298	t_1	baseline	nasal	d_15	no	vap	baseline_vap	baseline_vap_nasal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_1_NASAL	SRR32036470	SAMN46292074
+SRR32036240	R575_298_1_TS		p_298	t_1	baseline	ts	d_15	no	vap	baseline_vap	baseline_vap_ts		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_1_TS	SRR32036240	SAMN46292075
+SRR32036239	R575_298_2_BAL	10413,9	p_298	t_2	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_2_BAL	SRR32036239	SAMN46292076
+SRR32036238	R575_298_2_NASAL		p_298	t_2	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_2_NASAL	SRR32036238	SAMN46292077
+SRR32036237	R575_298_2_TS	10022,1	p_298	t_2	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_2_TS	SRR32036237	SAMN46292078
+SRR32036236	R575_298_3_BAL	53818,9	p_298	t_3	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_3_BAL	SRR32036236	SAMN46292079
+SRR32036235	R575_298_3_NASAL		p_298	t_3	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_3_NASAL	SRR32036235	SAMN46292080
+SRR32036234	R575_298_3_TS		p_298	t_3	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_3_TS	SRR32036234	SAMN46292081
+SRR32036233	R575_298_4_BAL	3375,9	p_298	t_4	follow	bal	d_15	no	vap	follow_vap	follow_vap_bal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_4_BAL	SRR32036233	SAMN46292082
+SRR32036232	R575_298_4_NASAL		p_298	t_4	follow	nasal	d_15	no	vap	follow_vap	follow_vap_nasal		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_4_NASAL	SRR32036232	SAMN46292083
+SRR32036230	R575_298_4_TS		p_298	t_4	follow	ts	d_15	no	vap	follow_vap	follow_vap_ts		6/14/22 0:00	6/29/22 0:00	i_15	l_15	yes	yes	yes	298_4_TS	SRR32036230	SAMN46292084
+SRR32036229	R575_299_1_BAL	118396,8	p_299	t_1	baseline	bal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_bal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_1_BAL	SRR32036229	SAMN46292085
+SRR32036228	R575_299_1_NASAL		p_299	t_1	baseline	nasal	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_nasal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_1_NASAL	SRR32036228	SAMN46292086
+SRR32036227	R575_299_1_TS	62812,6	p_299	t_1	baseline	ts	d_16	no	no_vap	baseline_no_vap	baseline_no_vap_ts		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_1_TS	SRR32036227	SAMN46292087
+SRR32036226	R575_299_2_BAL	7997,4	p_299	t_2	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_2_BAL	SRR32036226	SAMN46292088
+SRR32036225	R575_299_2_NASAL		p_299	t_2	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_2_NASAL	SRR32036225	SAMN46292089
+SRR32036224	R575_299_2_TS	405,1	p_299	t_2	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_2_TS	SRR32036224	SAMN46292090
+SRR32036223	R575_299_3_BAL	88,2	p_299	t_3	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_3_BAL	SRR32036223	SAMN46292091
+SRR32036222	R575_299_3_NASAL		p_299	t_3	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_3_NASAL	SRR32036222	SAMN46292092
+SRR32036221	R575_299_3_TS	30055,8	p_299	t_3	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_3_TS	SRR32036221	SAMN46292093
+SRR32036219	R575_299_4_BAL	176,0	p_299	t_4	follow	bal	d_16	no	no_vap	follow_no_vap	follow_no_vap_bal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_4_BAL	SRR32036219	SAMN46292094
+SRR32036218	R575_299_4_NASAL		p_299	t_4	follow	nasal	d_16	no	no_vap	follow_no_vap	follow_no_vap_nasal		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_4_NASAL	SRR32036218	SAMN46292095
+SRR32036217	R575_299_4_TS	181,1	p_299	t_4	follow	ts	d_16	no	no_vap	follow_no_vap	follow_no_vap_ts		6/16/22 0:00	6/25/22 0:00	i_9	l_29	no	no	no	299_4_TS	SRR32036217	SAMN46292096
