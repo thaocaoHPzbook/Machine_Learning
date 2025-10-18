@@ -28,10 +28,12 @@ qiime demux summarize \
 This [short_reads_demux.qzv] is a visualized format of short_reads_demux.qza. which you can view it on [qiime2 viewer](https://view.qiime2.org/). Once you are there you can either drag-and-drop the artifact into the designated area or simpley copy the link to the artifact from this repository and paste it in the box file from the web. Once there, you must come across the following picture:    
 <img width="2286" height="998" alt="image" src="https://github.com/user-attachments/assets/16769367-7b4d-451b-9743-f0fd2da0de8a" />
 
+
 **Figure 1. Demultiplexed pairedEnd read**       
-On this overview page you can see counts of demultiplexed sequences for the entire samples for both forward and reverse reads, with min, median, mean and max and total counts.
-![image]    
-**Figure 2. Interacvive plot for demultiplexed pairedEnd reads**    
+On this overview page you can see counts of demultiplexed sequences for the entire samples for both forward and reverse reads, with min, median, mean and max and total counts.   
+<img width="2513" height="929" alt="image" src="https://github.com/user-attachments/assets/325cf6ee-c057-4409-a9f2-e77afb2c6a8e" />
+<img width="2489" height="900" alt="image" src="https://github.com/user-attachments/assets/01f6ecc3-f687-4861-8d19-501560160471" />
+**Figure 2. Interacvive plot for demultiplexed pairedEnd reads**     
 Understanding this plot is crucial for the denoising step, as it allows you to determine the appropriate truncation length for both forward and reverse reads, ensuring that at least 50% of the reads maintain a quality score (Q) of ≥ 30. You can observe these changes by hovering over the interactive box plots. In this case, the quality of both forward and reverse reads remained consistently high, indicating that minimal (at 251nt) or no truncation may be necessary.
 
 # 2. Filtering, dereplication, sample inference, chimera identification, and merging of paired-end reads by DADA2 package in qiime2.
@@ -46,17 +48,17 @@ qiime dada2 denoise-paired \
   --o-representative-sequences rep-seqs.qza \
   --o-denoising-stats denoising-stats.qza
 ```
-You can convert the [denoising-stats.qza] file into a [denoising-stats.qzv]file and visualize it on qiime viewer as explained earlier
+You can convert the [denoising-stats.qza](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file into a [denoising-stats.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file and visualize it on qiime viewer as explained earlier
 ```bash
 qiime metadata tabulate \
   --m-input-file denoising-stats.qza \
   --o-visualization denoising-stats.qzv
 ```
-![image]
-
+<img width="2501" height="1000" alt="image" src="https://github.com/user-attachments/assets/43413168-3f40-4c51-aceb-7b86dbb6b5db" />
 **Figure 3. The denoising status of the reads for each sample.**    
+
 You can see the number of filtered reads and also the percentage of non-chimeric sequences after denoising.
-The filtered reads and the percentage of non-chimeric sequences being >50% is quite good. However, you may need to adjust the chimera filtering process in DADA2 or apply an alternative approach if you want to improve the results, such as:    
+The filtered reads and the percentage of non-chimeric sequences being >70% is quite good.
 
 **Visualize feature table**
 ```bash
@@ -65,6 +67,7 @@ qiime feature-table summarize \
   --m-sample-metadata-file metadata_final.tsv \
   --o-visualization table.qzv
 ```
+<img width="1303" height="905" alt="image" src="https://github.com/user-attachments/assets/7ef37b4d-7b59-4af3-8263-7ce12b133038" />
 
 **Tabulate representative sequences**
 ```bash
@@ -72,6 +75,7 @@ qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
   --o-visualization rep-seqs.qzv
 ```
+<img width="2545" height="966" alt="image" src="https://github.com/user-attachments/assets/effa6e81-2991-4ccf-ba48-471817f56f85" />
 
 **Filter to remove sample with < 5 reads**
 ```bash
@@ -84,13 +88,14 @@ qiime feature-table filter-samples \
 **Visualize feature table after filter**
 ```bash
 qiime feature-table summarize \
-  --i-table table.qza \
+  --i-table table_filtered_min5.qza \
   --m-sample-metadata-file metadata_final.tsv \
-  --o-visualization table.qzv
+  --o-visualization table_filtered_min5.qzv
 ```
-If you drag and drop the [table-no-chimera.qzv] file in qiime2 view, you can see three main menues; Overview, Interactive Sample Detail and Feature Detail. If you click on Feature detail Detail you can see a slider to the left of the picture which could be changed, based which you can arbiterarily decide, to which depth of reading you can do your rarefaction.
-![image]
 
+If you drag and drop the [table-no-chimera.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file in qiime2 view, you can see three main menues; Overview, Interactive Sample Detail and Feature Detail. If you click on Feature detail Detail you can see a slider to the left of the picture which could be changed, based which you can arbiterarily decide, to which depth of reading you can do your rarefaction.
+
+<img width="1300" height="889" alt="image" src="https://github.com/user-attachments/assets/d87ca222-1c21-42cf-acc3-95b0fca7cb53" />
 **Figure 5. ASV table indicating number of samples per treatment and number of ASVs per sample**    
 
 # 3. Training a full-length 16S rRNA classifier for taxonomic classification using the Naïve Bayes method in QIIME 2
@@ -125,7 +130,7 @@ qiime taxa barplot \
 --o-visualization taxa-barplot.qzv
 ```
 
-![image]
+<img width="2544" height="999" alt="image" src="https://github.com/user-attachments/assets/1688688d-c1c5-4cef-bd56-35968466ef16" />
 **Figure 6. Taxonomy classification bar plot at genus level**
 
 **Visualize taxonomy classification result with confident score**
@@ -134,7 +139,6 @@ qiime metadata tabulate \
  --m-input-file taxonomy.qza \
  --o-visualization taxonomy.qzv
 ```
-
 To investigate further, we will examine the summary statistics after chimera filtering and perform rarefaction curve analysis in the next steps.  
 
 
@@ -159,8 +163,8 @@ qiime diversity alpha-rarefaction \
   --m-metadata-file metadata_final.tsv \
   --o-visualization alpha-rarefaction.qzv
 ```
-You can view the chart [alpha-rarefaction.qzv] by qiime view as method explained previously.
-![image]
+You can view the chart [alpha-rarefaction.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) by qiime view as method explained previously.
+<img width="1523" height="930" alt="image" src="https://github.com/user-attachments/assets/751dd72b-9db2-4398-8b71-5bc49c3cb7f3" />
 
 At a depth of 9000, the rarefaction curve almost reaches saturation, indicating that increasing reads will not detect many new ASVs, 70% of the samples are retained. This suggests that normalization at this depth would keep all of the dataset for analysis.    
 **Proceed with normalization at a subsampling depth of 9000**
@@ -186,7 +190,7 @@ qiime metadata tabulate \
   --m-input-file core-metrics-results/chao1_vector.qza \
   --o-visualization core-metrics-results/chao1_vector.qzv
 ```
-[chao1_vector.qzv] is generated.
+[chao1_vector.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated.
 ![image]
 A statistical test is needed to determine whether this difference is statistically significant among groups.
 
@@ -197,8 +201,10 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/chao1_group_significance.qzv
 ```
-[chao1-group-significance.qzv]
-![image]
+[chao1-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated. Significant differences in Chao1 alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
+<img width="2516" height="1019" alt="image" src="https://github.com/user-attachments/assets/582db7b3-169e-4e2d-bc3c-dc22d8578bc9" />
+<img width="2523" height="1013" alt="image" src="https://github.com/user-attachments/assets/c38ab536-6ac9-46b8-9e2f-46d555616169" />
+
 
 
 ## Shannon index
