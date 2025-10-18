@@ -11,7 +11,7 @@ cat Sra_RunIDs.list | while read SRR; do
 done
 ```
 
-# Check and re-download the fail dơwnloaded data
+# Check and re-download the fail downloaded data
 ```bash
 while read SRR; do     file1="fastq/${SRR}_1.fastq";     file2="fastq/${SRR}_2.fastq";     if [[ -f "$file1" && -f "$file2" ]]; then         ((count++));     fi; done < Sra_RunIDs.list
 ```
