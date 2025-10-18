@@ -218,8 +218,10 @@ qiime diversity alpha-group-significance \
   --o-visualization core-metrics-results/shannon_pneumonia_significance.qzv
 ```
 
-[shannon-group-significance.qzv] file is generated.
-![image]
+[shannon-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file is generated.
+<img width="2529" height="1062" alt="image" src="https://github.com/user-attachments/assets/f04133fd-2889-4c53-96ec-43975a536c5e" />
+<img width="2536" height="1026" alt="image" src="https://github.com/user-attachments/assets/7d4231e8-b814-42e8-bccf-c3159ac8f49d" />
+Shannon alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
 
 
 ## Pielou's Evenness Index
@@ -230,8 +232,10 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/evenness_pneumonia_significance.qzv
 ```
-[evenness_group_significance.qzv] file is generated
-![image]
+[evenness_group_significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) file is generated
+<img width="2463" height="1101" alt="image" src="https://github.com/user-attachments/assets/375892cc-6bc7-4df5-94cc-6c3cceb11c41" />
+<img width="2497" height="1070" alt="image" src="https://github.com/user-attachments/assets/42edf34e-62d8-4812-a96d-bd30dd7601a8" />
+Pielou's Evenness alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
 
 
 ## Faith's Phylogenetic Diversity (Faith's PD) 
@@ -243,8 +247,10 @@ qiime diversity alpha-group-significance \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/faith_pd_group_significance.qzv
 ```
-[faith-pd-group-significance.qzv]is generated
-![image]
+[faith-pd-group-significance.qzv](https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG) is generated
+<img width="2531" height="989" alt="image" src="https://github.com/user-attachments/assets/8869e24e-8754-4da8-9ad5-aee1958fe5a1" />
+<img width="2501" height="1070" alt="image" src="https://github.com/user-attachments/assets/d5c7fea4-4fd9-4cdf-b716-ac16c0048974" />
+Faith's PD alpha diversity were observed among groups based on various metadata columns (pneunomia, sample types,etc) , providing insights into underlying biological patterns
 
 # 7. Beta diversity analysis
 ## Bray-Curtis Index
@@ -264,7 +270,6 @@ qiime emperor plot \
   --m-metadata-file metadata_final.tsv \
   --o-visualization core-metrics-results/bray_curtis_emperor.qzv
 ```
-![image]
 
 
 The PCoA plot [bray_curtis_emperor.qzv] does not show clear clustering between the treatments,further PERMANOVA analysis for a more detailed examination and reveals significant differences in microbial communities across the groups.
@@ -277,11 +282,9 @@ qiime diversity beta-group-significance \
   --o-visualization core-metrics-results/bray_curtis_pneumonia_significance.qzv \
   --p-method permanova
 ```
-[bray_curtis_group_significance.qzv] file is generated.
-![image]
-![image]
-
-
+[bray_curtis_group_significance.qzv][(https://drive.google.com/drive/folders/1xs2Mpx0Al3FSNE7Jqil6ivPbxe7x88nG)](https://drive.google.com/drive/folders/1pBOmWZYvnB9-Gicwh2yAsnkmBDSC71wo) file is generated.
+<img width="2524" height="977" alt="image" src="https://github.com/user-attachments/assets/cfd0258b-350a-450e-b2e3-a07957d2dc4b" />
+<img width="2519" height="962" alt="image" src="https://github.com/user-attachments/assets/c4386442-420b-448b-bff4-cc2546da4396" />
 
 ## Jaccard index
 Jaccard index is a measure of similarity between two sets. In microbiome studies, it is used to compare the presence or absence of species across different samples.
@@ -289,7 +292,11 @@ Jaccard index is a measure of similarity between two sets. In microbiome studies
         0 means the samples have no species in common (completely different).
         1 means the samples have identical species (completely the same).
 Jaccard index focuses on the presence/absence of species, rather than their abundance, making it useful for studies where the presence of specific species is more important than their relative abundance.
-`
+<img width="2554" height="1068" alt="image" src="https://github.com/user-attachments/assets/b9a1c5f2-623b-44bc-88b5-acb480bec7c1" />
+<img width="2533" height="1016" alt="image" src="https://github.com/user-attachments/assets/a4dc3a8b-2075-4753-a072-984baeb4c19e" />
+<img width="2515" height="976" alt="image" src="https://github.com/user-attachments/assets/6f25b164-aa84-40ff-8173-e7da0d5712b0" />
+
+
 ## Weighted UniFrac 
 Weighted UniFrac is better at detecting differences in community structure by considering the relative abundance of each species, not just whether or not they are present in a sample.
 
@@ -325,4 +332,4 @@ qiime tools export \
   --i-classification taxonomy.qza \
   --output-dir taxonomy_exported
 ```
-The above command will export the [taxanomy.tsv] file in the taxonomy_exported directory.
+The above command will export the [taxanomy.tsv, and feature-table](https://drive.google.com/drive/folders/1mrQDef5LrriP8g8XEGbzS3E96Rvoniym) file in the taxonomy_exported directory.
