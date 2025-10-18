@@ -1,5 +1,5 @@
 # Exploring input data from metadata
-![image]
+
 # 1. Importing raw data into Qiime2
 ## Generate manifest.csv
 Sequence data are paired end in the format of FASTA with good quality score; therefore, in qiime2 the type will be "SampleData[PairedEndSequencesWithQuality]" and their imput format asigned as PairedEndFastqManifestPhred33.
@@ -266,7 +266,7 @@ qiime diversity beta-group-significance \
 ```
 [bray_curtis_group_significance.qzv] file is generated.
 ![image]
-![image](https://github.com/user-attachments/assets/b74d8b0d-661c-4f52-8eda-c5ddea82cc02)
+![image]
 
 
 
