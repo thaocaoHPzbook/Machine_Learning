@@ -26,7 +26,8 @@ qiime demux summarize \
   --o-visualization short_reads_demux.qzv
 ```
 This [short_reads_demux.qzv] is a visualized format of short_reads_demux.qza. which you can view it on [qiime2 viewer](https://view.qiime2.org/). Once you are there you can either drag-and-drop the artifact into the designated area or simpley copy the link to the artifact from this repository and paste it in the box file from the web. Once there, you must come across the following picture:    
-![image]    
+<img width="2286" height="998" alt="image" src="https://github.com/user-attachments/assets/16769367-7b4d-451b-9743-f0fd2da0de8a" />
+
 **Figure 1. Demultiplexed pairedEnd read**       
 On this overview page you can see counts of demultiplexed sequences for the entire samples for both forward and reverse reads, with min, median, mean and max and total counts.
 ![image]    
