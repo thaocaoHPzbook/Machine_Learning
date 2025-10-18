@@ -31,3 +31,14 @@ done < Sra_RunIDs.list
 
 echo "Number of samples downloaded: $count"
 ```
+
+# create multiqc script
+```bash
+nano run_fastqc.sh
+```
+```bash
+chmod +x run_fastqc.sh
+```
+```bash
+./run_fastqc.sh
+```
