@@ -320,7 +320,7 @@ Unweighted UniFrac measures the differences between microbial communities based 
 done
 ```
 
-# 8. Export file from Qimme2 for R steps
+# 8. Export file from Qiime2 for R steps
 ```bash
 qiime tools export \
   --input-path filtered-table.qza \
