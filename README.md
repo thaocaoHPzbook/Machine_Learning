@@ -3,4 +3,4 @@
 # Analysis of lung microbiota in Qiime2 and Rstudio/R.
 
 ## Workflow overview and output
-<img width="1056" height="785" alt="Screenshot from 2025-10-15 13-20-15" src="https://github.com/user-attachments/assets/0426b29c-0975-4680-967a-3593564a1a66" />
+<img width="961" height="729" alt="image" src="https://github.com/user-attachments/assets/3de7b035-331d-4442-b7d4-fc47700b792b" />
