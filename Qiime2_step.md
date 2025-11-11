@@ -117,7 +117,7 @@ After you got **silva-classifier.qza** classifier file, you can use it for your 
 ```bash
 qiime feature-classifier classify-sklearn \
   --i-classifier silva-138-99-nb-classifier.qza \
-  --i-reads rep-seqs-no-chimera.qza \
+  --i-reads rep-seqs.qza \
   --p-confidence 0.8 \
   --o-classification taxonomy.qza
 ```
