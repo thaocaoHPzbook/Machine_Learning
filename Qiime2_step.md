@@ -14,9 +14,9 @@ Before importing, [manifest.csv](https://drive.google.com/drive/folders/1xs2Mpx0
  ```bash
 qiime tools import \
   --type 'SampleData[PairedEndSequencesWithQuality]' \
-  --input-path manifest.csv \
+  --input-path manifest.tsv \
   --output-path short_reads_demux.qza \
-  --input-format PairedEndFastqManifestPhred33
+  --input-format PairedEndFastqManifestPhred33V2
 ```
 This might take a while before you get the results. The output of this command is a **short_reads_demux.qza** file, which you have already specified in the command. You can then create a visualized file from this artifact, with the following command:
 
